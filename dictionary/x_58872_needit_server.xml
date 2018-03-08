@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Server" max_length="40" name="x_58872_needit_server" type="collection">
+        <element label="BackupEnabled" max_length="40" name="backupenabled" type="boolean"/>
+        <element default="None" label="BackupType" max_length="10" name="backuptype" type="string"/>
+        <element label="BillingCode" max_length="50" name="billingcode" type="string"/>
+        <element default="00" label="CPUCount" max_length="3" name="cpucount" type="integer"/>
+        <element label="CUSTOMER" max_length="50" name="customer" type="string"/>
+        <element default="00" label="DiskGB" max_length="10" name="diskgb" type="integer"/>
+        <element label="Function" max_length="20" name="function" type="string"/>
+        <element label="HostEnvironment" max_length="20" name="hostenvironment" type="string"/>
+        <element default="0.0.0.0" label="IP" max_length="10" name="ip" type="ip_addr"/>
+        <element label="managedBy" max_length="50" name="managedby" type="string"/>
+        <element display="true" label="offeringName" max_length="100" name="offeringname" type="string"/>
+        <element label="OSName" max_length="60" name="osname" type="string"/>
+        <element default="00" label="RAMMB" max_length="10" name="rammb" type="integer"/>
+        <element label="ServerId" max_length="50" name="serverid" type="string"/>
+        <element label="ServerName" max_length="20" name="servername" type="string"/>
+        <element label="SiteId" max_length="3" name="siteid" type="integer"/>
+        <element label="SRAEnvironment" max_length="20" name="sraenvironment" type="string"/>
+        <element label="Status" max_length="50" name="status" type="string"/>
+    </element>
+</database>

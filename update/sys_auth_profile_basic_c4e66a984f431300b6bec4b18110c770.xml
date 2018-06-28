@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>uvcore_auth_59</name>
+        <password>BYM1TH/oe8F7MaSa+EyjGA==</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-28 08:21:17</sys_created_on>
+        <sys_id>c4e66a984f431300b6bec4b18110c770</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>uvcore_auth_59</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_c4e66a984f431300b6bec4b18110c770</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-28 08:21:17</sys_updated_on>
+        <username>administrator</username>
+    </sys_auth_profile_basic>
+</record_update>

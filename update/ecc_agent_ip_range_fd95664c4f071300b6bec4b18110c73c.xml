@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="ecc_agent_ip_range">
+    <ecc_agent_ip_range action="INSERT_OR_UPDATE">
+        <name>Cloud_lab</name>
+        <range>110.110.110.0/24</range>
+        <sys_class_name>ecc_agent_ip_range</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-27 13:37:24</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>fd95664c4f071300b6bec4b18110c73c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cloud_lab</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>ecc_agent_ip_range_fd95664c4f071300b6bec4b18110c73c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-27 13:37:24</sys_updated_on>
+        <type>include</type>
+    </ecc_agent_ip_range>
+</record_update>

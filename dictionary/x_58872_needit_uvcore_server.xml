@@ -6,59 +6,59 @@
         <element default="NONE" label="BackupType" max_length="40" name="backuptype" type="string"/>
         <element label="BillingCode" max_length="50" name="billingcode" type="string"/>
         <element label="CIImpact" max_length="50" name="ciimpact" type="string"/>
-        <element default="40" label="CIIsVirtual" max_length="40" name="ciisvirtual" type="string"/>
-        <element default="50" label="CIManufacturer" max_length="40" name="cimanufacturer" type="string"/>
-        <element default="50" label="CIParentType" max_length="40" name="ciparenttype" type="string"/>
-        <element default="50" label="CIRemoteConsole" max_length="40" name="ciremoteconsole" type="string"/>
-        <element default="50" label="CISupportTier" max_length="40" name="cisupporttier" type="string"/>
-        <element default="50" label="CISystemModel" max_length="40" name="cisystemmodel" type="string"/>
-        <element default="50" label="CIVirtualizationRole" max_length="40" name="civirtualizationrole" type="string"/>
-        <element default="50" label="CIVirtualTechnology" max_length="40" name="civirtualtechnology" type="string"/>
-        <element default="50" label="clusterName" max_length="40" name="clustername" type="string"/>
-        <element default="50" label="CPUcount" max_length="40" name="cpucount" type="string"/>
-        <element default="50" label="CUSTOMER" max_length="40" name="customer" type="string"/>
-        <element default="50" label="DeployStartDateTime" max_length="40" name="deploystartdatetime" type="string"/>
-        <element default="50" label="disk0Datastore" max_length="40" name="disk0datastore" type="string"/>
-        <element default="50" label="disk0SizeGB" max_length="40" name="disk0sizegb" type="string"/>
-        <element default="50" label="disk0StorageTier" max_length="40" name="disk0storagetier" type="string"/>
-        <element default="50" label="disk1SizeGB" max_length="40" name="disk1sizegb" type="string"/>
-        <element default="50" label="disk2SizeGB" max_length="40" name="disk2sizegb" type="string"/>
-        <element default="50" label="disk3SizeGB" max_length="40" name="disk3sizegb" type="string"/>
-        <element default="50" label="disk4SizeGB" max_length="40" name="disk4sizegb" type="string"/>
-        <element default="50" label="disk5SizeGB" max_length="40" name="disk5sizegb" type="string"/>
-        <element default="50" label="disk6SizeGB" max_length="40" name="disk6sizegb" type="string"/>
-        <element default="50" label="disk7SizeGB" max_length="40" name="disk7sizegb" type="string"/>
-        <element default="50" label="disk8SizeGB" max_length="40" name="disk8sizegb" type="string"/>
-        <element default="50" label="disk9SizeGB" max_length="40" name="disk9sizegb" type="string"/>
-        <element default="50" label="diskCount" max_length="40" name="diskcount" type="string"/>
-        <element default="50" label="domainNumber" max_length="40" name="domainnumber" type="string"/>
-        <element default="50" label="Function" max_length="40" name="function" type="string"/>
-        <element default="50" label="guestFullName" max_length="40" name="guestfullname" type="string"/>
-        <element default="50" label="guestId" max_length="40" name="guestid" type="string"/>
-        <element default="50" label="HardwarePreset" max_length="40" name="hardwarepreset" type="string"/>
-        <element default="50" label="hardwareType" max_length="40" name="hardwaretype" type="string"/>
-        <element default="50" label="HostEnvironment" max_length="40" name="hostenvironment" type="string"/>
-        <element default="50" label="Hostname dns" max_length="40" name="hostname_dns" type="string"/>
-        <element default="50" label="Hostname fqdn" max_length="40" name="hostname_fqdn" type="string"/>
-        <element default="50" label="Hostname lc" max_length="40" name="hostname_lc" type="string"/>
-        <element default="50" label="Hostname phys" max_length="40" name="hostname_phys" type="string"/>
-        <element default="50" label="Hostname uc" max_length="40" name="hostname_uc" type="string"/>
-        <element default="50" label="Hostname vm" max_length="40" name="hostname_vm" type="string"/>
-        <element default="50" label="ipAddress1" max_length="40" name="ipaddress1" type="string"/>
-        <element default="50" label="ipGateway1" max_length="40" name="ipgateway1" type="string"/>
-        <element default="50" label="ipNetmask1" max_length="40" name="ipnetmask1" type="string"/>
-        <element default="50" label="isCluster" max_length="40" name="iscluster" type="string"/>
-        <element default="50" label="isVirtual" max_length="40" name="isvirtual" type="string"/>
-        <element default="50" label="joinDomain" max_length="40" name="joindomain" type="string"/>
-        <element default="50" label="managedBy" max_length="40" name="managedby" type="string"/>
-        <element default="50" label="MemoryGB" max_length="40" name="memorygb" type="string"/>
-        <element default="50" label="NIC1Role" max_length="40" name="nic1role" type="string"/>
-        <element default="50" label="NICcount" max_length="40" name="niccount" type="string"/>
-        <element default="50" label="nodeNumber" max_length="40" name="nodenumber" type="string"/>
-        <element default="50" label="offeringName" max_length="40" name="offeringname" type="string"/>
-        <element default="50" label="OSDisplayName" max_length="40" name="osdisplayname" type="string"/>
-        <element default="50" label="OSLicenseOwner" max_length="40" name="oslicenseowner" type="string"/>
-        <element default="50" label="OSName" max_length="40" name="osname" type="string"/>
+        <element label="CIIsVirtual" max_length="40" name="ciisvirtual" type="string"/>
+        <element label="CIManufacturer" max_length="40" name="cimanufacturer" type="string"/>
+        <element label="CIParentType" max_length="40" name="ciparenttype" type="string"/>
+        <element label="CIRemoteConsole" max_length="40" name="ciremoteconsole" type="string"/>
+        <element label="CISupportTier" max_length="40" name="cisupporttier" type="string"/>
+        <element label="CISystemModel" max_length="40" name="cisystemmodel" type="string"/>
+        <element label="CIVirtualizationRole" max_length="40" name="civirtualizationrole" type="string"/>
+        <element label="CIVirtualTechnology" max_length="40" name="civirtualtechnology" type="string"/>
+        <element label="clusterName" max_length="40" name="clustername" type="string"/>
+        <element label="CPUcount" max_length="40" name="cpucount" type="string"/>
+        <element label="CUSTOMER" max_length="40" name="customer" type="string"/>
+        <element label="DeployStartDateTime" max_length="40" name="deploystartdatetime" type="string"/>
+        <element label="disk0Datastore" max_length="40" name="disk0datastore" type="string"/>
+        <element label="disk0SizeGB" max_length="40" name="disk0sizegb" type="string"/>
+        <element label="disk0StorageTier" max_length="40" name="disk0storagetier" type="string"/>
+        <element label="disk1SizeGB" max_length="40" name="disk1sizegb" type="string"/>
+        <element label="disk2SizeGB" max_length="40" name="disk2sizegb" type="string"/>
+        <element label="disk3SizeGB" max_length="40" name="disk3sizegb" type="string"/>
+        <element label="disk4SizeGB" max_length="40" name="disk4sizegb" type="string"/>
+        <element label="disk5SizeGB" max_length="40" name="disk5sizegb" type="string"/>
+        <element label="disk6SizeGB" max_length="40" name="disk6sizegb" type="string"/>
+        <element label="disk7SizeGB" max_length="40" name="disk7sizegb" type="string"/>
+        <element label="disk8SizeGB" max_length="40" name="disk8sizegb" type="string"/>
+        <element label="disk9SizeGB" max_length="40" name="disk9sizegb" type="string"/>
+        <element label="diskCount" max_length="40" name="diskcount" type="string"/>
+        <element label="domainNumber" max_length="40" name="domainnumber" type="string"/>
+        <element label="Function" max_length="40" name="function" type="string"/>
+        <element label="guestFullName" max_length="40" name="guestfullname" type="string"/>
+        <element label="guestId" max_length="40" name="guestid" type="string"/>
+        <element label="HardwarePreset" max_length="40" name="hardwarepreset" type="string"/>
+        <element label="hardwareType" max_length="40" name="hardwaretype" type="string"/>
+        <element label="HostEnvironment" max_length="40" name="hostenvironment" type="string"/>
+        <element label="Hostname dns" max_length="40" name="hostname_dns" type="string"/>
+        <element label="Hostname fqdn" max_length="40" name="hostname_fqdn" type="string"/>
+        <element label="Hostname lc" max_length="40" name="hostname_lc" type="string"/>
+        <element label="Hostname phys" max_length="40" name="hostname_phys" type="string"/>
+        <element label="Hostname uc" max_length="40" name="hostname_uc" type="string"/>
+        <element label="Hostname vm" max_length="40" name="hostname_vm" type="string"/>
+        <element label="ipAddress1" max_length="40" name="ipaddress1" type="string"/>
+        <element label="ipGateway1" max_length="40" name="ipgateway1" type="string"/>
+        <element label="ipNetmask1" max_length="40" name="ipnetmask1" type="string"/>
+        <element label="isCluster" max_length="40" name="iscluster" type="string"/>
+        <element label="isVirtual" max_length="40" name="isvirtual" type="string"/>
+        <element label="joinDomain" max_length="40" name="joindomain" type="string"/>
+        <element label="managedBy" max_length="40" name="managedby" type="string"/>
+        <element label="MemoryGB" max_length="40" name="memorygb" type="string"/>
+        <element label="NIC1Role" max_length="40" name="nic1role" type="string"/>
+        <element label="NICcount" max_length="40" name="niccount" type="string"/>
+        <element label="nodeNumber" max_length="40" name="nodenumber" type="string"/>
+        <element label="offeringName" max_length="40" name="offeringname" type="string"/>
+        <element label="OSDisplayName" max_length="40" name="osdisplayname" type="string"/>
+        <element label="OSLicenseOwner" max_length="40" name="oslicenseowner" type="string"/>
+        <element label="OSName" max_length="40" name="osname" type="string"/>
         <element label="osType" max_length="40" name="ostype" type="string"/>
         <element label="OutageDay" max_length="40" name="outageday" type="string"/>
         <element label="OutageWindow" max_length="40" name="outagewindow" type="string"/>

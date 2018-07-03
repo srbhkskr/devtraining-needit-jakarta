@@ -4,7 +4,7 @@
         <access>package_private</access>
         <authentication_type>basic</authentication_type>
         <basic_auth_password/>
-        <basic_auth_profile display_value="uvcore_auth_59">c4e66a984f431300b6bec4b18110c770</basic_auth_profile>
+        <basic_auth_profile display_value="uvcore_Auth_new">eed8a6cc4f071300b6bec4b18110c765</basic_auth_profile>
         <basic_auth_user/>
         <description>uvCore</description>
         <name>uvCore</name>
@@ -15,14 +15,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 11:52:53</sys_created_on>
         <sys_id>b40d06cc4fc31300b6bec4b18110c732</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>uvCore</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_rest_message_b40d06cc4fc31300b6bec4b18110c732</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-28 13:01:15</sys_updated_on>
+        <sys_updated_on>2018-07-03 12:53:07</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mutual_auth>false</use_mutual_auth>
     </sys_rest_message>

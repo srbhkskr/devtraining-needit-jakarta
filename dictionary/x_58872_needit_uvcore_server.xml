@@ -76,7 +76,7 @@
         <element label="snapshotList" max_length="40" name="snapshotlist" type="string"/>
         <element label="SRA Environment" max_length="40" name="sra_environment" type="string"/>
         <element label="SubscriptionID" max_length="40" name="subscriptionid" type="string"/>
-        <element label="subscriptionName" max_length="40" name="subscriptionname" type="string"/>
+        <element display="true" label="subscriptionName" max_length="40" name="subscriptionname" type="string"/>
         <element label="Subscription status" max_length="40" name="subscription_status" type="string"/>
         <element label="totalNodes" max_length="40" name="totalnodes" type="string"/>
         <element label="tShirtSize" max_length="40" name="tshirtsize" type="string"/>

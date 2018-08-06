@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="demo1" max_length="40" name="x_58872_needit_demo1" sizeclass="5103" type="collection">
+        <element attributes="import_attribute_name=Active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="import_attribute_name=Alternate name,edge_encryption_enabled=true" label="Alternate name" max_length="58" name="u_alternate_name" type="string"/>
+        <element attributes="import_attribute_name=Assigned to,edge_encryption_enabled=true" label="Assigned to" max_length="40" name="u_assigned_to" type="string"/>
+        <element attributes="import_attribute_name=Correlation ID,edge_encryption_enabled=true" label="Correlation ID" max_length="40" name="u_correlation_id" type="string"/>
+        <element attributes="import_attribute_name=Created,edge_encryption_enabled=true" label="Created" max_length="40" name="u_created" type="string"/>
+        <element attributes="import_attribute_name=Installed,edge_encryption_enabled=true" label="Installed" max_length="255" name="u_installed" type="string"/>
+        <element attributes="import_attribute_name=Is virtual,edge_encryption_enabled=true" label="Is virtual" max_length="40" name="u_is_virtual" type="string"/>
+        <element attributes="import_attribute_name=Location,edge_encryption_enabled=true" label="Location" max_length="60" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=Manufacturer,edge_encryption_enabled=true" label="Manufacturer" max_length="40" name="u_manufacturer" type="string"/>
+        <element attributes="import_attribute_name=Model number,edge_encryption_enabled=true" label="Model number" max_length="54" name="u_model_number" type="string"/>
+        <element attributes="import_attribute_name=Name,edge_encryption_enabled=true" label="Name" max_length="52" name="u_name" type="string"/>
+        <element attributes="import_attribute_name=Operating system [Computer],edge_encryption_enabled=true" label="Operating system [Computer]" max_length="40" name="u_operating_system__computer_" type="string"/>
+        <element attributes="import_attribute_name=OS service pack [Computer],edge_encryption_enabled=true" label="OS service pack [Computer]" max_length="40" name="u_os_service_pack__computer_" type="string"/>
+        <element attributes="import_attribute_name=OS version [Computer],edge_encryption_enabled=true" label="OS version [Computer]" max_length="40" name="u_os_version__computer_" type="string"/>
+        <element attributes="import_attribute_name=Serial number,edge_encryption_enabled=true" label="Serial number" max_length="58" name="u_serial_number" type="string"/>
+        <element attributes="import_attribute_name=Short description,edge_encryption_enabled=true" label="Short description" max_length="2719" name="u_short_description" type="string"/>
+        <element attributes="import_attribute_name=Status,edge_encryption_enabled=true" label="Status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=Support group,edge_encryption_enabled=true" label="Support group" max_length="50" name="u_support_group" type="string"/>
+        <element attributes="import_attribute_name=Updated,edge_encryption_enabled=true" label="Updated" max_length="40" name="u_updated" type="string"/>
+    </element>
+</database>

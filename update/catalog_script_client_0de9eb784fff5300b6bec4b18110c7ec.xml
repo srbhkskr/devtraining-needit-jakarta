@@ -41,20 +41,27 @@
 		g_form.setValue('reference',ans.reference);
 		g_form.setValue('serviceRequestId',ans.serviceId);
 		g_form.setValue('hostname_lc',ans.hostname);
+		
 		if(ans.hardwarepreset =='1')
 			{
-				g_form.setValue('hardware_preset', 'small');
+				
+				g_form.setValue('u_hwpreset','1');
 			}
 		if(ans.hardwarepreset =='2')
 			{
-				g_form.setValue('hardware_preset', 'medium');
+				
+				g_form.setValue('u_hwpreset','2');
 			}
 		if(ans.hardwarepreset =='3')
 			{
-				g_form.setValue('hardware_preset', 'large');
+				
+				g_form.setValue('u_hwpreset','3');
 			}
 		//g_form.setValue('hardware_preset',ans.hardwarepreset);
 		//g_form.setValue('subscription_email', ans.subsmail);
+		
+		
+		g_form.setValue('subscriptionName',g_form.getValue('subscription_name'));
 		}
 	
 	
@@ -65,7 +72,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>0de9eb784fff5300b6bec4b18110c7ec</sys_id>
-        <sys_mod_count>9</sys_mod_count>
+        <sys_mod_count>13</sys_mod_count>
         <sys_name>Auto populate fileds</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -73,7 +80,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_0de9eb784fff5300b6bec4b18110c7ec</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-06 11:42:53</sys_updated_on>
+        <sys_updated_on>2018-08-10 06:52:54</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

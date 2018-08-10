@@ -1,0 +1,2165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_workflow_version">
+    <wf_workflow_version action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <activity_stages>{"subflows":[],"stages":{},"ends":["72a83bb54f775300b6bec4b18110c7ee"],"activities":{}}</activity_stages>
+        <after_business_rules>false</after_business_rules>
+        <checked_out/>
+        <checked_out_by/>
+        <column_renderer display_value="Workflow-driven">a56213111b030100adca1e094f0713ac</column_renderer>
+        <condition/>
+        <condition_type/>
+        <description/>
+        <expected_sequences>76a83bb54f775300b6bec4b18110c7f0,32a8fbb54f775300b6bec4b18110c7fd,72a83bb54f775300b6bec4b18110c7ee</expected_sequences>
+        <expected_time>1970-01-01 14:00:00</expected_time>
+        <expected_time_type/>
+        <full_sequences>76a83bb54f775300b6bec4b18110c7f0,32a8fbb54f775300b6bec4b18110c7fd,72a83bb54f775300b6bec4b18110c7ee,f2a8fbb54f775300b6bec4b18110c7fc,b2a83bb54f775300b6bec4b18110c7f3,b2a83bb54f775300b6bec4b18110c7ef,32a8fbb54f775300b6bec4b18110c7fb,f2a83bb54f775300b6bec4b18110c7f1,fea8fbb54f775300b6bec4b18110c7f9</full_sequences>
+        <journal/>
+        <max_activity_count>100</max_activity_count>
+        <name>Import VM in SNaaP</name>
+        <not_cacheable>false</not_cacheable>
+        <on_cancel><![CDATA[// This script executes if the workflow is cancelled.// The global variable context_sys_id contains the sys_id of the cancelled workflow context.]]></on_cancel>
+        <order>100</order>
+        <pin_type>set_by_activity</pin_type>
+        <published>true</published>
+        <relative_duration/>
+        <requires_ert>true</requires_ert>
+        <run_multiple>false</run_multiple>
+        <schedule/>
+        <stage_field>stage</stage_field>
+        <stage_order>computed</stage_order>
+        <start display_value="Begin">76a83bb54f775300b6bec4b18110c7f0</start>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa83bb54f775300b6bec4b18110c7eb</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 13:13:02</sys_updated_on>
+        <table>sc_req_item</table>
+        <timezone/>
+        <validated>true</validated>
+        <workflow display_value="Import VM in SNaaP">d49bf6b14ff35300b6bec4b18110c7b9</workflow>
+    </wf_workflow_version>
+    <wf_workflow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <description/>
+        <name>Import VM in SNaaP</name>
+        <preview/>
+        <sys_class_name>wf_workflow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 08:29:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>d49bf6b14ff35300b6bec4b18110c7b9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Import VM in SNaaP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_workflow_d49bf6b14ff35300b6bec4b18110c7b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 08:29:19</sys_updated_on>
+        <table>sc_req_item</table>
+        <template>false</template>
+        <vars/>
+    </wf_workflow>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Completed</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa83bb54f775300b6bec4b18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>complete</value>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Delivery</name>
+        <ola>1970-01-03 00:00:00</ola>
+        <order>140</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>faa83bb54f775300b6bec4b18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>delivery</value>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Fulfillment</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>120</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a83bb54f775300b6bec4b18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>fulfillment</value>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Cancelled</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>1000</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>76a83bb54f775300b6bec4b18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>Request Cancelled</value>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Request Approved</name>
+        <ola>1970-01-01 00:00:00</ola>
+        <order>90</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>72a83bb54f775300b6bec4b18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>request_approved</value>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+    </wf_stage>
+    <wf_stage action="INSERT_OR_UPDATE">
+        <name>Waiting for Approval</name>
+        <ola>1970-01-02 00:00:00</ola>
+        <order>100</order>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f6a83bb54f775300b6bec4b18110c7ed</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>waiting_for_approval</value>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+    </wf_stage>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Begin">c7a5e32c0a0a0b3a002377c24ed8ea76</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>1</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>Begin</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>76a83bb54f775300b6bec4b18110c7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>73</x>
+        <y>22</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=76a83bb54f775300b6bec4b18110c7f0"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Begin">76a83bb54f775300b6bec4b18110c7f0</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea83bb54f775300b6bec4b18110c7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>22</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Check VM INFO Flow Status</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>32a8fbb54f775300b6bec4b18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>338</x>
+        <y>494</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=32a8fbb54f775300b6bec4b18110c7fb"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>32a8fbb54f775300b6bec4b18110c7fb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b2a8fbb54f775300b6bec4b18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>var polling_activity_no = 19;&#13;
+workflow.info("data.get("+polling_activity_no+").statucode : "+data.get(polling_activity_no).status_code);&#13;
+workflow.info("resultStatusName : "+data.get(polling_activity_no).output.executionSummary.resultStatusName);&#13;
+workflow.info("resultStatusType : "+data.get(polling_activity_no).output.executionSummary.resultStatusType);&#13;
+workflow.info("es_status : "+data.get(polling_activity_no).output.executionSummary.status);&#13;
+workflow.info("Responce Body : "+data.get(polling_activity_no).body);&#13;
+&#13;
+responseBodystr = data.get(polling_activity_no).body;&#13;
+responsebody = JSON.parse(responseBodystr);&#13;
+workflow.info(responsebody.executionSummary.resultStatusType);&#13;
+workflow.info(responsebody.executionSummary.resultStatusName);&#13;
+workflow.info(responsebody.executionSummary.status);&#13;
+&#13;
+&#13;
+if(data.get(polling_activity_no).status_code==200)&#13;
+	{&#13;
+	&#13;
+	workflow.info("Current status is = "+ responsebody.executionSummary.status);&#13;
+	workflow.scratchpad.executionstatus =   responsebody.executionSummary.status;&#13;
+	&#13;
+	if(responsebody.executionSummary.status === "COMPLETED")&#13;
+		{&#13;
+		workflow.info('completed with Success'+ responsebody.executionSummary.status);&#13;
+		activity.result = 'success';&#13;
+		&#13;
+		workflow.scratchpad.executionstatus = responsebody.executionSummary.status;&#13;
+		&#13;
+	}&#13;
+	else if(responsebody.executionSummary.status === "RUNNING")&#13;
+		{&#13;
+		&#13;
+		activity.result = 'running';&#13;
+		workflow.info('Deploy flow is running on ucCore');&#13;
+	}&#13;
+	else if(responsebody.executionSummary.status === "PAUSED"){&#13;
+		activity.result = 'running';&#13;
+		workflow.info('activity is paused due to pasued OO flow');&#13;
+		&#13;
+		&#13;
+	}&#13;
+	else {&#13;
+		workflow.info("Current status is completed with failure" );&#13;
+		activity.result = 'error';&#13;
+		workflow.error('completed with failure error');&#13;
+	}&#13;
+	&#13;
+	&#13;
+	&#13;
+}&#13;
+else&#13;
+	{&#13;
+	activity.result = 'error';&#13;
+	workflow.info("Failed to create vm. HTTP Error Code : "+ response.getErrorMessage());&#13;
+	workflow.error('failure error');&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>32a8fbb54f775300b6bec4b18110c7fb</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b2a8fbb54f775300b6bec4b18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>var polling_activity_no = 19;&#13;
+workflow.info("data.get("+polling_activity_no+").statucode : "+data.get(polling_activity_no).status_code);&#13;
+workflow.info("resultStatusName : "+data.get(polling_activity_no).output.executionSummary.resultStatusName);&#13;
+workflow.info("resultStatusType : "+data.get(polling_activity_no).output.executionSummary.resultStatusType);&#13;
+workflow.info("es_status : "+data.get(polling_activity_no).output.executionSummary.status);&#13;
+workflow.info("Responce Body : "+data.get(polling_activity_no).body);&#13;
+&#13;
+responseBodystr = data.get(polling_activity_no).body;&#13;
+responsebody = JSON.parse(responseBodystr);&#13;
+workflow.info(responsebody.executionSummary.resultStatusType);&#13;
+workflow.info(responsebody.executionSummary.resultStatusName);&#13;
+workflow.info(responsebody.executionSummary.status);&#13;
+&#13;
+&#13;
+if(data.get(polling_activity_no).status_code==200)&#13;
+	{&#13;
+	&#13;
+	workflow.info("Current status is = "+ responsebody.executionSummary.status);&#13;
+	workflow.scratchpad.executionstatus =   responsebody.executionSummary.status;&#13;
+	&#13;
+	if(responsebody.executionSummary.status === "COMPLETED")&#13;
+		{&#13;
+		workflow.info('completed with Success'+ responsebody.executionSummary.status);&#13;
+		activity.result = 'success';&#13;
+		&#13;
+		workflow.scratchpad.executionstatus = responsebody.executionSummary.status;&#13;
+		&#13;
+	}&#13;
+	else if(responsebody.executionSummary.status === "RUNNING")&#13;
+		{&#13;
+		&#13;
+		activity.result = 'running';&#13;
+		workflow.info('Deploy flow is running on ucCore');&#13;
+	}&#13;
+	else if(responsebody.executionSummary.status === "PAUSED"){&#13;
+		activity.result = 'running';&#13;
+		workflow.info('activity is paused due to pasued OO flow');&#13;
+		&#13;
+		&#13;
+	}&#13;
+	else {&#13;
+		workflow.info("Current status is completed with failure" );&#13;
+		activity.result = 'error';&#13;
+		workflow.error('completed with failure error');&#13;
+	}&#13;
+	&#13;
+	&#13;
+	&#13;
+}&#13;
+else&#13;
+	{&#13;
+	activity.result = 'error';&#13;
+	workflow.info("Failed to create vm. HTTP Error Code : "+ response.getErrorMessage());&#13;
+	workflow.error('failure error');&#13;
+}&#13;
+&#13;
+&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</activity>
+        <condition>activity.result == 'Complete_with_error' &amp;&amp; activity.state != 'faulted'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Completed with failure</name>
+        <order>3</order>
+        <short_description>Flow completed with failure</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa8fbb54f775300b6bec4b18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</activity>
+        <condition>activity.result == 'success' &amp;&amp; activity.state != 'faulted'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Completed With Success</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>faa8fbb54f775300b6bec4b18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</activity>
+        <condition>activity.result == 'error' </condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Polling Falure</name>
+        <order>2</order>
+        <short_description>Unable to connect OO</short_description>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f6a8fbb54f775300b6bec4b18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</activity>
+        <condition>activity.result == 'running' &amp;&amp; activity.state != 'faulted'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Running</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea8fbb54f775300b6bec4b18110c7fb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>24</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Close the request and Insert record</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea8fbb54f775300b6bec4b18110c7f9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 13:12:22</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>797</x>
+        <y>569</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=fea8fbb54f775300b6bec4b18110c7f9"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fea8fbb54f775300b6bec4b18110c7f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a8fbb54f775300b6bec4b18110c7fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 13:12:22</sys_updated_on>
+        <value>setClosed();&#13;
+insertRecord();&#13;
+&#13;
+function setClosed() {&#13;
+    current.request.request_state = "closed_complete";&#13;
+}&#13;
+&#13;
+&#13;
+function insertRecord(){&#13;
+			var get_vm_info_flow_status_activity_no = 19;&#13;
+			var responseBodystr = data.get(get_vm_info_flow_status_activity_no).body;&#13;
+			var responsebody = JSON.parse(responseBodystr);&#13;
+			var InstancePropertiesString = responsebody.flowOutput.InstanceProperties;&#13;
+			workflow.info('InstancePropertiesString before replace : ' + InstancePropertiesString); &#13;
+			InstancePropertiesString = InstancePropertiesString.replace(/\\n/g, "");&#13;
+			InstancePropertiesString = InstancePropertiesString.replace(/\\/g, "");&#13;
+			var InstanceProperties = JSON.parse(InstancePropertiesString);&#13;
+			workflow.info('InstancePropertiesString after parsing : ' + InstancePropertiesString);&#13;
+			workflow.info('InstanceProperties after parsing : ' + InstanceProperties);&#13;
+			workflow.scratchpad.ActionTaken = InstanceProperties.ActionTaken  != null ? InstanceProperties.ActionTaken : "Deployed";&#13;
+			workflow.scratchpad.BackupType = InstanceProperties.BackupType != null ? InstanceProperties.BackupType : "None";&#13;
+			workflow.scratchpad.BillingCode = InstanceProperties.BillingCode != null ? InstanceProperties.BillingCode : "123";&#13;
+			workflow.scratchpad.CIImpact = InstanceProperties.CIImpact != null ? InstanceProperties.CIImpact : "None";&#13;
+			workflow.scratchpad.CIIsVirtual = InstanceProperties.CIIsVirtual != null ? InstanceProperties.CIIsVirtual : "None";&#13;
+			workflow.scratchpad.CIManufacturer = InstanceProperties.CIManufacturer != null ? InstanceProperties.CIManufacturer : "None";&#13;
+			workflow.scratchpad.CIParentType = InstanceProperties.CIParentType != null ? InstanceProperties.CIParentType : "None";&#13;
+			workflow.scratchpad.CIRemoteConsole = InstanceProperties.CIRemoteConsole != null ? InstanceProperties.CIRemoteConsole : "None";&#13;
+			workflow.scratchpad.CISupportTier = InstanceProperties.CISupportTier != null ? InstanceProperties.CISupportTier : "None";&#13;
+			workflow.scratchpad.CISystemModel = InstanceProperties.CISystemModel != null ? InstanceProperties.CISystemModel : "None";&#13;
+			workflow.scratchpad.CIVirtualTechnology = InstanceProperties.CIVirtualTechnology != null ? InstanceProperties.CIVirtualTechnology : "None";&#13;
+			workflow.scratchpad.CIVirtualizationRole = InstanceProperties.CIVirtualizationRole != null ? InstanceProperties.CIVirtualizationRole : "None";&#13;
+			workflow.scratchpad.CUSTOMER = InstanceProperties.CUSTOMER != null ? InstanceProperties.CUSTOMER : "None";&#13;
+			workflow.scratchpad.DeployStartDateTime = InstanceProperties.DeployStartDateTime != null ? InstanceProperties.DeployStartDateTime : "None";&#13;
+			workflow.scratchpad.Function = InstanceProperties.Function != null ? InstanceProperties.Function : "None";&#13;
+			workflow.scratchpad.HardwarePreset = InstanceProperties.HardwarePreset != null ? InstanceProperties.HardwarePreset : "None";&#13;
+			workflow.scratchpad.HostEnvironment = InstanceProperties.HostEnvironment != null ? InstanceProperties.HostEnvironment : "None";&#13;
+			workflow.scratchpad.NIC1Role = InstanceProperties.NIC1Role != null ? InstanceProperties.NIC1Role : "None";&#13;
+			workflow.scratchpad.NICcount = InstanceProperties.NICcount != null ? InstanceProperties.NICcount : "None";&#13;
+			workflow.scratchpad.OSDisplayName = InstanceProperties.OSDisplayName != null ? InstanceProperties.OSDisplayName : "None";&#13;
+			workflow.scratchpad.OSLicenseOwner = InstanceProperties.OSLicenseOwner != null ? InstanceProperties.OSLicenseOwner : "None";&#13;
+			workflow.scratchpad.OSName = InstanceProperties.OSName != null ? InstanceProperties.OSName : "None";&#13;
+			workflow.scratchpad.OutageDay = InstanceProperties.OutageDay != null ? InstanceProperties.OutageDay : "None";&#13;
+			workflow.scratchpad.OutageWindow = InstanceProperties.OutageWindow != null ? InstanceProperties.OutageWindow : "None";&#13;
+			workflow.scratchpad.SiteID = InstanceProperties.SiteID != null ? InstanceProperties.SiteID : "None";&#13;
+			workflow.scratchpad.SubscriptionID = InstanceProperties.SubscriptionID != null ? InstanceProperties.SubscriptionID : "None";&#13;
+			workflow.scratchpad.clusterName = InstanceProperties.clusterName != null ? InstanceProperties.clusterName : "None";&#13;
+			workflow.scratchpad.disk0Datastore = InstanceProperties.disk0Datastore != null ? InstanceProperties.disk0Datastore : "None";&#13;
+			workflow.scratchpad.disk0SizeGB = InstanceProperties.disk0SizeGB != null ? InstanceProperties.disk0SizeGB : "None";&#13;
+			workflow.scratchpad.disk0StorageTier = InstanceProperties.disk0StorageTier != null ? InstanceProperties.disk0StorageTier : "None";&#13;
+			workflow.scratchpad.disk1SizeGB = InstanceProperties.disk1SizeGB != null ? InstanceProperties.disk1SizeGB : "None";&#13;
+			workflow.scratchpad.disk2SizeGB = InstanceProperties.disk2SizeGB != null ? InstanceProperties.disk2SizeGB : "None";&#13;
+			workflow.scratchpad.disk3SizeGB = InstanceProperties.disk3SizeGB != null ? InstanceProperties.disk3SizeGB : "None";&#13;
+			workflow.scratchpad.disk4SizeGB = InstanceProperties.disk4SizeGB != null ? InstanceProperties.disk4SizeGB : "None";&#13;
+			workflow.scratchpad.disk5SizeGB = InstanceProperties.disk5SizeGB != null ? InstanceProperties.disk5SizeGB : "None";&#13;
+			workflow.scratchpad.disk6SizeGB = InstanceProperties.disk6SizeGB != null ? InstanceProperties.disk6SizeGB : "None";&#13;
+			workflow.scratchpad.disk7SizeGB = InstanceProperties.disk7SizeGB != null ? InstanceProperties.disk7SizeGB : "None";&#13;
+			workflow.scratchpad.disk8SizeGB = InstanceProperties.disk8SizeGB != null ? InstanceProperties.disk8SizeGB : "None";&#13;
+			workflow.scratchpad.disk9SizeGB = InstanceProperties.disk9SizeGB != null ? InstanceProperties.disk9SizeGB : "None";&#13;
+			workflow.scratchpad.diskCount = InstanceProperties.diskCount != null ? InstanceProperties.diskCount : "None";&#13;
+			workflow.scratchpad.domainNumber = InstanceProperties.domainNumber != null ? InstanceProperties.domainNumber : "None";&#13;
+			workflow.scratchpad.hardwareType = InstanceProperties.hardwareType != null ? InstanceProperties.hardwareType : "None";&#13;
+			workflow.scratchpad.hostname_dns = InstanceProperties.hostname_dns != null ? InstanceProperties.hostname_dns : "None";&#13;
+			workflow.scratchpad.hostname_fqdn = InstanceProperties.hostname_fqdn != null ? InstanceProperties.hostname_fqdn : "None";&#13;
+			workflow.scratchpad.hostname_lc = InstanceProperties.hostname_lc != null ? InstanceProperties.hostname_lc : "None";&#13;
+			workflow.scratchpad.hostname_phys = InstanceProperties.hostname_phys != null ? InstanceProperties.hostname_phys : "None";&#13;
+			workflow.scratchpad.hostname_uc = InstanceProperties.hostname_uc != null ? InstanceProperties.hostname_uc : "None";&#13;
+			workflow.scratchpad.hostname_vm = InstanceProperties.hostname_vm != null ? InstanceProperties.hostname_vm : "None";&#13;
+			workflow.scratchpad.ipAddress1 = InstanceProperties.ipAddress1 != null ? InstanceProperties.ipAddress1 : "None";&#13;
+			workflow.scratchpad.ipGateway1 = InstanceProperties.ipGateway1 != null ? InstanceProperties.ipGateway1 : "None";&#13;
+			workflow.scratchpad.ipNetmask1 = InstanceProperties.ipNetmask1 != null ? InstanceProperties.ipNetmask1 : "None";&#13;
+			workflow.scratchpad.isCluster = InstanceProperties.isCluster != null ? InstanceProperties.isCluster : "None";&#13;
+			workflow.scratchpad.isVirtual = InstanceProperties.isVirtual != null ? InstanceProperties.isVirtual : "None";&#13;
+			workflow.scratchpad.joinDomain = InstanceProperties.joinDomain != null ? InstanceProperties.joinDomain : "None";&#13;
+			workflow.scratchpad.managedBy = InstanceProperties.managedBy != null ? InstanceProperties.managedBy : "None";&#13;
+			workflow.scratchpad.nodeNumber = InstanceProperties.nodeNumber != null ? InstanceProperties.nodeNumber : "None";&#13;
+			workflow.scratchpad.offeringName = InstanceProperties.offeringName != null ? InstanceProperties.offeringName : "None";&#13;
+			workflow.scratchpad.osType = InstanceProperties.osType != null ? InstanceProperties.osType : "None";&#13;
+			workflow.scratchpad.primaryDNS = InstanceProperties.primaryDNS != null ? InstanceProperties.primaryDNS : "None";&#13;
+			workflow.scratchpad.secondaryDC = InstanceProperties.secondaryDC != null ? InstanceProperties.secondaryDC : "None";&#13;
+			workflow.scratchpad.secondaryDNS = InstanceProperties.secondaryDNS != null ? InstanceProperties.secondaryDNS : "None";&#13;
+			workflow.scratchpad.serialNumber = InstanceProperties.serialNumber != null ? InstanceProperties.serialNumber : "None";&#13;
+			workflow.scratchpad.serverType = InstanceProperties.serverType != null ? InstanceProperties.serverType : "None";&#13;
+			workflow.scratchpad.shortDomain = InstanceProperties.shortDomain != null ? InstanceProperties.shortDomain : "None";&#13;
+			workflow.scratchpad.siteDescription = InstanceProperties.siteDescription != null ? InstanceProperties.siteDescription : "None";&#13;
+			workflow.scratchpad.subscriptionName = InstanceProperties.subscriptionName != null ? InstanceProperties.subscriptionName : "None";&#13;
+			workflow.scratchpad.tShirtSize = InstanceProperties.tShirtSize != null ? InstanceProperties.tShirtSize : "None";&#13;
+			workflow.scratchpad.totalNodes = InstanceProperties.totalNodes != null ? InstanceProperties.totalNodes : "None";&#13;
+			workflow.scratchpad.vcenterHost = InstanceProperties.vcenterHost != null ? InstanceProperties.vcenterHost : "None";&#13;
+			workflow.scratchpad.vrcsm = InstanceProperties.vrcsm != null ? InstanceProperties.vrcsm : "None";&#13;
+			workflow.scratchpad.vmControllerType = InstanceProperties.vmControllerType != null ? InstanceProperties.vmControllerType : "None";&#13;
+			workflow.scratchpad.vmDatacenter = InstanceProperties.vmDatacenter != null ? InstanceProperties.vmDatacenter : "None";&#13;
+			workflow.scratchpad.vmID = InstanceProperties.vmID != null ? InstanceProperties.vmID : "None";&#13;
+			workflow.scratchpad.vmPathName = InstanceProperties.vmPathName != null ? InstanceProperties.vmPathName : "None";&#13;
+			workflow.scratchpad.vmPortGroup1 = InstanceProperties.vmPortGroup1 != null ? InstanceProperties.vmPortGroup1 : "None";&#13;
+			workflow.scratchpad.snapshotList = InstanceProperties.snapshotList != null ? InstanceProperties.snapshotList : "None";&#13;
+			workflow.scratchpad.MemoryGB = InstanceProperties.MemoryGB != null ? InstanceProperties.MemoryGB : "None";&#13;
+			workflow.scratchpad.CPUcount = InstanceProperties.CPUcount != null ? InstanceProperties.CPUcount : "None";&#13;
+			workflow.scratchpad.vmID = InstanceProperties.vmID != null ? InstanceProperties.vmID : "None";&#13;
+			workflow.scratchpad.guestId = InstanceProperties.guestId != null ? InstanceProperties.guestId : "None";&#13;
+			workflow.scratchpad.powerState = InstanceProperties.powerState != null ? InstanceProperties.powerState : "None";&#13;
+			workflow.scratchpad.guestFullName = InstanceProperties.guestFullName != null ? InstanceProperties.guestFullName : "None";&#13;
+			workflow.scratchpad.serialNumber = InstanceProperties.serialNumber != null ? InstanceProperties.serialNumber : "None";&#13;
+			workflow.scratchpad.vmPathName = InstanceProperties.vmPathName != null ? InstanceProperties.vmPathName : "None";&#13;
+			workflow.scratchpad.vmInstanceUUID = InstanceProperties.vmInstanceUUID != null ? InstanceProperties.vmInstanceUUID : "None";&#13;
+	&#13;
+	&#13;
+	&#13;
+		var OSName = "RHEL7";&#13;
+		workflow.info('before glide record object creation'); &#13;
+		var rec = new GlideRecord('x_58872_needit_uvcore_server');&#13;
+&#13;
+		workflow.info('before glide record object initialized');&#13;
+		try{&#13;
+		rec.initialize(); &#13;
+		workflow.info('After glide record object initialized');&#13;
+&#13;
+		rec.osname = OSName;&#13;
+	&#13;
+	&#13;
+		rec.actiontaken = workflow.scratchpad.ActionTaken;&#13;
+		workflow.info('populated actiontaken = '+ workflow.scratchpad.ActionTaken);&#13;
+		rec.backuptype = workflow.scratchpad.BackupType;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.BackupType);&#13;
+		rec.billingcode = workflow.scratchpad.BillingCode;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.BillingCode);&#13;
+		rec.ciimpact = workflow.scratchpad.CIImpact;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIImpact);&#13;
+		rec.ciisvirtual = workflow.scratchpad.CIIsVirtual;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIIsVirtual);&#13;
+		rec.cimanufacturer = workflow.scratchpad.CIManufacturer;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIManufacturer);&#13;
+		rec.ciparenttype = workflow.scratchpad.CIParentType;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIParentType);&#13;
+		workflow.info('Section 0.2 assignment complited');&#13;
+		rec.ciremoteconsole = workflow.scratchpad.CIRemoteConsole;&#13;
+		rec.cisupporttier = workflow.scratchpad.CISupportTier;&#13;
+		rec.cisystemmodel = workflow.scratchpad.CISystemModel;&#13;
+		rec.civirtualtechnology = workflow.scratchpad.CIVirtualTechnology;&#13;
+		workflow.info('Section 0.3 assignment complited');&#13;
+		rec.civirtualizationrole = workflow.scratchpad.CIVirtualizationRole;&#13;
+		rec.customer = workflow.scratchpad.CUSTOMER;&#13;
+		rec.deploystartdatetime = workflow.scratchpad.DeployStartDateTime;&#13;
+		rec.function = workflow.scratchpad.Function;&#13;
+		workflow.info('Section 1 assignment complited');&#13;
+		rec.hardwarepreset = workflow.scratchpad.HardwarePreset;&#13;
+		rec.hostenvironment = workflow.scratchpad.HostEnvironment;&#13;
+		rec.nic1role = workflow.scratchpad.NIC1Role;&#13;
+		rec.niccount = workflow.scratchpad.NICcount;&#13;
+		rec.osdisplayname = workflow.scratchpad.OSDisplayName;&#13;
+		rec.oslicenseowner = workflow.scratchpad.OSLicenseOwner;&#13;
+		rec.osname = workflow.scratchpad.OSName;&#13;
+		rec.outageday = workflow.scratchpad.OutageDay;&#13;
+		rec.outagewindow = workflow.scratchpad.OutageWindow;&#13;
+		rec.siteid = workflow.scratchpad.SiteID;&#13;
+		rec.subscriptionid = workflow.scratchpad.SubscriptionID;&#13;
+		rec.clustername = workflow.scratchpad.clusterName;&#13;
+		rec.disk0datastore = workflow.scratchpad.disk0Datastore;&#13;
+		rec.disk0sizegb = workflow.scratchpad.disk0SizeGB;&#13;
+		rec.disk0storagetier = workflow.scratchpad.disk0StorageTier;&#13;
+		workflow.info('Section 2 assignment complited');&#13;
+		rec.disk1sizegb = workflow.scratchpad.disk1SizeGB;&#13;
+		rec.disk2sizegb = workflow.scratchpad.disk2SizeGB;&#13;
+		rec.disk3sizegb = workflow.scratchpad.disk3SizeGB;&#13;
+		rec.disk4sizegb = workflow.scratchpad.disk4SizeGB;&#13;
+		rec.disk5sizegb = workflow.scratchpad.disk5SizeGB;&#13;
+		rec.disk6sizegb = workflow.scratchpad.disk6SizeGB;&#13;
+		rec.disk7sizegb = workflow.scratchpad.disk7SizeGB;&#13;
+		rec.disk8sizegb = workflow.scratchpad.disk8SizeGB;&#13;
+		rec.disk9sizegb = workflow.scratchpad.disk9SizeGB;&#13;
+		rec.diskcount = workflow.scratchpad.diskCount;&#13;
+		rec.domainnumber = workflow.scratchpad.domainNumber;&#13;
+		rec.hardwaretype = workflow.scratchpad.hardwareType;&#13;
+		rec.hostname_dns = workflow.scratchpad.hostname_dns;&#13;
+		rec.hostname_fqdn = workflow.scratchpad.hostname_fqdn;&#13;
+		rec.hostname_lc = workflow.scratchpad.hostname_lc;&#13;
+		rec.hostname_phys = workflow.scratchpad.hostname_phys;&#13;
+		rec.hostname_uc = workflow.scratchpad.hostname_uc;&#13;
+		rec.hostname_vm = workflow.scratchpad.hostname_vm;&#13;
+		workflow.info('Section 3 assignment complited');&#13;
+		rec.ipaddress1 = workflow.scratchpad.ipAddress1;&#13;
+		rec.ipgateway1 = workflow.scratchpad.ipGateway1;&#13;
+		rec.ipnetmask1 = workflow.scratchpad.ipNetmask1;&#13;
+		rec.iscluster = workflow.scratchpad.isCluster;&#13;
+		rec.isvirtual = workflow.scratchpad.isVirtual;&#13;
+		rec.joindomain = workflow.scratchpad.joinDomain;&#13;
+		rec.managedby = workflow.scratchpad.managedBy;&#13;
+		rec.nodenumber = workflow.scratchpad.nodeNumber;&#13;
+		rec.offeringname = workflow.scratchpad.offeringName;&#13;
+		rec.ostype = workflow.scratchpad.osType;&#13;
+		rec.primarydns = workflow.scratchpad.primaryDNS;&#13;
+		rec.secondarydc = workflow.scratchpad.secondaryDC;&#13;
+		rec.secondarydns = workflow.scratchpad.secondaryDNS;&#13;
+		rec.serialnumber = workflow.scratchpad.serialNumber;&#13;
+		workflow.info('Section 4 assignment complited');&#13;
+		rec.servertype = workflow.scratchpad.serverType;&#13;
+		rec.shortdomain = workflow.scratchpad.shortDomain;&#13;
+		rec.sitedescription = workflow.scratchpad.siteDescription;&#13;
+		rec.subscriptionname = workflow.scratchpad.subscriptionName;&#13;
+		rec.tshirtsize = workflow.scratchpad.tShirtSize;&#13;
+		rec.totalnodes = workflow.scratchpad.totalNodes;&#13;
+		rec.vcenterhost = workflow.scratchpad.vcenterHost;&#13;
+		rec.vrcsm = workflow.scratchpad.vrcsm;&#13;
+		rec.vmcontrollertype = workflow.scratchpad.vmControllerType;&#13;
+		rec.vmdatacenter = workflow.scratchpad.vmDatacenter;&#13;
+		workflow.info('Section 5 assignment complited');&#13;
+		rec.vmid = workflow.scratchpad.vmID;&#13;
+		rec.vmpathname = workflow.scratchpad.vmPathName;&#13;
+		rec.vmportgroup1 = workflow.scratchpad.vmPortGroup1;&#13;
+		rec.snapshotlist = workflow.scratchpad.snapshotList;&#13;
+		rec.memorygb = workflow.scratchpad.MemoryGB;&#13;
+		rec.cpucount = workflow.scratchpad.CPUcount;&#13;
+		rec.vmid = workflow.scratchpad.vmID;&#13;
+		rec.guestid = workflow.scratchpad.guestId;&#13;
+		rec.powerstate = workflow.scratchpad.powerState;&#13;
+		rec.guestfullname = workflow.scratchpad.guestFullName;&#13;
+		rec.serialnumber = workflow.scratchpad.serialNumber;&#13;
+		rec.vmpathname = workflow.scratchpad.vmPathName;&#13;
+		rec.vminstanceuuid = workflow.scratchpad.vmInstanceUUID;&#13;
+		rec.service_request_id = current.request.getDisplayValue();&#13;
+		rec.assigned_to = current.variables.user;&#13;
+		workflow.info('Section 6 assignment complited');&#13;
+		rec.reference = current.sys_id;&#13;
+		rec.clustername = "cluster";&#13;
+		rec.subscription_status = "deployed";&#13;
+		//rec.setWorkflow(false);&#13;
+		workflow.info('Before glide insert');&#13;
+		rec.insert();	&#13;
+		workflow.info('After glide insert');&#13;
+	}&#13;
+	catch(err)&#13;
+		{&#13;
+			workflow.info(err);&#13;
+		}&#13;
+	&#13;
+	&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>fea8fbb54f775300b6bec4b18110c7f9</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a8fbb54f775300b6bec4b18110c7fa</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 13:12:22</sys_updated_on>
+        <value>setClosed();&#13;
+insertRecord();&#13;
+&#13;
+function setClosed() {&#13;
+    current.request.request_state = "closed_complete";&#13;
+}&#13;
+&#13;
+&#13;
+function insertRecord(){&#13;
+			var get_vm_info_flow_status_activity_no = 19;&#13;
+			var responseBodystr = data.get(get_vm_info_flow_status_activity_no).body;&#13;
+			var responsebody = JSON.parse(responseBodystr);&#13;
+			var InstancePropertiesString = responsebody.flowOutput.InstanceProperties;&#13;
+			workflow.info('InstancePropertiesString before replace : ' + InstancePropertiesString); &#13;
+			InstancePropertiesString = InstancePropertiesString.replace(/\\n/g, "");&#13;
+			InstancePropertiesString = InstancePropertiesString.replace(/\\/g, "");&#13;
+			var InstanceProperties = JSON.parse(InstancePropertiesString);&#13;
+			workflow.info('InstancePropertiesString after parsing : ' + InstancePropertiesString);&#13;
+			workflow.info('InstanceProperties after parsing : ' + InstanceProperties);&#13;
+			workflow.scratchpad.ActionTaken = InstanceProperties.ActionTaken  != null ? InstanceProperties.ActionTaken : "Deployed";&#13;
+			workflow.scratchpad.BackupType = InstanceProperties.BackupType != null ? InstanceProperties.BackupType : "None";&#13;
+			workflow.scratchpad.BillingCode = InstanceProperties.BillingCode != null ? InstanceProperties.BillingCode : "123";&#13;
+			workflow.scratchpad.CIImpact = InstanceProperties.CIImpact != null ? InstanceProperties.CIImpact : "None";&#13;
+			workflow.scratchpad.CIIsVirtual = InstanceProperties.CIIsVirtual != null ? InstanceProperties.CIIsVirtual : "None";&#13;
+			workflow.scratchpad.CIManufacturer = InstanceProperties.CIManufacturer != null ? InstanceProperties.CIManufacturer : "None";&#13;
+			workflow.scratchpad.CIParentType = InstanceProperties.CIParentType != null ? InstanceProperties.CIParentType : "None";&#13;
+			workflow.scratchpad.CIRemoteConsole = InstanceProperties.CIRemoteConsole != null ? InstanceProperties.CIRemoteConsole : "None";&#13;
+			workflow.scratchpad.CISupportTier = InstanceProperties.CISupportTier != null ? InstanceProperties.CISupportTier : "None";&#13;
+			workflow.scratchpad.CISystemModel = InstanceProperties.CISystemModel != null ? InstanceProperties.CISystemModel : "None";&#13;
+			workflow.scratchpad.CIVirtualTechnology = InstanceProperties.CIVirtualTechnology != null ? InstanceProperties.CIVirtualTechnology : "None";&#13;
+			workflow.scratchpad.CIVirtualizationRole = InstanceProperties.CIVirtualizationRole != null ? InstanceProperties.CIVirtualizationRole : "None";&#13;
+			workflow.scratchpad.CUSTOMER = InstanceProperties.CUSTOMER != null ? InstanceProperties.CUSTOMER : "None";&#13;
+			workflow.scratchpad.DeployStartDateTime = InstanceProperties.DeployStartDateTime != null ? InstanceProperties.DeployStartDateTime : "None";&#13;
+			workflow.scratchpad.Function = InstanceProperties.Function != null ? InstanceProperties.Function : "None";&#13;
+			workflow.scratchpad.HardwarePreset = InstanceProperties.HardwarePreset != null ? InstanceProperties.HardwarePreset : "None";&#13;
+			workflow.scratchpad.HostEnvironment = InstanceProperties.HostEnvironment != null ? InstanceProperties.HostEnvironment : "None";&#13;
+			workflow.scratchpad.NIC1Role = InstanceProperties.NIC1Role != null ? InstanceProperties.NIC1Role : "None";&#13;
+			workflow.scratchpad.NICcount = InstanceProperties.NICcount != null ? InstanceProperties.NICcount : "None";&#13;
+			workflow.scratchpad.OSDisplayName = InstanceProperties.OSDisplayName != null ? InstanceProperties.OSDisplayName : "None";&#13;
+			workflow.scratchpad.OSLicenseOwner = InstanceProperties.OSLicenseOwner != null ? InstanceProperties.OSLicenseOwner : "None";&#13;
+			workflow.scratchpad.OSName = InstanceProperties.OSName != null ? InstanceProperties.OSName : "None";&#13;
+			workflow.scratchpad.OutageDay = InstanceProperties.OutageDay != null ? InstanceProperties.OutageDay : "None";&#13;
+			workflow.scratchpad.OutageWindow = InstanceProperties.OutageWindow != null ? InstanceProperties.OutageWindow : "None";&#13;
+			workflow.scratchpad.SiteID = InstanceProperties.SiteID != null ? InstanceProperties.SiteID : "None";&#13;
+			workflow.scratchpad.SubscriptionID = InstanceProperties.SubscriptionID != null ? InstanceProperties.SubscriptionID : "None";&#13;
+			workflow.scratchpad.clusterName = InstanceProperties.clusterName != null ? InstanceProperties.clusterName : "None";&#13;
+			workflow.scratchpad.disk0Datastore = InstanceProperties.disk0Datastore != null ? InstanceProperties.disk0Datastore : "None";&#13;
+			workflow.scratchpad.disk0SizeGB = InstanceProperties.disk0SizeGB != null ? InstanceProperties.disk0SizeGB : "None";&#13;
+			workflow.scratchpad.disk0StorageTier = InstanceProperties.disk0StorageTier != null ? InstanceProperties.disk0StorageTier : "None";&#13;
+			workflow.scratchpad.disk1SizeGB = InstanceProperties.disk1SizeGB != null ? InstanceProperties.disk1SizeGB : "None";&#13;
+			workflow.scratchpad.disk2SizeGB = InstanceProperties.disk2SizeGB != null ? InstanceProperties.disk2SizeGB : "None";&#13;
+			workflow.scratchpad.disk3SizeGB = InstanceProperties.disk3SizeGB != null ? InstanceProperties.disk3SizeGB : "None";&#13;
+			workflow.scratchpad.disk4SizeGB = InstanceProperties.disk4SizeGB != null ? InstanceProperties.disk4SizeGB : "None";&#13;
+			workflow.scratchpad.disk5SizeGB = InstanceProperties.disk5SizeGB != null ? InstanceProperties.disk5SizeGB : "None";&#13;
+			workflow.scratchpad.disk6SizeGB = InstanceProperties.disk6SizeGB != null ? InstanceProperties.disk6SizeGB : "None";&#13;
+			workflow.scratchpad.disk7SizeGB = InstanceProperties.disk7SizeGB != null ? InstanceProperties.disk7SizeGB : "None";&#13;
+			workflow.scratchpad.disk8SizeGB = InstanceProperties.disk8SizeGB != null ? InstanceProperties.disk8SizeGB : "None";&#13;
+			workflow.scratchpad.disk9SizeGB = InstanceProperties.disk9SizeGB != null ? InstanceProperties.disk9SizeGB : "None";&#13;
+			workflow.scratchpad.diskCount = InstanceProperties.diskCount != null ? InstanceProperties.diskCount : "None";&#13;
+			workflow.scratchpad.domainNumber = InstanceProperties.domainNumber != null ? InstanceProperties.domainNumber : "None";&#13;
+			workflow.scratchpad.hardwareType = InstanceProperties.hardwareType != null ? InstanceProperties.hardwareType : "None";&#13;
+			workflow.scratchpad.hostname_dns = InstanceProperties.hostname_dns != null ? InstanceProperties.hostname_dns : "None";&#13;
+			workflow.scratchpad.hostname_fqdn = InstanceProperties.hostname_fqdn != null ? InstanceProperties.hostname_fqdn : "None";&#13;
+			workflow.scratchpad.hostname_lc = InstanceProperties.hostname_lc != null ? InstanceProperties.hostname_lc : "None";&#13;
+			workflow.scratchpad.hostname_phys = InstanceProperties.hostname_phys != null ? InstanceProperties.hostname_phys : "None";&#13;
+			workflow.scratchpad.hostname_uc = InstanceProperties.hostname_uc != null ? InstanceProperties.hostname_uc : "None";&#13;
+			workflow.scratchpad.hostname_vm = InstanceProperties.hostname_vm != null ? InstanceProperties.hostname_vm : "None";&#13;
+			workflow.scratchpad.ipAddress1 = InstanceProperties.ipAddress1 != null ? InstanceProperties.ipAddress1 : "None";&#13;
+			workflow.scratchpad.ipGateway1 = InstanceProperties.ipGateway1 != null ? InstanceProperties.ipGateway1 : "None";&#13;
+			workflow.scratchpad.ipNetmask1 = InstanceProperties.ipNetmask1 != null ? InstanceProperties.ipNetmask1 : "None";&#13;
+			workflow.scratchpad.isCluster = InstanceProperties.isCluster != null ? InstanceProperties.isCluster : "None";&#13;
+			workflow.scratchpad.isVirtual = InstanceProperties.isVirtual != null ? InstanceProperties.isVirtual : "None";&#13;
+			workflow.scratchpad.joinDomain = InstanceProperties.joinDomain != null ? InstanceProperties.joinDomain : "None";&#13;
+			workflow.scratchpad.managedBy = InstanceProperties.managedBy != null ? InstanceProperties.managedBy : "None";&#13;
+			workflow.scratchpad.nodeNumber = InstanceProperties.nodeNumber != null ? InstanceProperties.nodeNumber : "None";&#13;
+			workflow.scratchpad.offeringName = InstanceProperties.offeringName != null ? InstanceProperties.offeringName : "None";&#13;
+			workflow.scratchpad.osType = InstanceProperties.osType != null ? InstanceProperties.osType : "None";&#13;
+			workflow.scratchpad.primaryDNS = InstanceProperties.primaryDNS != null ? InstanceProperties.primaryDNS : "None";&#13;
+			workflow.scratchpad.secondaryDC = InstanceProperties.secondaryDC != null ? InstanceProperties.secondaryDC : "None";&#13;
+			workflow.scratchpad.secondaryDNS = InstanceProperties.secondaryDNS != null ? InstanceProperties.secondaryDNS : "None";&#13;
+			workflow.scratchpad.serialNumber = InstanceProperties.serialNumber != null ? InstanceProperties.serialNumber : "None";&#13;
+			workflow.scratchpad.serverType = InstanceProperties.serverType != null ? InstanceProperties.serverType : "None";&#13;
+			workflow.scratchpad.shortDomain = InstanceProperties.shortDomain != null ? InstanceProperties.shortDomain : "None";&#13;
+			workflow.scratchpad.siteDescription = InstanceProperties.siteDescription != null ? InstanceProperties.siteDescription : "None";&#13;
+			workflow.scratchpad.subscriptionName = InstanceProperties.subscriptionName != null ? InstanceProperties.subscriptionName : "None";&#13;
+			workflow.scratchpad.tShirtSize = InstanceProperties.tShirtSize != null ? InstanceProperties.tShirtSize : "None";&#13;
+			workflow.scratchpad.totalNodes = InstanceProperties.totalNodes != null ? InstanceProperties.totalNodes : "None";&#13;
+			workflow.scratchpad.vcenterHost = InstanceProperties.vcenterHost != null ? InstanceProperties.vcenterHost : "None";&#13;
+			workflow.scratchpad.vrcsm = InstanceProperties.vrcsm != null ? InstanceProperties.vrcsm : "None";&#13;
+			workflow.scratchpad.vmControllerType = InstanceProperties.vmControllerType != null ? InstanceProperties.vmControllerType : "None";&#13;
+			workflow.scratchpad.vmDatacenter = InstanceProperties.vmDatacenter != null ? InstanceProperties.vmDatacenter : "None";&#13;
+			workflow.scratchpad.vmID = InstanceProperties.vmID != null ? InstanceProperties.vmID : "None";&#13;
+			workflow.scratchpad.vmPathName = InstanceProperties.vmPathName != null ? InstanceProperties.vmPathName : "None";&#13;
+			workflow.scratchpad.vmPortGroup1 = InstanceProperties.vmPortGroup1 != null ? InstanceProperties.vmPortGroup1 : "None";&#13;
+			workflow.scratchpad.snapshotList = InstanceProperties.snapshotList != null ? InstanceProperties.snapshotList : "None";&#13;
+			workflow.scratchpad.MemoryGB = InstanceProperties.MemoryGB != null ? InstanceProperties.MemoryGB : "None";&#13;
+			workflow.scratchpad.CPUcount = InstanceProperties.CPUcount != null ? InstanceProperties.CPUcount : "None";&#13;
+			workflow.scratchpad.vmID = InstanceProperties.vmID != null ? InstanceProperties.vmID : "None";&#13;
+			workflow.scratchpad.guestId = InstanceProperties.guestId != null ? InstanceProperties.guestId : "None";&#13;
+			workflow.scratchpad.powerState = InstanceProperties.powerState != null ? InstanceProperties.powerState : "None";&#13;
+			workflow.scratchpad.guestFullName = InstanceProperties.guestFullName != null ? InstanceProperties.guestFullName : "None";&#13;
+			workflow.scratchpad.serialNumber = InstanceProperties.serialNumber != null ? InstanceProperties.serialNumber : "None";&#13;
+			workflow.scratchpad.vmPathName = InstanceProperties.vmPathName != null ? InstanceProperties.vmPathName : "None";&#13;
+			workflow.scratchpad.vmInstanceUUID = InstanceProperties.vmInstanceUUID != null ? InstanceProperties.vmInstanceUUID : "None";&#13;
+	&#13;
+	&#13;
+	&#13;
+		var OSName = "RHEL7";&#13;
+		workflow.info('before glide record object creation'); &#13;
+		var rec = new GlideRecord('x_58872_needit_uvcore_server');&#13;
+&#13;
+		workflow.info('before glide record object initialized');&#13;
+		try{&#13;
+		rec.initialize(); &#13;
+		workflow.info('After glide record object initialized');&#13;
+&#13;
+		rec.osname = OSName;&#13;
+	&#13;
+	&#13;
+		rec.actiontaken = workflow.scratchpad.ActionTaken;&#13;
+		workflow.info('populated actiontaken = '+ workflow.scratchpad.ActionTaken);&#13;
+		rec.backuptype = workflow.scratchpad.BackupType;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.BackupType);&#13;
+		rec.billingcode = workflow.scratchpad.BillingCode;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.BillingCode);&#13;
+		rec.ciimpact = workflow.scratchpad.CIImpact;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIImpact);&#13;
+		rec.ciisvirtual = workflow.scratchpad.CIIsVirtual;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIIsVirtual);&#13;
+		rec.cimanufacturer = workflow.scratchpad.CIManufacturer;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIManufacturer);&#13;
+		rec.ciparenttype = workflow.scratchpad.CIParentType;&#13;
+		workflow.info('populated backuptype = '+workflow.scratchpad.CIParentType);&#13;
+		workflow.info('Section 0.2 assignment complited');&#13;
+		rec.ciremoteconsole = workflow.scratchpad.CIRemoteConsole;&#13;
+		rec.cisupporttier = workflow.scratchpad.CISupportTier;&#13;
+		rec.cisystemmodel = workflow.scratchpad.CISystemModel;&#13;
+		rec.civirtualtechnology = workflow.scratchpad.CIVirtualTechnology;&#13;
+		workflow.info('Section 0.3 assignment complited');&#13;
+		rec.civirtualizationrole = workflow.scratchpad.CIVirtualizationRole;&#13;
+		rec.customer = workflow.scratchpad.CUSTOMER;&#13;
+		rec.deploystartdatetime = workflow.scratchpad.DeployStartDateTime;&#13;
+		rec.function = workflow.scratchpad.Function;&#13;
+		workflow.info('Section 1 assignment complited');&#13;
+		rec.hardwarepreset = workflow.scratchpad.HardwarePreset;&#13;
+		rec.hostenvironment = workflow.scratchpad.HostEnvironment;&#13;
+		rec.nic1role = workflow.scratchpad.NIC1Role;&#13;
+		rec.niccount = workflow.scratchpad.NICcount;&#13;
+		rec.osdisplayname = workflow.scratchpad.OSDisplayName;&#13;
+		rec.oslicenseowner = workflow.scratchpad.OSLicenseOwner;&#13;
+		rec.osname = workflow.scratchpad.OSName;&#13;
+		rec.outageday = workflow.scratchpad.OutageDay;&#13;
+		rec.outagewindow = workflow.scratchpad.OutageWindow;&#13;
+		rec.siteid = workflow.scratchpad.SiteID;&#13;
+		rec.subscriptionid = workflow.scratchpad.SubscriptionID;&#13;
+		rec.clustername = workflow.scratchpad.clusterName;&#13;
+		rec.disk0datastore = workflow.scratchpad.disk0Datastore;&#13;
+		rec.disk0sizegb = workflow.scratchpad.disk0SizeGB;&#13;
+		rec.disk0storagetier = workflow.scratchpad.disk0StorageTier;&#13;
+		workflow.info('Section 2 assignment complited');&#13;
+		rec.disk1sizegb = workflow.scratchpad.disk1SizeGB;&#13;
+		rec.disk2sizegb = workflow.scratchpad.disk2SizeGB;&#13;
+		rec.disk3sizegb = workflow.scratchpad.disk3SizeGB;&#13;
+		rec.disk4sizegb = workflow.scratchpad.disk4SizeGB;&#13;
+		rec.disk5sizegb = workflow.scratchpad.disk5SizeGB;&#13;
+		rec.disk6sizegb = workflow.scratchpad.disk6SizeGB;&#13;
+		rec.disk7sizegb = workflow.scratchpad.disk7SizeGB;&#13;
+		rec.disk8sizegb = workflow.scratchpad.disk8SizeGB;&#13;
+		rec.disk9sizegb = workflow.scratchpad.disk9SizeGB;&#13;
+		rec.diskcount = workflow.scratchpad.diskCount;&#13;
+		rec.domainnumber = workflow.scratchpad.domainNumber;&#13;
+		rec.hardwaretype = workflow.scratchpad.hardwareType;&#13;
+		rec.hostname_dns = workflow.scratchpad.hostname_dns;&#13;
+		rec.hostname_fqdn = workflow.scratchpad.hostname_fqdn;&#13;
+		rec.hostname_lc = workflow.scratchpad.hostname_lc;&#13;
+		rec.hostname_phys = workflow.scratchpad.hostname_phys;&#13;
+		rec.hostname_uc = workflow.scratchpad.hostname_uc;&#13;
+		rec.hostname_vm = workflow.scratchpad.hostname_vm;&#13;
+		workflow.info('Section 3 assignment complited');&#13;
+		rec.ipaddress1 = workflow.scratchpad.ipAddress1;&#13;
+		rec.ipgateway1 = workflow.scratchpad.ipGateway1;&#13;
+		rec.ipnetmask1 = workflow.scratchpad.ipNetmask1;&#13;
+		rec.iscluster = workflow.scratchpad.isCluster;&#13;
+		rec.isvirtual = workflow.scratchpad.isVirtual;&#13;
+		rec.joindomain = workflow.scratchpad.joinDomain;&#13;
+		rec.managedby = workflow.scratchpad.managedBy;&#13;
+		rec.nodenumber = workflow.scratchpad.nodeNumber;&#13;
+		rec.offeringname = workflow.scratchpad.offeringName;&#13;
+		rec.ostype = workflow.scratchpad.osType;&#13;
+		rec.primarydns = workflow.scratchpad.primaryDNS;&#13;
+		rec.secondarydc = workflow.scratchpad.secondaryDC;&#13;
+		rec.secondarydns = workflow.scratchpad.secondaryDNS;&#13;
+		rec.serialnumber = workflow.scratchpad.serialNumber;&#13;
+		workflow.info('Section 4 assignment complited');&#13;
+		rec.servertype = workflow.scratchpad.serverType;&#13;
+		rec.shortdomain = workflow.scratchpad.shortDomain;&#13;
+		rec.sitedescription = workflow.scratchpad.siteDescription;&#13;
+		rec.subscriptionname = workflow.scratchpad.subscriptionName;&#13;
+		rec.tshirtsize = workflow.scratchpad.tShirtSize;&#13;
+		rec.totalnodes = workflow.scratchpad.totalNodes;&#13;
+		rec.vcenterhost = workflow.scratchpad.vcenterHost;&#13;
+		rec.vrcsm = workflow.scratchpad.vrcsm;&#13;
+		rec.vmcontrollertype = workflow.scratchpad.vmControllerType;&#13;
+		rec.vmdatacenter = workflow.scratchpad.vmDatacenter;&#13;
+		workflow.info('Section 5 assignment complited');&#13;
+		rec.vmid = workflow.scratchpad.vmID;&#13;
+		rec.vmpathname = workflow.scratchpad.vmPathName;&#13;
+		rec.vmportgroup1 = workflow.scratchpad.vmPortGroup1;&#13;
+		rec.snapshotlist = workflow.scratchpad.snapshotList;&#13;
+		rec.memorygb = workflow.scratchpad.MemoryGB;&#13;
+		rec.cpucount = workflow.scratchpad.CPUcount;&#13;
+		rec.vmid = workflow.scratchpad.vmID;&#13;
+		rec.guestid = workflow.scratchpad.guestId;&#13;
+		rec.powerstate = workflow.scratchpad.powerState;&#13;
+		rec.guestfullname = workflow.scratchpad.guestFullName;&#13;
+		rec.serialnumber = workflow.scratchpad.serialNumber;&#13;
+		rec.vmpathname = workflow.scratchpad.vmPathName;&#13;
+		rec.vminstanceuuid = workflow.scratchpad.vmInstanceUUID;&#13;
+		rec.service_request_id = current.request.getDisplayValue();&#13;
+		rec.assigned_to = current.variables.user;&#13;
+		workflow.info('Section 6 assignment complited');&#13;
+		rec.reference = current.sys_id;&#13;
+		rec.clustername = "cluster";&#13;
+		rec.subscription_status = "deployed";&#13;
+		//rec.setWorkflow(false);&#13;
+		workflow.info('Before glide insert');&#13;
+		rec.insert();	&#13;
+		workflow.info('After glide insert');&#13;
+	}&#13;
+	catch(err)&#13;
+		{&#13;
+			workflow.info(err);&#13;
+		}&#13;
+	&#13;
+	&#13;
+}</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Close the request and Insert record">fea8fbb54f775300b6bec4b18110c7f9</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa8fbb54f775300b6bec4b18110c7fa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="End">c7a66f7d0a0a0b3a004544a6d2f14076</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>2</databus_lookup_id>
+        <height/>
+        <input/>
+        <is_parent>false</is_parent>
+        <name>End</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>72a83bb54f775300b6bec4b18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width>80</width>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>318</x>
+        <y>751</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=72a83bb54f775300b6bec4b18110c7ee"/>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Get Flow Running Status">7eaa461c4f031300b6bec4b18110c72c</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>19</databus_lookup_id>
+        <height/>
+        <input>{"OOserver":"110.110.110.27","port":"8080","protocol":"http","runID":"${workflow.scratchpad.getvminfoexecutionId}"}</input>
+        <is_parent>false</is_parent>
+        <name>Get flow status</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b2a83bb54f775300b6bec4b18110c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>340</x>
+        <y>374</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b2a83bb54f775300b6bec4b18110c7ef"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get flow status">b2a83bb54f775300b6bec4b18110c7ef</activity>
+        <condition/>
+        <condition_default display_value="Error">7b5c8a584f031300b6bec4b18110c73d</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Error</name>
+        <order>300</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea83bb54f775300b6bec4b18110c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get flow status">b2a83bb54f775300b6bec4b18110c7ef</activity>
+        <condition>activityOutput.status_code != 200</condition>
+        <condition_default display_value="failure">5e3c461c4f031300b6bec4b18110c7d2</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea83bb54f775300b6bec4b18110c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Get flow status">b2a83bb54f775300b6bec4b18110c7ef</activity>
+        <condition>activityOutput.status_code == 200</condition>
+        <condition_default display_value="success">cd9b0a1c4f031300b6bec4b18110c786</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>faa83bb54f775300b6bec4b18110c7ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="uvCore_POST_Get_VM_INFO">6ab94ed84f031300b6bec4b18110c7ae</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>17</databus_lookup_id>
+        <height/>
+        <input>{"OOserver":"110.110.110.27","Port":"8080","Protocol":"http","reference":"94ef52f54fb35300b6bec4b18110c7e8","CSRF":""}</input>
+        <is_parent>false</is_parent>
+        <name>GET VM INFO</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>32a8fbb54f775300b6bec4b18110c7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>340</x>
+        <y>52</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=32a8fbb54f775300b6bec4b18110c7fd"/>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="GET VM INFO">32a8fbb54f775300b6bec4b18110c7fd</activity>
+        <condition/>
+        <condition_default display_value="Error">62b94ed84f031300b6bec4b18110c7b0</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Error</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea8fbb54f775300b6bec4b18110c7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="GET VM INFO">32a8fbb54f775300b6bec4b18110c7fd</activity>
+        <condition>activityOutput.status_code != 201</condition>
+        <condition_default display_value="failure">2eb94ed84f031300b6bec4b18110c7af</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>faa8fbb54f775300b6bec4b18110c7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="GET VM INFO">32a8fbb54f775300b6bec4b18110c7fd</activity>
+        <condition>activityOutput.status_code == 201</condition>
+        <condition_default display_value="success">e6b94ed84f031300b6bec4b18110c7af</condition_default>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa8fbb54f775300b6bec4b18110c7fd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Run Script">db8c65aec0a8016501d00259bc7203a4</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>18</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Parse Execution ID</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a8fbb54f775300b6bec4b18110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>340</x>
+        <y>176</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f2a8fbb54f775300b6bec4b18110c7fc"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a8fbb54f775300b6bec4b18110c7fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>76a8fbb54f775300b6bec4b18110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>var get_vm_info_activity_no = 17;&#13;
+workflow.info("data.get("+get_vm_info_activity_no+").statucode : "+data.get(get_vm_info_activity_no).status_code);&#13;
+//workflow.info("es_status : "+data.get(get_vm_info_activity_no).output.executionSummary.status);&#13;
+workflow.info("Responce Body : "+data.get(get_vm_info_activity_no).body);&#13;
+&#13;
+responseBodystr = data.get(get_vm_info_activity_no).body;&#13;
+&#13;
+responsebody = JSON.parse(responseBodystr);&#13;
+&#13;
+workflow.info("responsebody.executionId : "+responsebody.executionId);&#13;
+&#13;
+&#13;
+workflow.scratchpad.getvminfoexecutionId = responsebody.executionId;&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a8fbb54f775300b6bec4b18110c7fc</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>76a8fbb54f775300b6bec4b18110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>var get_vm_info_activity_no = 17;&#13;
+workflow.info("data.get("+get_vm_info_activity_no+").statucode : "+data.get(get_vm_info_activity_no).status_code);&#13;
+//workflow.info("es_status : "+data.get(get_vm_info_activity_no).output.executionSummary.status);&#13;
+workflow.info("Responce Body : "+data.get(get_vm_info_activity_no).body);&#13;
+&#13;
+responseBodystr = data.get(get_vm_info_activity_no).body;&#13;
+&#13;
+responsebody = JSON.parse(responseBodystr);&#13;
+&#13;
+workflow.info("responsebody.executionId : "+responsebody.executionId);&#13;
+&#13;
+&#13;
+workflow.scratchpad.getvminfoexecutionId = responsebody.executionId;&#13;
+</value>
+        <variable display_value="">c35ddef20a0a0ba96248a7090eccd518</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Parse Execution ID">f2a8fbb54f775300b6bec4b18110c7fc</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa8fbb54f775300b6bec4b18110c7fc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Switch">f84eda480a0a3c1800a6fa8c7badf346</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>23</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Phase</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a83bb54f775300b6bec4b18110c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>571</x>
+        <y>544</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=f2a83bb54f775300b6bec4b18110c7f1"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a83bb54f775300b6bec4b18110c7f1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>72a83bb54f775300b6bec4b18110c7f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>5c4217314f871300b6bec4b18110c732</value>
+        <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a83bb54f775300b6bec4b18110c7f1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>bea83bb54f775300b6bec4b18110c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>variable</value>
+        <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a83bb54f775300b6bec4b18110c7f1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f6a83bb54f775300b6bec4b18110c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a83bb54f775300b6bec4b18110c7f1</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>bea83bb54f775300b6bec4b18110c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>variable</value>
+        <variable display_value="">f85385830a0a3c18008599b17b971cbd</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a83bb54f775300b6bec4b18110c7f1</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>72a83bb54f775300b6bec4b18110c7f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>5c4217314f871300b6bec4b18110c732</value>
+        <variable display_value="">f855a43e0a0a3c180106a59800a50a22</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>f2a83bb54f775300b6bec4b18110c7f1</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f6a83bb54f775300b6bec4b18110c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">f8575c7d0a0a3c1800b8f4d25403c852</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Phase">f2a83bb54f775300b6bec4b18110c7f1</activity>
+        <condition>current.variables.phase == 'Decommission'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Decommission</name>
+        <order>2</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa83bb54f775300b6bec4b18110c7f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Phase">f2a83bb54f775300b6bec4b18110c7f1</activity>
+        <condition>current.variables.phase == 'Deploy'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Deploy</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>3ea83bb54f775300b6bec4b18110c7f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Phase">f2a83bb54f775300b6bec4b18110c7f1</activity>
+        <condition>current.variables.phase == 'Modify'</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>false</is_positive>
+        <name>Modify</name>
+        <order>1</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>3aa83bb54f775300b6bec4b18110c7f2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_activity action="INSERT_OR_UPDATE">
+        <activity_definition display_value="Timer">3961a1da0a0a0b5c00ecd84822f70d85</activity_definition>
+        <activity_definition_updated>false</activity_definition_updated>
+        <databus_lookup_id>20</databus_lookup_id>
+        <height/>
+        <input>{}</input>
+        <is_parent>false</is_parent>
+        <name>Sleep for 1 minute</name>
+        <new_activity_definition/>
+        <notes/>
+        <out_of_date>false</out_of_date>
+        <parent/>
+        <pinned>false</pinned>
+        <pinned_version/>
+        <stage/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b2a83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <timeout>1970-01-01 00:00:00</timeout>
+        <vars/>
+        <width/>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+        <x>340</x>
+        <y>262</y>
+    </wf_activity>
+    <sys_variable_value action="delete_multiple" query="document_key=b2a83bb54f775300b6bec4b18110c7f3"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>32a8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>36a8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>3ea83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>3ea8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b2a8fbb54f775300b6bec4b18110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b6a83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b6a8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f6a8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21f80cd00a0a0b2101fcd5b5defc0810</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b6a83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cba34da0a0a0b5200798c86eafe1203</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cbfe48a0a0a0b5200cf8b82cc6685f1</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>500</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">220dc5a40a0a0b2109fbd28b8c4b6213</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">21fd462c0a0a0b211c997276d7806c03</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>3bf802c20a0a0b52008e2859cd8abcf2</value>
+        <variable display_value="">220cd53d0a0a0b214103bdc2ec5c7ab4</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1310</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f6a8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>1970-01-01 00:01:00</value>
+        <variable display_value="">c35dc0df0a0a0ba96248a7098d737925</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc6788c0a0a0b5200e6743c94001b16</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1320</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b6a8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>08fcd0830a0a0b2600079f56b1adb9ae</value>
+        <variable display_value="">4cc4a4030a0a0b52007334f001376dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>3ea83bb54f775300b6bec4b18110c7f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc836da0a0a0b520083ebc07da2f47c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1350</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b2a8fbb54f775300b6bec4b18110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">4cc740fe0a0a0b520025dcf8e2ff78e7</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>32a8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292bd15e0a0a0b215a040c701033e3c5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>3ea8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292c91070a0a0b212543d91ffde5014c</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>1360</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a8fbb54f775300b6bec4b18110c7f8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value/>
+        <variable display_value="">292b2f0e0a0a0b215aa2dd2cbc578dc5</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>wf_activity</document>
+        <document_key>b2a83bb54f775300b6bec4b18110c7f3</document_key>
+        <order>3000</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>36a8fbb54f775300b6bec4b18110c7f7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <value>// Set 'answer' to the number of seconds this timer should wait&#13;
+answer = 0;</value>
+        <variable display_value="">293493710a0a0b2115e3e5b4fce1d12a</variable>
+    </sys_variable_value>
+    <wf_condition action="INSERT_OR_UPDATE">
+        <activity display_value="Sleep for 1 minute">b2a83bb54f775300b6bec4b18110c7f3</activity>
+        <condition>true</condition>
+        <condition_default/>
+        <condition_type>standard</condition_type>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <is_positive>true</is_positive>
+        <name>Always</name>
+        <order>0</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7aa8fbb54f775300b6bec4b18110c7f9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+    </wf_condition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">baa8fbb54f775300b6bec4b18110c7fa</condition>
+        <from display_value="Close the request and Insert record">fea8fbb54f775300b6bec4b18110c7f9</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>36a8fbb54f775300b6bec4b18110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="End">72a83bb54f775300b6bec4b18110c7ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="failure">faa8fbb54f775300b6bec4b18110c7fd</condition>
+        <from display_value="GET VM INFO">32a8fbb54f775300b6bec4b18110c7fd</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>3aa83fb54f775300b6bec4b18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="End">72a83bb54f775300b6bec4b18110c7ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Completed with failure">7aa8fbb54f775300b6bec4b18110c7fb</condition>
+        <from display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>72a83fb54f775300b6bec4b18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="End">72a83bb54f775300b6bec4b18110c7ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Deploy">3ea83bb54f775300b6bec4b18110c7f2</condition>
+        <from display_value="Phase">f2a83bb54f775300b6bec4b18110c7f1</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>72a83fb54f775300b6bec4b18110c701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Close the request and Insert record">fea8fbb54f775300b6bec4b18110c7f9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Error">7ea83bb54f775300b6bec4b18110c7ef</condition>
+        <from display_value="Get flow status">b2a83bb54f775300b6bec4b18110c7ef</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>72a8fbb54f775300b6bec4b18110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="End">72a83bb54f775300b6bec4b18110c7ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Modify">3aa83bb54f775300b6bec4b18110c7f2</condition>
+        <from display_value="Phase">f2a83bb54f775300b6bec4b18110c7f1</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>76a83fb54f775300b6bec4b18110c701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Close the request and Insert record">fea8fbb54f775300b6bec4b18110c7f9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="failure">fea83bb54f775300b6bec4b18110c7ef</condition>
+        <from display_value="Get flow status">b2a83bb54f775300b6bec4b18110c7ef</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea8fbb54f775300b6bec4b18110c7fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="End">72a83bb54f775300b6bec4b18110c7ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Polling Falure">f6a8fbb54f775300b6bec4b18110c7fb</condition>
+        <from display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea8fbb54f775300b6bec4b18110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="End">72a83bb54f775300b6bec4b18110c7ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Error">7ea8fbb54f775300b6bec4b18110c7fd</condition>
+        <from display_value="GET VM INFO">32a8fbb54f775300b6bec4b18110c7fd</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>b6a83fb54f775300b6bec4b18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="End">72a83bb54f775300b6bec4b18110c7ee</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="success">7aa8fbb54f775300b6bec4b18110c7fd</condition>
+        <from display_value="GET VM INFO">32a8fbb54f775300b6bec4b18110c7fd</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa83fb54f775300b6bec4b18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Parse Execution ID">f2a8fbb54f775300b6bec4b18110c7fc</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">baa8fbb54f775300b6bec4b18110c7fc</condition>
+        <from display_value="Parse Execution ID">f2a8fbb54f775300b6bec4b18110c7fc</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>baa8fbb54f775300b6bec4b18110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Sleep for 1 minute">b2a83bb54f775300b6bec4b18110c7f3</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">7aa8fbb54f775300b6bec4b18110c7f9</condition>
+        <from display_value="Sleep for 1 minute">b2a83bb54f775300b6bec4b18110c7f3</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>bea83fb54f775300b6bec4b18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Get flow status">b2a83bb54f775300b6bec4b18110c7ef</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Completed With Success">faa8fbb54f775300b6bec4b18110c7fb</condition>
+        <from display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a83fb54f775300b6bec4b18110c700</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Phase">f2a83bb54f775300b6bec4b18110c7f1</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Decommission">baa83bb54f775300b6bec4b18110c7f2</condition>
+        <from display_value="Phase">f2a83bb54f775300b6bec4b18110c7f1</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f2a83fb54f775300b6bec4b18110c701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Close the request and Insert record">fea8fbb54f775300b6bec4b18110c7f9</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Always">7ea83bb54f775300b6bec4b18110c7f0</condition>
+        <from display_value="Begin">76a83bb54f775300b6bec4b18110c7f0</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>f6a8fbb54f775300b6bec4b18110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="GET VM INFO">32a8fbb54f775300b6bec4b18110c7fd</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="success">faa83bb54f775300b6bec4b18110c7ef</condition>
+        <from display_value="Get flow status">b2a83bb54f775300b6bec4b18110c7ef</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea8fbb54f775300b6bec4b18110c7fe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</to>
+    </wf_transition>
+    <wf_transition action="INSERT_OR_UPDATE">
+        <condition display_value="Running">7ea8fbb54f775300b6bec4b18110c7fb</condition>
+        <from display_value="Check VM INFO Flow Status">32a8fbb54f775300b6bec4b18110c7fb</from>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>fea8fbb54f775300b6bec4b18110c7ff</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <to display_value="Sleep for 1 minute">b2a83bb54f775300b6bec4b18110c7f3</to>
+    </wf_transition>
+    <wf_estimated_runtime_config action="INSERT_OR_UPDATE">
+        <estimated_run_time/>
+        <no_of_data_points>1</no_of_data_points>
+        <percentage_threshold_ert>20</percentage_threshold_ert>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-09 12:56:16</sys_created_on>
+        <sys_id>7ea83bb54f775300b6bec4b18110c7eb</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-09 12:56:16</sys_updated_on>
+        <workflow_version display_value="Import VM in SNaaP">baa83bb54f775300b6bec4b18110c7eb</workflow_version>
+    </wf_estimated_runtime_config>
+    <wf_workflow_version action="update_multiple" query="workflow=d49bf6b14ff35300b6bec4b18110c7b9^sys_id!=baa83bb54f775300b6bec4b18110c7eb">
+        <published>false</published>
+    </wf_workflow_version>
+</record_update>

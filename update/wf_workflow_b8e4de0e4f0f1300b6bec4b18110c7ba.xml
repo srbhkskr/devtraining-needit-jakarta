@@ -1974,9 +1974,12 @@ function insertRecord(){&#13;
         <input>{"OOserver":"110.110.110.27","port":"8443","protocol":"https","runID":"${workflow.scratchpad.getvminfoexecutionId}"}</input>
         <is_parent>false</is_parent>
         <name>Get flow status</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="Get Flow Running Status">ac92ecd64fbf5300b6bec4b18110c7e4</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -1984,9 +1987,9 @@ function insertRecord(){&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-04 04:03:26</sys_created_on>
         <sys_id>be7520564f435300b6bec4b18110c7fb</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-04 04:03:26</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:39:34</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
@@ -2066,9 +2069,12 @@ function insertRecord(){&#13;
         <input>{"OOserver":"110.110.110.27","Port":"8443","Protocol":"https","reference":"23534a464f0f1300b6bec4b18110c7b5","CSRF":""}</input>
         <is_parent>false</is_parent>
         <name>GET VM INFO</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="uvCore_POST_Get_VM_INFO">5b52e0964fbf5300b6bec4b18110c750</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -2076,9 +2082,9 @@ function insertRecord(){&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-04 04:03:26</sys_created_on>
         <sys_id>327520564f435300b6bec4b18110c7fd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-04 04:03:26</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:37:31</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>

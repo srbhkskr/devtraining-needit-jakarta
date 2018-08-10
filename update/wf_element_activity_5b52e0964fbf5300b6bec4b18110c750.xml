@@ -10,9 +10,9 @@
         <default_width/>
         <description/>
         <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
-        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"OOserver","type":"STRING","mandatory":false},{"name":"Port","type":"STRING","mandatory":false},{"name":"Protocol","type":"STRING","mandatory":false},{"name":"reference","type":"STRING","mandatory":false},{"name":"CSRF","type":"STRING","mandatory":false}]}</input_meta>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"reference","type":"STRING","mandatory":false},{"name":"CSRF","type":"STRING","mandatory":false}]}</input_meta>
         <input_process_script/>
-        <input_transform>{"web_service_message":"b40d06cc4fc31300b6bec4b18110c732","web_service_message_function":"70de06cc4fc31300b6bec4b18110c73d","web_service_endpoint":"","parameters":"[{\"name\":\"Reference\",\"value\":\"${activityInput.reference}\",\"additional_attribute\":\"\"},{\"name\":\"port\",\"value\":\"${activityInput.Port}\",\"additional_attribute\":\"\"},{\"name\":\"protocol\",\"value\":\"${activityInput.Protocol}\",\"additional_attribute\":\"\"},{\"name\":\"OOserver\",\"value\":\"${activityInput.OOserver}\",\"additional_attribute\":\"\"},{\"name\":\"CSRF\",\"value\":\"${activityInput.CSRF}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"300","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <input_transform>{"web_service_message":"b40d06cc4fc31300b6bec4b18110c732","web_service_message_function":"70de06cc4fc31300b6bec4b18110c73d","web_service_endpoint":"","parameters":"[{\"name\":\"Reference\",\"value\":\"${activityInput.reference}\",\"additional_attribute\":\"\"},{\"name\":\"CSRF\",\"value\":\"${activityInput.CSRF}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"300","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
         <local_variables/>
         <name>uvCore_POST_Get_VM_INFO</name>
         <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"status_code","type":"INTEGER"},{"name":"header","type":"DATA_OBJECT","properties":[]},{"name":"body","type":"STRING"},{"name":"error","type":"STRING"},{"name":"output","type":"DATA_OBJECT","properties":[{"name":"executionId","type":"STRING"},{"name":"feedUrl","type":"STRING"},{"name":"errorCode","type":"STRING"}]}]}</output_meta>
@@ -24,37 +24,37 @@
         <style/>
         <sys_class_name>wf_element_activity</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-28 06:13:34</sys_created_on>
-        <sys_id>6ab94ed84f031300b6bec4b18110c7ae</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2018-08-10 10:36:55</sys_created_on>
+        <sys_id>5b52e0964fbf5300b6bec4b18110c750</sys_id>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>uvCore_POST_Get_VM_INFO</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>wf_element_activity_6ab94ed84f031300b6bec4b18110c7ae</sys_update_name>
+        <sys_update_name>wf_element_activity_5b52e0964fbf5300b6bec4b18110c750</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-10 10:37:31</sys_updated_on>
         <version_container_id>88fcf1144f031300b6bec4b18110c784</version_container_id>
     </wf_element_activity>
-    <sys_translated_text action="delete_multiple" query="documentkey=6ab94ed84f031300b6bec4b18110c7ae"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=5b52e0964fbf5300b6bec4b18110c750"/>
     <wf_versionable action="INSERT_OR_UPDATE">
         <checked_out/>
         <checked_out_by/>
-        <published>false</published>
+        <published>true</published>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-28 06:13:34</sys_created_on>
-        <sys_id>62b94ed84f031300b6bec4b18110c7af</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_created_on>2018-08-10 10:36:55</sys_created_on>
+        <sys_id>5752ecd64fbf5300b6bec4b18110c7e2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2018-08-10 10:37:31</sys_updated_on>
-        <valid_from>2018-06-28 06:14:21</valid_from>
+        <valid_from>2018-08-10 10:37:31</valid_from>
         <valid_to/>
-        <version>2</version>
+        <version>3</version>
         <version_container_id>88fcf1144f031300b6bec4b18110c784</version_container_id>
-        <wf_element_definition display_value="uvCore_POST_Get_VM_INFO">6ab94ed84f031300b6bec4b18110c7ae</wf_element_definition>
+        <wf_element_definition display_value="uvCore_POST_Get_VM_INFO">5b52e0964fbf5300b6bec4b18110c750</wf_element_definition>
     </wf_versionable>
     <wf_condition_default action="INSERT_OR_UPDATE">
-        <activity_definition display_value="uvCore_POST_Get_VM_INFO">6ab94ed84f031300b6bec4b18110c7ae</activity_definition>
+        <activity_definition display_value="uvCore_POST_Get_VM_INFO">5b52e0964fbf5300b6bec4b18110c750</activity_definition>
         <condition>activityOutput.status_code != 201</condition>
         <derived_definition>6e9146944f031300b6bec4b18110c7a9</derived_definition>
         <else_flag>false</else_flag>
@@ -66,14 +66,14 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-28 06:13:34</sys_created_on>
-        <sys_id>2eb94ed84f031300b6bec4b18110c7af</sys_id>
+        <sys_created_on>2018-08-10 10:36:55</sys_created_on>
+        <sys_id>5f52ecd64fbf5300b6bec4b18110c7e2</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-28 06:13:34</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:36:55</sys_updated_on>
     </wf_condition_default>
     <wf_condition_default action="INSERT_OR_UPDATE">
-        <activity_definition display_value="uvCore_POST_Get_VM_INFO">6ab94ed84f031300b6bec4b18110c7ae</activity_definition>
+        <activity_definition display_value="uvCore_POST_Get_VM_INFO">5b52e0964fbf5300b6bec4b18110c750</activity_definition>
         <condition/>
         <derived_definition>74b106944f031300b6bec4b18110c780</derived_definition>
         <else_flag>true</else_flag>
@@ -85,14 +85,14 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-28 06:13:34</sys_created_on>
-        <sys_id>62b94ed84f031300b6bec4b18110c7b0</sys_id>
+        <sys_created_on>2018-08-10 10:36:55</sys_created_on>
+        <sys_id>9352ecd64fbf5300b6bec4b18110c7e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-28 06:13:34</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:36:55</sys_updated_on>
     </wf_condition_default>
     <wf_condition_default action="INSERT_OR_UPDATE">
-        <activity_definition display_value="uvCore_POST_Get_VM_INFO">6ab94ed84f031300b6bec4b18110c7ae</activity_definition>
+        <activity_definition display_value="uvCore_POST_Get_VM_INFO">5b52e0964fbf5300b6bec4b18110c750</activity_definition>
         <condition>activityOutput.status_code == 201</condition>
         <derived_definition>3e7146d44f031300b6bec4b18110c75d</derived_definition>
         <else_flag>false</else_flag>
@@ -104,17 +104,17 @@
         <short_description/>
         <skip_during_generate>false</skip_during_generate>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-28 06:13:34</sys_created_on>
-        <sys_id>e6b94ed84f031300b6bec4b18110c7af</sys_id>
+        <sys_created_on>2018-08-10 10:36:55</sys_created_on>
+        <sys_id>d752ecd64fbf5300b6bec4b18110c7e3</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-28 06:13:34</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:36:55</sys_updated_on>
     </wf_condition_default>
-    <wf_versionable action="update_multiple" query="version_container_id=88fcf1144f031300b6bec4b18110c784^sys_id!=62b94ed84f031300b6bec4b18110c7af^version&lt;2">
+    <wf_versionable action="update_multiple" query="version_container_id=88fcf1144f031300b6bec4b18110c784^sys_id!=5752ecd64fbf5300b6bec4b18110c7e2^version&lt;3">
         <published>false</published>
     </wf_versionable>
     <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=88fcf1144f031300b6bec4b18110c784">
-        <new_activity_definition>6ab94ed84f031300b6bec4b18110c7ae</new_activity_definition>
+        <new_activity_definition>5b52e0964fbf5300b6bec4b18110c750</new_activity_definition>
         <out_of_date>true</out_of_date>
         <notes>There is a newer version of this activity.
 

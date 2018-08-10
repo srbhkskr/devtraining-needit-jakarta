@@ -2948,9 +2948,12 @@ answer = 0;</value>
         <input>{"OOserver":"${workflow.scratchpad.OOserver}","port":"${workflow.scratchpad.port}","protocol":"${workflow.scratchpad.protocol}","runID":"${workflow.scratchpad.getvminfoexecutionId}"}</input>
         <is_parent>false</is_parent>
         <name>Get flow status</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="Get Flow Running Status">ac92ecd64fbf5300b6bec4b18110c7e4</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -2958,9 +2961,9 @@ answer = 0;</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-03 17:17:50</sys_created_on>
         <sys_id>79b15e0e4f0f1300b6bec4b18110c7a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-03 17:17:50</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:39:34</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
@@ -3040,9 +3043,12 @@ answer = 0;</value>
         <input>{"OOserver":"${workflow.scratchpad.OOserver}","port":"${workflow.scratchpad.port}","protocol":"${workflow.scratchpad.protocol}","runID":"${workflow.scratchpad.action_flow_executionId}"}</input>
         <is_parent>false</is_parent>
         <name>Get flow status</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="Get Flow Running Status">ac92ecd64fbf5300b6bec4b18110c7e4</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -3050,9 +3056,9 @@ answer = 0;</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-03 17:17:50</sys_created_on>
         <sys_id>7db15e0e4f0f1300b6bec4b18110c7a3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-03 17:17:50</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:39:34</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
@@ -3132,9 +3138,12 @@ answer = 0;</value>
         <input>{"OOserver":"${workflow.scratchpad.OOserver}","Port":"${workflow.scratchpad.port}","Protocol":"${workflow.scratchpad.protocol}","reference":"${workflow.scratchpad.reference}","CSRF":""}</input>
         <is_parent>false</is_parent>
         <name>GET VM INFO</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="uvCore_POST_Get_VM_INFO">5b52e0964fbf5300b6bec4b18110c750</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -3142,9 +3151,9 @@ answer = 0;</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-03 17:17:50</sys_created_on>
         <sys_id>fdb11a464f0f1300b6bec4b18110c753</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-03 17:17:50</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:37:31</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
@@ -3963,9 +3972,12 @@ answer = 0;</value>
         <input>{"OOserver":"${workflow.scratchpad.OOserver}","Port":"${workflow.scratchpad.port}","Protocol":"${workflow.scratchpad.protocol}","Reference":"${current.variables.reference}","CUSTOMER":"${current.variables.customer}","subscriptionEmail":"${current.variables.subscription_email}","SRAEnvironment":"${current.variables.sra_environment}","subscriptionName":"${current.variables.subscription_name}","serviceRequestId":"${current.variables.serviceRequestId}","SubscriptionID":"${current.variables.subscriptionID}","disk1SizeGB":"${current.variables.disk1_size}","HardwarePreset":"${current.variables.u_hwpreset}","BackupType":"${current.variables.backup_type}","domainNumber":"${current.variables.domain_number}","CSRF":""}</input>
         <is_parent>false</is_parent>
         <name>Modify Run</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="uvCore_POST_Run_Modify">0bfedcde4f7f5300b6bec4b18110c754</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -3973,9 +3985,9 @@ answer = 0;</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-03 17:17:50</sys_created_on>
         <sys_id>79b11a464f0f1300b6bec4b18110c755</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-03 17:17:50</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:32:59</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
@@ -4733,9 +4745,12 @@ workflow.scratchpad.getvminfoexecutionId = responsebody.executionId;&#13;
         <input>{"OOserver":"${workflow.scratchpad.OOserver}","Port":"${workflow.scratchpad.port}","Protocol":"${workflow.scratchpad.protocol}","Reference":"${current.sys_id}","CUSTOMER":"${current.variables.customer}","subscriptionEmail":"${current.variables.subscription_email}","HardwarePreset":"${current.variables.u_hwpreset}","HostEnvironment":"${current.variables.host_environment}","SRAEnvironment":"${current.variables.sra_environment}","BackupType":"${current.variables.backup_type}","domainNumber":"${current.variables.domain_number}","Function":"${current.variables.function_name}","subscriptionName":"${current.variables.subscriptionName}","SiteID":"${current.variables.site_id}","serviceRequestId":"${current.request.getDisplayValue()}","SubscriptionID":"${current.number}","disk1SizeGB":"${current.variables.disk1_size}","CSRF":"","OSName":"${current.variables.os_name}"}</input>
         <is_parent>false</is_parent>
         <name>Run Deploy</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="uvCore_POST_Run_Deploy">86689c924fbf5300b6bec4b18110c71c</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -4743,9 +4758,9 @@ workflow.scratchpad.getvminfoexecutionId = responsebody.executionId;&#13;
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-03 17:17:51</sys_created_on>
         <sys_id>71b15e0e4f0f1300b6bec4b18110c7b4</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-03 17:17:51</sys_updated_on>
+        <sys_updated_on>2018-08-10 10:21:57</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>
@@ -6532,9 +6547,12 @@ answer = 0;</value>
         <input>{"OOserver":"${workflow.scratchpad.OOserver}","Port":"${workflow.scratchpad.port}","Protocol":"${workflow.scratchpad.protocol}","Reference":"${current.variables.reference}","CUSTOMER":"${current.variables.customer}","subscriptionEmail":"${current.variables.subscription_email}","SRAEnvironment":"${current.variables.sra_environment}","subscriptionName":"${current.variables.subscriptionName} ","serviceRequestId":"${current.variables.serviceRequestId}","SubscriptionID":"${current.variables.subscriptionID}","CSRF":""}</input>
         <is_parent>false</is_parent>
         <name>unDeploy Run</name>
-        <new_activity_definition/>
-        <notes/>
-        <out_of_date>false</out_of_date>
+        <new_activity_definition display_value="uvCore_POST_Run_unDepoly">251d805e4f7f5300b6bec4b18110c792</new_activity_definition>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+        <out_of_date>true</out_of_date>
         <parent/>
         <pinned>false</pinned>
         <pinned_version/>
@@ -6542,9 +6560,9 @@ answer = 0;</value>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-03 17:17:51</sys_created_on>
         <sys_id>7db15e0e4f0f1300b6bec4b18110c7c1</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-03 17:17:51</sys_updated_on>
+        <sys_updated_on>2018-08-10 09:19:13</sys_updated_on>
         <timeout>1970-01-01 00:00:00</timeout>
         <vars/>
         <width/>

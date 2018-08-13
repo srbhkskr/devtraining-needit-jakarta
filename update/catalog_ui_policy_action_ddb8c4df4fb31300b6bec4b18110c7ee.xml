@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="MSO_VM_V2">44b8009f4fb31300b6bec4b18110c7b0</catalog_item>
+        <catalog_variable>IO:d0b884df4fb31300b6bec4b18110c7a5</catalog_variable>
+        <disabled>false</disabled>
+        <field/>
+        <mandatory>true</mandatory>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-13 11:18:45</sys_created_on>
+        <sys_id>ddb8c4df4fb31300b6bec4b18110c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>host_environment</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_ddb8c4df4fb31300b6bec4b18110c7ee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-13 11:18:45</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Phase is Deploy">95b8c4df4fb31300b6bec4b18110c7dc</ui_policy>
+        <variable>host_environment</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+</record_update>

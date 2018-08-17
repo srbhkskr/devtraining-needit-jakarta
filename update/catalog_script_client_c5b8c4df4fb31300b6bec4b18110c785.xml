@@ -8,7 +8,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="MSO_VM_V2">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
+        <cat_item display_value="MSO VM v2.0">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
         <cat_variable>IO:98b884df4fb31300b6bec4b18110c7df</cat_variable>
         <condition/>
         <description/>
@@ -32,11 +32,13 @@
 		
 	function updateForm(response2){
 		var ans;
+		var hardware_preset;
 		console.log("In update field callback");
-		console.log(response2);
+		console.log("################# Response :"+response2);
 		ans = response2.evalJSON();
 		console.log(ans);
 		console.log(JSON.stringify(ans));
+		g_form.setValue('currentSet',JSON.stringify(ans));
 		g_form.setValue('subscriptionID',ans.subsId);
 		g_form.setValue('reference',ans.reference);
 		g_form.setValue('serviceRequestId',ans.serviceId);
@@ -46,22 +48,85 @@
 			{
 				
 				g_form.setValue('u_hwpreset','1');
+				hardware_preset = g_form.getControl('u_hwpreset');
+				hardware_preset.style.backgroundColor = '#FFF';
+				hardware_preset.style.color = '#343D47';
+				
 			}
 		if(ans.hardwarepreset =='2')
 			{
 				
 				g_form.setValue('u_hwpreset','2');
+				hardware_preset = g_form.getControl('u_hwpreset');
+				hardware_preset.style.backgroundColor = '#FFF';
+				hardware_preset.style.color = '#343D47';
 			}
 		if(ans.hardwarepreset =='3')
 			{
 				
 				g_form.setValue('u_hwpreset','3');
+				hardware_preset = g_form.getControl('u_hwpreset');
+				hardware_preset.style.backgroundColor = '#FFF';
+				hardware_preset.style.color = '#343D47';
 			}
 		//g_form.setValue('hardware_preset',ans.hardwarepreset);
 		//g_form.setValue('subscription_email', ans.subsmail);
 		
 		
 		g_form.setValue('subscriptionName',g_form.getValue('subscription_name'));
+		
+		
+		if(ans.disk1SizeGB !='None' && ans.disk1SizeGB !='')
+			{
+				//console.log("ans.disk1SizeGB : "+"0-"+ans.disk1SizeGB );
+				g_form.setValue('disk1_size',"0-"+ans.disk1SizeGB);
+				var disk = g_form.getControl('disk1_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.disk2SizeGB !='None' && ans.disk2SizeGB !='')
+			{
+				//console.log("ans.disk2SizeGB : "+'0-'+ans.disk2SizeGB );
+				g_form.setValue('disk2_size','0-'+ans.disk2SizeGB);
+				var disk = g_form.getControl('disk2_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.disk3SizeGB !='None' && ans.disk3SizeGB !='')
+			{
+				g_form.setValue('disk3_size','0-'+ans.disk3SizeGB);
+				var disk = g_form.getControl('disk3_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.disk4SizeGB !='None' && ans.disk4SizeGB !='')
+			{
+				g_form.setValue('disk4_size','0-'+ans.disk4SizeGB);
+				var disk = g_form.getControl('disk4_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.outageday !='None' && ans.outageday !='')
+			{
+				g_form.setValue('OutageDay',ans.outageday);
+				var outageday = g_form.getControl('OutageDay');
+				outageday.style.backgroundColor = '#FFF';
+				outageday.style.color = '#343D47';
+			}
+		
+		if(ans.outagewindow !='None' && ans.outagewindow !='')
+			{
+				g_form.setValue('OutageTime',ans.outagewindow);
+				var outagewindow = g_form.getControl('OutageTime');
+				outagewindow.style.backgroundColor = '#FFF';
+				outagewindow.style.color = '#343D47';
+			}
+		
+		
 		}
 	
 	
@@ -72,7 +137,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5b8c4df4fb31300b6bec4b18110c785</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>Auto populate fileds</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -80,7 +145,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_c5b8c4df4fb31300b6bec4b18110c785</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 11:18:44</sys_updated_on>
+        <sys_updated_on>2018-08-16 11:07:27</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

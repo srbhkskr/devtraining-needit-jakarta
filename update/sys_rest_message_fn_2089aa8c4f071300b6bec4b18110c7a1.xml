@@ -32,14 +32,12 @@
                "locations":"${locations}",&#13;
                "NetworkConnection":"${NetworkConnection}",&#13;
                "OutageDay":"${OutageDay}",&#13;
-               "OutageTime":"${OutageTime}",&#13;
+               "OutageWindow":"${OutageTime}",&#13;
                "OSPatchTime":"${OSPatchTime}",&#13;
                "OSPatchTime":"${OSPatchDay}",&#13;
                "Tags":"${Tags}",&#13;
                "BusinessEntity":"${BusinessEntity}",&#13;
-               "PrivilagedUser":"${PrivilagedUsers}"&#13;
-&#13;
-               &#13;
+               "PrivilagedUser":"${PrivilagedUsers}"             &#13;
 }}</content>
         <function_name>uvCore POST Run Deploy</function_name>
         <http_method>post</http_method>
@@ -53,14 +51,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 13:54:44</sys_created_on>
         <sys_id>2089aa8c4f071300b6bec4b18110c7a1</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>uvCore POST Run Deploy</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_rest_message_fn_2089aa8c4f071300b6bec4b18110c7a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-10 09:47:48</sys_updated_on>
+        <sys_updated_on>2018-08-14 09:39:03</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server display_value="ATMECS_mid_2">d2f4ea0c4f071300b6bec4b18110c76d</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>

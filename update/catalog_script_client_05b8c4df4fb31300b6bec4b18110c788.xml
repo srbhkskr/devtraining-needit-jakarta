@@ -8,7 +8,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="MSO_VM_V2">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
+        <cat_item display_value="MSO VM v2.0">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
         <cat_variable>IO:1cb884df4fb31300b6bec4b18110c7a9</cat_variable>
         <condition/>
         <description/>
@@ -57,6 +57,7 @@
 		g_form.setDisplay('BusinessEntity',true);
 		g_form.setDisplay('OSPatchTime',true);
 		g_form.setDisplay('OSPatchDay',true);
+		g_form.setDisplay('currentSet',false);
 		
 	}
 	else if(newValue == 'Modify'){
@@ -99,6 +100,8 @@
 		g_form.setDisplay('BusinessEntity',true);
 		g_form.setDisplay('OSPatchTime',true);
 		g_form.setDisplay('OSPatchDay',true);
+		g_form.setDisplay('currentSet',true);
+		g_form.setDisabled('currentSet',true);
 		
 	}
 	else if(newValue == 'Decommission'){
@@ -139,6 +142,7 @@
 		g_form.setDisplay('BusinessEntity',false);
 		g_form.setDisplay('OSPatchTime',false);
 		g_form.setDisplay('OSPatchDay',false);
+		g_form.setDisplay('currentSet',false);
 	}
 	else if(newValue == 'Action'){
 		g_form.setDisplay('subscriptionID',true);
@@ -178,6 +182,7 @@
 		g_form.setDisplay('BusinessEntity',false);
 		g_form.setDisplay('OSPatchTime',false);
 		g_form.setDisplay('OSPatchDay',false);
+		g_form.setDisplay('currentSet',false);
 	}
 }
 
@@ -188,7 +193,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05b8c4df4fb31300b6bec4b18110c788</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Manage fields based on Phase</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -196,7 +201,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_05b8c4df4fb31300b6bec4b18110c788</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-13 14:18:42</sys_updated_on>
+        <sys_updated_on>2018-08-14 12:34:51</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

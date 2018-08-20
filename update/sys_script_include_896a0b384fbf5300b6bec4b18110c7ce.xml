@@ -20,6 +20,11 @@ getuvCoredata.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 			obj.disk2SizeGB = '';
 			obj.disk3SizeGB = '';
 			obj.disk4SizeGB = '';
+			obj.disk5SizeGB = '';
+			obj.disk6SizeGB = '';
+			obj.disk7SizeGB = '';
+			obj.disk8SizeGB = '';
+			obj.disk9SizeGB = '';
 			//obj.subsmail = '';
 			var json = new global.JSON();
 			var data ;
@@ -36,10 +41,16 @@ getuvCoredata.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 				obj.serviceId = uvCore.service_request_id.toString() ;
 				obj.hostname = uvCore.hostname_lc.toString();
 				obj.hardwarepreset = uvCore.hardwarepreset.toString();
-				obj.disk1SizeGB = uvCore.disk1sizegb.toString();
-				obj.disk2SizeGB = uvCore.disk2sizegb.toString();
-				obj.disk3SizeGB = uvCore.disk3sizegb.toString();
-				obj.disk4SizeGB = uvCore.disk4sizegb.toString();
+				//obj.disk0SizeGB = uvCore.disk0StorageTier.toString()+uvCore.disk0sizegb.toString();
+				obj.disk1SizeGB = uvCore.disk1storagetier.toString()+"-"+uvCore.disk1sizegb.toString();
+				obj.disk2SizeGB = uvCore.disk2storagetier.toString()+"-"+uvCore.disk2sizegb.toString();
+				obj.disk3SizeGB = uvCore.disk3storagetier.toString()+"-"+uvCore.disk3sizegb.toString();
+				obj.disk4SizeGB = uvCore.disk4storagetier.toString()+"-"+uvCore.disk4sizegb.toString();
+				obj.disk5SizeGB = uvCore.disk5storagetier.toString()+"-"+uvCore.disk5sizegb.toString();
+				obj.disk6SizeGB = uvCore.disk6storagetier.toString()+"-"+uvCore.disk6sizegb.toString();
+				obj.disk7SizeGB = uvCore.disk7storagetier.toString()+"-"+uvCore.disk7sizegb.toString();
+				obj.disk8SizeGB = uvCore.disk8storagetier.toString()+"-"+uvCore.disk8sizegb.toString();
+				obj.disk9SizeGB = uvCore.disk9storagetier.toString()+"-"+uvCore.disk9sizegb.toString();
 				obj.outageday = uvCore.outageday.toString();
 				obj.outagewindow = uvCore.outagewindow.toString();
 				//obj.subsmail = uvCore.email.toString();
@@ -79,13 +90,13 @@ getsubsNames : function() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 07:01:51</sys_created_on>
         <sys_id>896a0b384fbf5300b6bec4b18110c7ce</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>getuvCoredata</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_896a0b384fbf5300b6bec4b18110c7ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-14 11:27:45</sys_updated_on>
+        <sys_updated_on>2018-08-17 11:59:11</sys_updated_on>
     </sys_script_include>
 </record_update>

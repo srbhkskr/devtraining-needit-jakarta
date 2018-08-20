@@ -1303,6 +1303,132 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk1storagetier</element>
+            <position>93</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:42</sys_created_on>
+            <sys_id>530410a04f802300b6bec4b18110c73c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk2storagetier</element>
+            <position>94</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:43</sys_created_on>
+            <sys_id>5704d4244f802300b6bec4b18110c732</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk3storagetier</element>
+            <position>95</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:43</sys_created_on>
+            <sys_id>e704d4244f802300b6bec4b18110c744</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:43</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk4storagetier</element>
+            <position>96</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:44</sys_created_on>
+            <sys_id>ab04d4244f802300b6bec4b18110c756</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk5storagetier</element>
+            <position>97</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:44</sys_created_on>
+            <sys_id>ef04d4244f802300b6bec4b18110c768</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk6storagetier</element>
+            <position>98</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:44</sys_created_on>
+            <sys_id>fb04d4244f802300b6bec4b18110c7a0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk7storagetier</element>
+            <position>99</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:45</sys_created_on>
+            <sys_id>fb04d4244f802300b6bec4b18110c7bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk8storagetier</element>
+            <position>100</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:45</sys_created_on>
+            <sys_id>b704d4244f802300b6bec4b18110c7d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disk9storagetier</element>
+            <position>101</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-17 09:20:45</sys_created_on>
+            <sys_id>8814d4244f802300b6bec4b18110c7f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-17 09:20:45</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

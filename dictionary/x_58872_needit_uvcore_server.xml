@@ -22,14 +22,23 @@
         <element label="disk0SizeGB" max_length="40" name="disk0sizegb" type="string"/>
         <element label="disk0StorageTier" max_length="40" name="disk0storagetier" type="string"/>
         <element label="disk1SizeGB" max_length="40" name="disk1sizegb" type="string"/>
+        <element label="disk1StorageTier" max_length="40" name="disk1storagetier" type="string"/>
         <element label="disk2SizeGB" max_length="40" name="disk2sizegb" type="string"/>
+        <element label="disk2StorageTier" max_length="40" name="disk2storagetier" type="string"/>
         <element label="disk3SizeGB" max_length="40" name="disk3sizegb" type="string"/>
+        <element label="disk3StorageTier" max_length="40" name="disk3storagetier" type="string"/>
         <element label="disk4SizeGB" max_length="40" name="disk4sizegb" type="string"/>
+        <element label="disk4StorageTier" max_length="40" name="disk4storagetier" type="string"/>
         <element label="disk5SizeGB" max_length="40" name="disk5sizegb" type="string"/>
+        <element label="disk5StorageTier" max_length="40" name="disk5storagetier" type="string"/>
         <element label="disk6SizeGB" max_length="40" name="disk6sizegb" type="string"/>
+        <element label="disk6StorageTier" max_length="40" name="disk6storagetier" type="string"/>
         <element label="disk7SizeGB" max_length="40" name="disk7sizegb" type="string"/>
+        <element label="disk7StorageTier" max_length="40" name="disk7storagetier" type="string"/>
         <element label="disk8SizeGB" max_length="40" name="disk8sizegb" type="string"/>
+        <element label="Disk8StorageTier" max_length="40" name="disk8storagetier" type="string"/>
         <element label="disk9SizeGB" max_length="40" name="disk9sizegb" type="string"/>
+        <element display="true" label="disk9StorageTier" max_length="40" name="disk9storagetier" type="string"/>
         <element label="diskCount" max_length="40" name="diskcount" type="string"/>
         <element label="domainNumber" max_length="40" name="domainnumber" type="string"/>
         <element label="Function" max_length="40" name="function" type="string"/>
@@ -76,7 +85,7 @@
         <element label="snapshotList" max_length="40" name="snapshotlist" type="string"/>
         <element label="SRA Environment" max_length="40" name="sra_environment" type="string"/>
         <element label="SubscriptionID" max_length="40" name="subscriptionid" type="string"/>
-        <element display="true" label="subscriptionName" max_length="40" name="subscriptionname" type="string"/>
+        <element label="subscriptionName" max_length="40" name="subscriptionname" type="string"/>
         <element label="Subscription status" max_length="40" name="subscription_status" type="string"/>
         <element label="totalNodes" max_length="40" name="totalnodes" type="string"/>
         <element label="tShirtSize" max_length="40" name="tshirtsize" type="string"/>

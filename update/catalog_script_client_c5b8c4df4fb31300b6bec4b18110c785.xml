@@ -79,7 +79,7 @@
 		if(ans.disk1SizeGB !='None' && ans.disk1SizeGB !='')
 			{
 				//console.log("ans.disk1SizeGB : "+"0-"+ans.disk1SizeGB );
-				g_form.setValue('disk1_size',"0-"+ans.disk1SizeGB);
+				g_form.setValue('disk1_size',ans.disk1SizeGB);
 				var disk = g_form.getControl('disk1_size');
 				disk.style.backgroundColor = '#FFF';
 				disk.style.color = '#343D47';
@@ -88,7 +88,7 @@
 		if(ans.disk2SizeGB !='None' && ans.disk2SizeGB !='')
 			{
 				//console.log("ans.disk2SizeGB : "+'0-'+ans.disk2SizeGB );
-				g_form.setValue('disk2_size','0-'+ans.disk2SizeGB);
+				g_form.setValue('disk2_size',ans.disk2SizeGB);
 				var disk = g_form.getControl('disk2_size');
 				disk.style.backgroundColor = '#FFF';
 				disk.style.color = '#343D47';
@@ -96,7 +96,7 @@
 		
 		if(ans.disk3SizeGB !='None' && ans.disk3SizeGB !='')
 			{
-				g_form.setValue('disk3_size','0-'+ans.disk3SizeGB);
+				g_form.setValue('disk3_size',ans.disk3SizeGB);
 				var disk = g_form.getControl('disk3_size');
 				disk.style.backgroundColor = '#FFF';
 				disk.style.color = '#343D47';
@@ -104,8 +104,47 @@
 		
 		if(ans.disk4SizeGB !='None' && ans.disk4SizeGB !='')
 			{
-				g_form.setValue('disk4_size','0-'+ans.disk4SizeGB);
+				g_form.setValue('disk4_size',ans.disk4SizeGB);
 				var disk = g_form.getControl('disk4_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.disk5SizeGB !='None' && ans.disk5SizeGB !='')
+			{
+				g_form.setValue('disk5_size',ans.disk5SizeGB);
+				var disk = g_form.getControl('disk5_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		if(ans.disk6SizeGB !='None' && ans.disk6SizeGB !='')
+			{
+				g_form.setValue('disk6_size',ans.disk6SizeGB);
+				var disk = g_form.getControl('disk6_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.disk7SizeGB !='None' && ans.disk7SizeGB !='')
+			{
+				g_form.setValue('disk7_size',ans.disk7SizeGB);
+				var disk = g_form.getControl('disk7_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.disk8SizeGB !='None' && ans.disk8SizeGB !='')
+			{
+				g_form.setValue('disk8_size',ans.disk8SizeGB);
+				var disk = g_form.getControl('disk8_size');
+				disk.style.backgroundColor = '#FFF';
+				disk.style.color = '#343D47';
+			}
+		
+		if(ans.disk9SizeGB !='None' && ans.disk9SizeGB !='')
+			{
+				g_form.setValue('disk9_size',ans.disk9SizeGB);
+				var disk = g_form.getControl('disk9_size');
 				disk.style.backgroundColor = '#FFF';
 				disk.style.color = '#343D47';
 			}
@@ -137,7 +176,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5b8c4df4fb31300b6bec4b18110c785</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>15</sys_mod_count>
         <sys_name>Auto populate fileds</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -145,7 +184,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_c5b8c4df4fb31300b6bec4b18110c785</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-16 11:07:27</sys_updated_on>
+        <sys_updated_on>2018-08-17 12:19:07</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

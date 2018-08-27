@@ -1429,6 +1429,370 @@
             <sys_user/>
             <type/>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backupmethod</element>
+            <position>102</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-20 08:58:58</sys_created_on>
+            <sys_id>02dbaf514f00a300b6bec4b18110c737</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-20 08:58:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backuppolicy</element>
+            <position>103</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-20 08:58:58</sys_created_on>
+            <sys_id>86dbaf514f00a300b6bec4b18110c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-20 08:58:58</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backupwindow</element>
+            <position>104</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-20 08:58:59</sys_created_on>
+            <sys_id>52dbaf514f00a300b6bec4b18110c76b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-20 08:58:59</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enablesrm</element>
+            <position>105</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 10:49:42</sys_created_on>
+            <sys_id>478be4fe4f082700b6bec4b18110c709</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 10:49:42</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vmnsxsectag1</element>
+            <position>106</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 10:53:32</sys_created_on>
+            <sys_id>9f6ce4be4f082700b6bec4b18110c72e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 10:53:32</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vmnsxsectag2</element>
+            <position>107</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 10:53:33</sys_created_on>
+            <sys_id>eb6cecfe4f082700b6bec4b18110c79e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 10:53:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vmnsxsectag3</element>
+            <position>108</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 10:53:33</sys_created_on>
+            <sys_id>a36cecfe4f082700b6bec4b18110c7b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 10:53:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vmnsxsectag4</element>
+            <position>109</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 10:53:34</sys_created_on>
+            <sys_id>fb6cecfe4f082700b6bec4b18110c7cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 10:53:34</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>associatedlb</element>
+            <position>110</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:19</sys_created_on>
+            <sys_id>7f6e20724f482700b6bec4b18110c737</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>businessinformation</element>
+            <position>111</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:19</sys_created_on>
+            <sys_id>847e20724f482700b6bec4b18110c75d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:19</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subscriptiondiscription</element>
+            <position>112</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:20</sys_created_on>
+            <sys_id>487e20724f482700b6bec4b18110c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>privilageduser</element>
+            <position>113</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:20</sys_created_on>
+            <sys_id>9c7e20724f482700b6bec4b18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:20</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tags</element>
+            <position>114</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:21</sys_created_on>
+            <sys_id>1c7e20724f482700b6bec4b18110c7a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic0connection</element>
+            <position>115</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:21</sys_created_on>
+            <sys_id>647e20724f482700b6bec4b18110c7bb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic1connection</element>
+            <position>116</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:22</sys_created_on>
+            <sys_id>207e20724f482700b6bec4b18110c7d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic3connection</element>
+            <position>117</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:22</sys_created_on>
+            <sys_id>247e20724f482700b6bec4b18110c7f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic2connection</element>
+            <position>118</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:22</sys_created_on>
+            <sys_id>f07e60724f482700b6bec4b18110c706</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic4connection</element>
+            <position>119</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:23</sys_created_on>
+            <sys_id>347e60724f482700b6bec4b18110c71b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic5connection</element>
+            <position>120</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:23</sys_created_on>
+            <sys_id>c57e60724f482700b6bec4b18110c730</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:23</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic6connection</element>
+            <position>121</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:24</sys_created_on>
+            <sys_id>c17e60724f482700b6bec4b18110c752</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic7connection</element>
+            <position>122</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:24</sys_created_on>
+            <sys_id>897e60724f482700b6bec4b18110c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:24</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic8connection</element>
+            <position>123</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:25</sys_created_on>
+            <sys_id>d17e60724f482700b6bec4b18110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>nic9connection</element>
+            <position>124</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:02:25</sys_created_on>
+            <sys_id>557e60724f482700b6bec4b18110c79f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:02:25</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ospatchtime</element>
+            <position>125</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:06:11</sys_created_on>
+            <sys_id>245fa8724f482700b6bec4b18110c711</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:06:11</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ospatchday</element>
+            <position>126</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 11:06:12</sys_created_on>
+            <sys_id>385fa8724f482700b6bec4b18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 11:06:12</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enablefirewall</element>
+            <position>127</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-24 12:09:44</sys_created_on>
+            <sys_id>abddbc7a4f482700b6bec4b18110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">f1caacd64f435300b6bec4b18110c79e</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-24 12:09:44</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

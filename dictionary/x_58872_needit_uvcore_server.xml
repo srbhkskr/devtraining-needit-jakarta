@@ -3,8 +3,13 @@
     <element label="uvcore_server" max_length="40" name="x_58872_needit_uvcore_server" type="collection">
         <element label="ActionTaken" max_length="100" name="actiontaken" type="string"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
+        <element label="associatedLB" max_length="40" name="associatedlb" type="string"/>
+        <element default="None" label="BackupMethod" max_length="40" name="backupmethod" type="string"/>
+        <element default="None" label="BackupPolicy" max_length="40" name="backuppolicy" type="string"/>
         <element default="NONE" label="BackupType" max_length="40" name="backuptype" type="string"/>
+        <element default="None" label="BackupWindow" max_length="40" name="backupwindow" type="string"/>
         <element label="BillingCode" max_length="50" name="billingcode" type="string"/>
+        <element label="BusinessInformation" max_length="40" name="businessinformation" type="string"/>
         <element label="CIImpact" max_length="50" name="ciimpact" type="string"/>
         <element label="CIIsVirtual" max_length="40" name="ciisvirtual" type="string"/>
         <element label="CIManufacturer" max_length="40" name="cimanufacturer" type="string"/>
@@ -41,6 +46,8 @@
         <element display="true" label="disk9StorageTier" max_length="40" name="disk9storagetier" type="string"/>
         <element label="diskCount" max_length="40" name="diskcount" type="string"/>
         <element label="domainNumber" max_length="40" name="domainnumber" type="string"/>
+        <element label="enableFirewall" max_length="40" name="enablefirewall" type="string"/>
+        <element label="EnableSRM" max_length="40" name="enablesrm" type="string"/>
         <element label="Function" max_length="40" name="function" type="string"/>
         <element label="guestFullName" max_length="40" name="guestfullname" type="string"/>
         <element label="guestId" max_length="40" name="guestid" type="string"/>
@@ -61,18 +68,31 @@
         <element label="joinDomain" max_length="40" name="joindomain" type="string"/>
         <element label="managedBy" max_length="40" name="managedby" type="string"/>
         <element label="MemoryGB" max_length="40" name="memorygb" type="string"/>
+        <element label="NIC0Connection" max_length="40" name="nic0connection" type="string"/>
+        <element label="NIC1Connection" max_length="40" name="nic1connection" type="string"/>
         <element label="NIC1Role" max_length="40" name="nic1role" type="string"/>
+        <element label="NIC2Connection" max_length="40" name="nic2connection" type="string"/>
+        <element label="nic3connection" max_length="40" name="nic3connection" type="string"/>
+        <element label="NIC4Connection" max_length="40" name="nic4connection" type="string"/>
+        <element label="NIC5Connection" max_length="40" name="nic5connection" type="string"/>
+        <element label="NIC6Connection" max_length="40" name="nic6connection" type="string"/>
+        <element label="NIC7Connection" max_length="40" name="nic7connection" type="string"/>
+        <element label="NIC8Connection" max_length="40" name="nic8connection" type="string"/>
+        <element label="NIC9Connection" max_length="40" name="nic9connection" type="string"/>
         <element label="NICcount" max_length="40" name="niccount" type="string"/>
         <element label="nodeNumber" max_length="40" name="nodenumber" type="string"/>
         <element label="offeringName" max_length="40" name="offeringname" type="string"/>
         <element label="OSDisplayName" max_length="40" name="osdisplayname" type="string"/>
         <element label="OSLicenseOwner" max_length="40" name="oslicenseowner" type="string"/>
         <element label="OSName" max_length="40" name="osname" type="string"/>
+        <element label="OSPatchDay" max_length="40" name="ospatchday" type="string"/>
+        <element label="OSPatchTime" max_length="40" name="ospatchtime" type="string"/>
         <element label="osType" max_length="40" name="ostype" type="string"/>
         <element label="OutageDay" max_length="40" name="outageday" type="string"/>
         <element label="OutageWindow" max_length="40" name="outagewindow" type="string"/>
         <element label="powerState" max_length="40" name="powerstate" type="string"/>
         <element label="primaryDNS" max_length="40" name="primarydns" type="string"/>
+        <element label="PrivilagedUser" max_length="100" name="privilageduser" type="string"/>
         <element label="Reference" max_length="40" name="reference" type="string"/>
         <element label="secondaryDC" max_length="40" name="secondarydc" type="string"/>
         <element label="secondaryDNS" max_length="40" name="secondarydns" type="string"/>
@@ -84,9 +104,11 @@
         <element label="SiteID" max_length="40" name="siteid" type="string"/>
         <element label="snapshotList" max_length="40" name="snapshotlist" type="string"/>
         <element label="SRA Environment" max_length="40" name="sra_environment" type="string"/>
+        <element label="subscriptionDiscription" max_length="100" name="subscriptiondiscription" type="string"/>
         <element label="SubscriptionID" max_length="40" name="subscriptionid" type="string"/>
         <element label="subscriptionName" max_length="40" name="subscriptionname" type="string"/>
         <element label="Subscription status" max_length="40" name="subscription_status" type="string"/>
+        <element label="Tags" max_length="100" name="tags" type="string"/>
         <element label="totalNodes" max_length="40" name="totalnodes" type="string"/>
         <element label="tShirtSize" max_length="40" name="tshirtsize" type="string"/>
         <element label="vcenterHost" max_length="40" name="vcenterhost" type="string"/>
@@ -94,6 +116,10 @@
         <element label="vmDatacenter" max_length="40" name="vmdatacenter" type="string"/>
         <element label="vmID" max_length="40" name="vmid" type="string"/>
         <element label="vmInstanceUUID" max_length="40" name="vminstanceuuid" type="string"/>
+        <element label="vmNsxSecTag1" max_length="40" name="vmnsxsectag1" type="string"/>
+        <element label="vmNsxSecTag2" max_length="40" name="vmnsxsectag2" type="string"/>
+        <element label="vmNsxSecTag3" max_length="40" name="vmnsxsectag3" type="string"/>
+        <element label="vmNsxSecTag4" max_length="40" name="vmnsxsectag4" type="string"/>
         <element label="vmPathName" max_length="40" name="vmpathname" type="string"/>
         <element label="vmPortGroup1" max_length="40" name="vmportgroup1" type="string"/>
         <element label="vrcsm" max_length="40" name="vrcsm" type="string"/>

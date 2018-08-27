@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>200</order>
-        <question display_value="Network Connections">4c33605f4ff31300b6bec4b18110c78c</question>
+        <question display_value="Network Connection 1">4c33605f4ff31300b6bec4b18110c78c</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

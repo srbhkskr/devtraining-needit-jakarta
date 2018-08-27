@@ -7,27 +7,80 @@
         <basic_auth_user/>
         <content>{"uuid": "9763fa53-7855-410c-8015-2882a752afc7", &#13;
 	"inputs": { &#13;
-		"CUSTOMER": "${CUSTOMER}", &#13;
-		"SRAEnvironment": "${SRAEnvironment}", &#13;
-		"domainNumber": "${domainNumber}", &#13;
-		"HardwarePreset": "${HardwarePreset}", &#13;
-		"BackupType": "${BackupType}", &#13;
-		"disk1SizeGB": "${disk1SizeGB}", &#13;
-		"disk2SizeGB": "${disk2SizeGB}", &#13;
-		"disk3SizeGB": "${disk3SizeGB}", &#13;
-		"disk4SizeGB": "${disk4SizeGB}", &#13;
+		"subscriptionName": "${subscriptionName}",&#13;
+		"subscriptionDiscription":"${subscriptionDiscription}",&#13;
 		"Reference": "${Reference}", &#13;
 		"SubscriptionID": "${SubscriptionID}", &#13;
 		"serviceRequestId": "${serviceRequestId}", &#13;
-		"portalOOType": "servicenow", &#13;
 		"subscriptionEmail": "${subscriptionEmail}", &#13;
-                "isVirtual": "true",&#13;
-		"subscriptionName": "${subscriptionName}",&#13;
-                "disksAllowed":"10",&#13;
-               "OutageDay":"${OutageDay}",&#13;
-               "OutageWindow":"${OutageTime}",&#13;
-               "OSPatchTime":"${OSPatchTime}",&#13;
-               "OSPatchTime":"${OSPatchDay}"}}</content>
+&#13;
+		"CUSTOMER": "${CUSTOMER}", &#13;
+		"SRAEnvironment": "${SRAEnvironment}",&#13;
+		"portalOOType": "servicenow", &#13;
+		"HardwarePreset": "${HardwarePreset}", &#13;
+		"isVirtual": "${isVirtual}",&#13;
+		&#13;
+		"disk1SizeGB": "${disk1SizeGB}",&#13;
+		"disk2SizeGB": "${disk2SizeGB}",&#13;
+		"disk3SizeGB": "${disk3SizeGB}",&#13;
+		"disk4SizeGB": "${disk4SizeGB}",&#13;
+		"disk5SizeGB": "${disk5SizeGB}",&#13;
+		"disk6SizeGB": "${disk6SizeGB}",&#13;
+		"disk7SizeGB": "${disk7SizeGB}",&#13;
+		"disk8SizeGB": "${disk8SizeGB}",&#13;
+		"disk9SizeGB": "${disk9SizeGB}",&#13;
+		"diskTotal":"${diskTotal}",&#13;
+		&#13;
+		"NIC0Connection":"${NIC0Connection}",&#13;
+		"NIC1Connection":"${NIC1Connection}",&#13;
+		"NIC2Connection":"${NIC2Connection}",&#13;
+		"NIC3Connection":"${NIC3Connection}",&#13;
+		"NIC4Connection":"${NIC4Connection}",&#13;
+		"NIC5Connection":"${NIC5Connection}",&#13;
+		"NIC6Connection":"${NIC6Connection}",&#13;
+		"NIC7Connection":"${NIC7Connection}",&#13;
+		"NIC8Connection":"${NIC8Connection}",&#13;
+		"NIC9Connection":"${NIC9Connection}",&#13;
+		&#13;
+		"EnableBackup":"${EnableBackup}",&#13;
+		"BackupType": "${BackupType}",&#13;
+		"BackupPolicy": "${BackupPolicy}",&#13;
+		"BackupMethod": "${BackupMethod}",&#13;
+		"BackupWindow": "${BackupWindow}",&#13;
+		&#13;
+		"OutageDay":"${OutageDay}",&#13;
+		"OutageWindow":"${OutageTime}",&#13;
+&#13;
+                 "OSPatchWindow":"${OSPatchDay}-${OSPatchTime}",&#13;
+		"Tags":"${Tags}",&#13;
+		&#13;
+		"firewallEnabled":"${firewallEnabled}",&#13;
+		"vmNsxSecTag1":"${vmNsxSecTag1}",&#13;
+		"vmNsxSecTag2":"${vmNsxSecTag2}",&#13;
+		"vmNsxSecTag3":"${vmNsxSecTag3}",&#13;
+		"vmNsxSecTag4":"${vmNsxSecTag4}",&#13;
+		"associatedLB":"${associatedLB}",&#13;
+&#13;
+		"PrivilagedUser":"${PrivilagedUsers}",&#13;
+		"CISupportTier":"${CISupportTier}",&#13;
+		"CIImpact":"${CIImpact}",&#13;
+		"EnableSRM":"${EnableSRM}",&#13;
+		"OnDemandBackup":"${OnDemandBackup}",&#13;
+		"BusinessInformation":"${BusinessInformation}",&#13;
+		"BillingCode":"${BillingCode}",&#13;
+&#13;
+		"CustomProperty1":"${CustomProperty1}",&#13;
+		"CustomProperty2":"${CustomProperty2}",&#13;
+		"CustomProperty3":"${CustomProperty3}",&#13;
+		"CustomProperty4":"${CustomProperty4}",&#13;
+		"CustomProperty5":"${CustomProperty5}",&#13;
+		"CustomProperty6":"${CustomProperty6}",&#13;
+		"CustomProperty7":"${CustomProperty7}",&#13;
+		"CustomProperty8":"${CustomProperty8}",&#13;
+		"CustomProperty9":"${CustomProperty9}",&#13;
+		"CustomProperty0":"${CustomProperty0}"&#13;
+	}&#13;
+}</content>
         <function_name>uvCore POST Run Modify</function_name>
         <http_method>post</http_method>
         <lock>false</lock>
@@ -40,14 +93,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 13:56:26</sys_created_on>
         <sys_id>8ac92e8c4f071300b6bec4b18110c725</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>uvCore POST Run Modify</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_rest_message_fn_8ac92e8c4f071300b6bec4b18110c725</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-14 09:43:52</sys_updated_on>
+        <sys_updated_on>2018-08-24 11:27:28</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server display_value="ATMECS_mid_2">d2f4ea0c4f071300b6bec4b18110c76d</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>

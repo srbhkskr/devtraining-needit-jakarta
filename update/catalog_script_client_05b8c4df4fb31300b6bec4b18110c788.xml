@@ -18,6 +18,7 @@
         <name>Manage fields based on Phase</name>
         <order/>
         <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+	var i;
 	if(newValue == 'Deploy'){
 		g_form.setDisplay('subscriptionID',false);
 		g_form.setDisplay('subscriptionName',true);
@@ -29,15 +30,37 @@
 		g_form.setDisplay('backup_type',true);
 		g_form.setDisplay('disk_size',true);
 		g_form.setDisplay('disk0_size',false);
-		g_form.setDisplay('disk1_size',true);
-		g_form.setDisplay('disk2_size',true);
+		
+		console.log("=g_form.getValue('diskTotal') :"+ g_form.getValue('disk_total'));
+		for(i=1;i<=parseInt(g_form.getValue('disk_total'));i++)
+			{
+				console.log("=g_form.getValue('diskTotal') :"+ g_form.getValue('disk_total'));
+					g_form.setDisplay('disk'+i+'_size',true);
+			}
+		for(i=parseInt(g_form.getValue('disk_total'));10>i;i++)
+			{
+					g_form.setDisplay('disk'+i+'_size',false);
+			}
+		
+		
+		
+		for(i=0;i<parseInt(g_form.getValue('NICCOUNT'));i++)
+			{
+					g_form.setDisplay('NIC'+i+'Connection',true);
+			}
+		for(i=parseInt(g_form.getValue('NICCOUNT'));10>i;i++)
+			{
+					g_form.setDisplay('NIC'+i+'Connection',false);
+			}
+		
+		/*g_form.setDisplay('disk2_size',true);
 		g_form.setDisplay('disk3_size',true);
 		g_form.setDisplay('disk4_size',true);
 		g_form.setDisplay('disk5_size',true);
 		g_form.setDisplay('disk6_size',true);
 		g_form.setDisplay('disk7_size',true);
 		g_form.setDisplay('disk8_size',true);
-		g_form.setDisplay('disk9_size',true);
+		g_form.setDisplay('disk9_size',true);*/
 		g_form.setDisplay('hardware_type',true);
 		g_form.setDisplay('reference',false);
 		g_form.setDisplay('serviceRequestId',false);
@@ -65,6 +88,7 @@
 		g_form.setDisplay('currentSet',false);
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',false);
+		g_form.setDisplay('NICCOUNT',false);
 		
 	}
 	else if(newValue == 'Modify'){
@@ -76,17 +100,37 @@
 		g_form.setDisplay('host_environment',false);
 		g_form.setDisplay('hardware_preset',true);
 		g_form.setDisplay('backup_type',true);
-		g_form.setDisplay('disk_size',false);
 		g_form.setDisplay('disk0_size',false);
-		g_form.setDisplay('disk1_size',true);
-		g_form.setDisplay('disk2_size',true);
+		console.log("=g_form.getValue('diskTotal') :"+ g_form.getValue('disk_total'));
+		for(i=1;i<parseInt(g_form.getValue('disk_total'));i++)
+			{
+					g_form.setDisplay('disk'+i+'_size',true);
+			}
+		for(i=parseInt(g_form.getValue('disk_total'));10>i;i++)
+			{
+					g_form.setDisplay('disk'+i+'_size',false);
+			}
+		
+		
+		for(i=0;i<parseInt(g_form.getValue('NICCOUNT'));i++)
+			{
+					g_form.setDisplay('NIC'+i+'Connection',true);
+			}
+		for(i=parseInt(g_form.getValue('NICCOUNT'));10>i;i++)
+			{
+					g_form.setDisplay('NIC'+i+'Connection',false);
+			}
+		
+		
+		
+		/*g_form.setDisplay('disk2_size',true);
 		g_form.setDisplay('disk3_size',true);
 		g_form.setDisplay('disk4_size',true);
 		g_form.setDisplay('disk5_size',true);
 		g_form.setDisplay('disk6_size',true);
 		g_form.setDisplay('disk7_size',true);
 		g_form.setDisplay('disk8_size',true);
-		g_form.setDisplay('disk9_size',true);
+		g_form.setDisplay('disk9_size',true);*/
 		g_form.setDisplay('hardware_type',false);
 		g_form.setDisplay('reference',true);
 		g_form.setDisplay('serviceRequestId',true);
@@ -116,6 +160,7 @@
 		g_form.setDisabled('currentSet',true);
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',false);
+		g_form.setDisplay('NICCOUNT',false);
 		
 	}
 	else if(newValue == 'Decommission'){
@@ -126,9 +171,18 @@
 		g_form.setDisplay('sra_environment',true);
 		g_form.setDisplay('host_environment',false);
 		g_form.setDisplay('backup_type',false);
-		g_form.setDisplay('disk_size',false);
 		g_form.setDisplay('disk0_size',false);
-		g_form.setDisplay('disk1_size',false);
+		console.log("=g_form.getValue('diskTotal') :"+ g_form.getValue('disk_total'));
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('disk'+i+'_size',false);
+			}
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('NIC'+i+'Connection',false);
+			}
+		
+		/*g_form.setDisplay('disk1_size',false);
 		g_form.setDisplay('disk2_size',false);
 		g_form.setDisplay('disk3_size',false);
 		g_form.setDisplay('disk4_size',false);
@@ -136,7 +190,7 @@
 		g_form.setDisplay('disk6_size',false);
 		g_form.setDisplay('disk7_size',false);
 		g_form.setDisplay('disk8_size',false);
-		g_form.setDisplay('disk9_size',false);
+		g_form.setDisplay('disk9_size',false);*/
 		g_form.setDisplay('hardware_type',false);
 		g_form.setDisplay('reference',true);
 		g_form.setDisplay('serviceRequestId',true);
@@ -164,6 +218,7 @@
 		g_form.setDisplay('currentSet',false);
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',true);
+		g_form.setDisplay('NICCOUNT',false);
 	}
 	else if(newValue == 'Action'){
 		g_form.setDisplay('subscriptionID',true);
@@ -173,9 +228,18 @@
 		g_form.setDisplay('sra_environment',true);
 		g_form.setDisplay('host_environment',false);
 		g_form.setDisplay('backup_type',false);
-		g_form.setDisplay('disk_size',false);
 		g_form.setDisplay('disk0_size',false);
-		g_form.setDisplay('disk1_size',false);
+		console.log("=g_form.getValue('diskTotal') :"+ g_form.getValue('disk_total'));
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('disk'+i+'_size',false);
+			}
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('NIC'+i+'Connection',false);
+			}
+		
+		/*g_form.setDisplay('disk1_size',false);
 		g_form.setDisplay('disk2_size',false);
 		g_form.setDisplay('disk3_size',false);
 		g_form.setDisplay('disk4_size',false);
@@ -183,7 +247,7 @@
 		g_form.setDisplay('disk6_size',false);
 		g_form.setDisplay('disk7_size',false);
 		g_form.setDisplay('disk8_size',false);
-		g_form.setDisplay('disk9_size',false);
+		g_form.setDisplay('disk9_size',false);*/
 		g_form.setDisplay('hardware_type',false);
 		g_form.setDisplay('reference',true);
 		g_form.setDisplay('serviceRequestId',true);
@@ -211,6 +275,7 @@
 		g_form.setDisplay('currentSet',false);
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',true);
+		g_form.setDisplay('NICCOUNT',false);
 	}
 }
 
@@ -221,7 +286,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05b8c4df4fb31300b6bec4b18110c788</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>Manage fields based on Phase</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -229,7 +294,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_05b8c4df4fb31300b6bec4b18110c788</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 11:33:02</sys_updated_on>
+        <sys_updated_on>2018-08-22 07:59:16</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

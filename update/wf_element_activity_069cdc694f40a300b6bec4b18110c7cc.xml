@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"subscriptionName","type":"STRING","mandatory":false},{"name":"subscriptionDiscription","type":"STRING","mandatory":false},{"name":"Reference","type":"STRING","mandatory":false},{"name":"SubscriptionID","type":"STRING","mandatory":false},{"name":"serviceRequestId","type":"STRING","mandatory":false},{"name":"subscriptionEmail","type":"STRING","mandatory":false},{"name":"CUSTOMER","type":"STRING","mandatory":false},{"name":"SRAEnvironment","type":"STRING","mandatory":false},{"name":"HostEnvironment","type":"STRING","mandatory":false},{"name":"SiteID","type":"STRING","mandatory":false},{"name":"hardwareType","type":"STRING","mandatory":false},{"name":"HardwarePreset","type":"STRING","mandatory":false},{"name":"Function","type":"STRING","mandatory":false},{"name":"OSName","type":"STRING","mandatory":false},{"name":"domainNumber","type":"STRING","mandatory":false},{"name":"isVirtual","type":"STRING","mandatory":false},{"name":"SecurityZone","type":"STRING","mandatory":false},{"name":"disk1SizeGB","type":"STRING","mandatory":false},{"name":"disk2SizeGB","type":"STRING","mandatory":false},{"name":"disk3SizeGB","type":"STRING","mandatory":false},{"name":"disk4SizeGB","type":"STRING","mandatory":false},{"name":"disk5SizeGB","type":"STRING","mandatory":false},{"name":"disk6SizeGB","type":"STRING","mandatory":false},{"name":"disk7SizeGB","type":"STRING","mandatory":false},{"name":"disk8SizeGB","type":"STRING","mandatory":false},{"name":"disk9SizeGB","type":"STRING","mandatory":false},{"name":"diskTotal","type":"STRING","mandatory":false},{"name":"NIC0Connection","type":"STRING","mandatory":false},{"name":"NIC1Connection","type":"STRING","mandatory":false},{"name":"NIC2Connection","type":"STRING","mandatory":false},{"name":"NIC3Connection","type":"STRING","mandatory":false},{"name":"NIC4Connection","type":"STRING","mandatory":false},{"name":"NIC5Connection","type":"STRING","mandatory":false},{"name":"NIC6Connection","type":"STRING","mandatory":false},{"name":"NIC7Connection","type":"STRING","mandatory":false},{"name":"NIC8Connection","type":"STRING","mandatory":false},{"name":"NIC9Connection","type":"STRING","mandatory":false},{"name":"EnableBackup","type":"STRING","mandatory":false},{"name":"BackupType","type":"STRING","mandatory":false},{"name":"BackupPolicy","type":"STRING","mandatory":false},{"name":"BackupMethod","type":"STRING","mandatory":false},{"name":"BackupWindow","type":"STRING","mandatory":false},{"name":"OutageDay","type":"STRING","mandatory":false},{"name":"OutageTime","type":"STRING","mandatory":false},{"name":"OSPatchTime","type":"STRING","mandatory":false},{"name":"OSPatchDay","type":"STRING","mandatory":false},{"name":"Tags","type":"STRING","mandatory":false},{"name":"firewallEnabled","type":"STRING","mandatory":false},{"name":"vmNsxSecTag1","type":"STRING","mandatory":false},{"name":"vmNsxSecTag2","type":"STRING","mandatory":false},{"name":"vmNsxSecTag3","type":"STRING","mandatory":false},{"name":"vmNsxSecTag4","type":"STRING","mandatory":false},{"name":"associatedLB","type":"STRING","mandatory":false},{"name":"PrivilagedUsers","type":"STRING","mandatory":false},{"name":"CISupportTier","type":"STRING","mandatory":false},{"name":"CIImpact","type":"STRING","mandatory":false},{"name":"EnableSRM","type":"STRING","mandatory":false},{"name":"OnDemandBackup","type":"STRING","mandatory":false},{"name":"BusinessInformation","type":"STRING","mandatory":false},{"name":"BillingCode","type":"STRING","mandatory":false},{"name":"CustomProperty1","type":"STRING","mandatory":false},{"name":"CustomProperty2","type":"STRING","mandatory":false},{"name":"CustomProperty3","type":"STRING","mandatory":false},{"name":"CustomProperty4","type":"STRING","mandatory":false},{"name":"CustomProperty5","type":"STRING","mandatory":false},{"name":"CustomProperty6","type":"STRING","mandatory":false},{"name":"CustomProperty7","type":"STRING","mandatory":false},{"name":"CustomProperty8","type":"STRING","mandatory":false},{"name":"CustomProperty9","type":"STRING","mandatory":false},{"name":"CustomProperty0","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"b40d06cc4fc31300b6bec4b18110c732","web_service_message_function":"2089aa8c4f071300b6bec4b18110c7a1","web_service_endpoint":"","parameters":"[{\"name\":\"domainNumber\",\"value\":\"${activityInput.domainNumber}\",\"additional_attribute\":\"\"},{\"name\":\"CUSTOMER\",\"value\":\"${activityInput.CUSTOMER}\",\"additional_attribute\":\"\"},{\"name\":\"disk1SizeGB\",\"value\":\"${activityInput.disk1SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"subscriptionName\",\"value\":\"${activityInput.subscriptionName}\",\"additional_attribute\":\"\"},{\"name\":\"BackupType\",\"value\":\"${activityInput.BackupType}\",\"additional_attribute\":\"\"},{\"name\":\"SubscriptionID\",\"value\":\"${activityInput.SubscriptionID}\",\"additional_attribute\":\"\"},{\"name\":\"OSName\",\"value\":\"${activityInput.OSName}\",\"additional_attribute\":\"\"},{\"name\":\"SRAEnvironment\",\"value\":\"${activityInput.SRAEnvironment}\",\"additional_attribute\":\"\"},{\"name\":\"HardwarePreset\",\"value\":\"${activityInput.HardwarePreset}\",\"additional_attribute\":\"\"},{\"name\":\"Reference\",\"value\":\"${activityInput.Reference}\",\"additional_attribute\":\"\"},{\"name\":\"subscriptionEmail\",\"value\":\"${activityInput.subscriptionEmail}\",\"additional_attribute\":\"\"},{\"name\":\"Function\",\"value\":\"${activityInput.Function}\",\"additional_attribute\":\"\"},{\"name\":\"SiteID\",\"value\":\"${activityInput.SiteID}\",\"additional_attribute\":\"\"},{\"name\":\"serviceRequestId\",\"value\":\"${activityInput.serviceRequestId}\",\"additional_attribute\":\"\"},{\"name\":\"disk2SizeGB\",\"value\":\"${activityInput.disk2SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"disk4SizeGB\",\"value\":\"${activityInput.disk4SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"OutageDay\",\"value\":\"${activityInput.OutageDay}\",\"additional_attribute\":\"\"},{\"name\":\"disk3SizeGB\",\"value\":\"${activityInput.disk3SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"Tags\",\"value\":\"${activityInput.Tags}\",\"additional_attribute\":\"\"},{\"name\":\"OSPatchDay\",\"value\":\"${activityInput.OSPatchDay}\",\"additional_attribute\":\"\"},{\"name\":\"OutageTime\",\"value\":\"${activityInput.OutageTime}\",\"additional_attribute\":\"\"},{\"name\":\"OSPatchTime\",\"value\":\"${activityInput.OSPatchTime}\",\"additional_attribute\":\"\"},{\"name\":\"PrivilagedUsers\",\"value\":\"${activityInput.PrivilagedUsers}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty6\",\"value\":\"${activityInput.CustomProperty6}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty5\",\"value\":\"${activityInput.CustomProperty5}\",\"additional_attribute\":\"\"},{\"name\":\"CIImpact\",\"value\":\"${activityInput.CIImpact}\",\"additional_attribute\":\"\"},{\"name\":\"BillingCode\",\"value\":\"${activityInput.disk1SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"disk7SizeGB\",\"value\":\"${activityInput.disk7SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"CISupportTier\",\"value\":\"${activityInput.CISupportTier}\",\"additional_attribute\":\"\"},{\"name\":\"vmNsxSecTag2\",\"value\":\"${activityInput.vmNsxSecTag2}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty7\",\"value\":\"${activityInput.CustomProperty7}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty3\",\"value\":\"${activityInput.CustomProperty3}\",\"additional_attribute\":\"\"},{\"name\":\"NIC6Connection\",\"value\":\"${activityInput.NIC6Connection}\",\"additional_attribute\":\"\"},{\"name\":\"vmNsxSecTag3\",\"value\":\"${activityInput.vmNsxSecTag3}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty8\",\"value\":\"${activityInput.CustomProperty8}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty4\",\"value\":\"${activityInput.CustomProperty4}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty0\",\"value\":\"${activityInput.CustomProperty0}\",\"additional_attribute\":\"\"},{\"name\":\"vmNsxSecTag4\",\"value\":\"${activityInput.vmNsxSecTag4}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty9\",\"value\":\"${activityInput.CustomProperty9}\",\"additional_attribute\":\"\"},{\"name\":\"NIC3Connection\",\"value\":\"${activityInput.NIC3Connection}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty1\",\"value\":\"${activityInput.CustomProperty1}\",\"additional_attribute\":\"\"},{\"name\":\"EnableSRM\",\"value\":\"${activityInput.EnableSRM}\",\"additional_attribute\":\"\"},{\"name\":\"vmNsxSecTag1\",\"value\":\"${activityInput.vmNsxSecTag1}\",\"additional_attribute\":\"\"},{\"name\":\"disk8SizeGB\",\"value\":\"${activityInput.disk8SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"NIC5Connection\",\"value\":\"${activityInput.NIC5Connection}\",\"additional_attribute\":\"\"},{\"name\":\"NIC9Connection\",\"value\":\"${activityInput.NIC9Connection}\",\"additional_attribute\":\"\"},{\"name\":\"CustomProperty2\",\"value\":\"${activityInput.CustomProperty2}\",\"additional_attribute\":\"\"},{\"name\":\"hardwareType\",\"value\":\"${activityInput.hardwareType}\",\"additional_attribute\":\"\"},{\"name\":\"OnDemandBackup\",\"value\":\"${activityInput.OnDemandBackup}\",\"additional_attribute\":\"\"},{\"name\":\"diskTotal\",\"value\":\"${activityInput.diskTotal}\",\"additional_attribute\":\"\"},{\"name\":\"disk6SizeGB\",\"value\":\"${activityInput.disk6SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"SecurityZone\",\"value\":\"${activityInput.SecurityZone}\",\"additional_attribute\":\"\"},{\"name\":\"BackupWindow\",\"value\":\"${activityInput.BackupWindow}\",\"additional_attribute\":\"\"},{\"name\":\"EnableBackup\",\"value\":\"${activityInput.EnableBackup}\",\"additional_attribute\":\"\"},{\"name\":\"firewallEnabled\",\"value\":\"${activityInput.firewallEnabled}\",\"additional_attribute\":\"\"},{\"name\":\"NIC8Connection\",\"value\":\"${activityInput.NIC8Connection}\",\"additional_attribute\":\"\"},{\"name\":\"NIC8Connection\",\"value\":\"${activityInput.NIC8Connection}\",\"additional_attribute\":\"\"},{\"name\":\"BackupMethod\",\"value\":\"${activityInput.BackupMethod}\",\"additional_attribute\":\"\"},{\"name\":\"disk5SizeGB\",\"value\":\"${activityInput.disk5SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"BackupPolicy\",\"value\":\"${activityInput.BackupPolicy}\",\"additional_attribute\":\"\"},{\"name\":\"disk9SizeGB\",\"value\":\"${activityInput.disk9SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"isVirtual\",\"value\":\"${activityInput.isVirtual}\",\"additional_attribute\":\"\"},{\"name\":\"BusinessInformation\",\"value\":\"${activityInput.BusinessInformation}\",\"additional_attribute\":\"\"},{\"name\":\"associatedLB\",\"value\":\"${activityInput.associatedLB}\",\"additional_attribute\":\"\"},{\"name\":\"NIC2Connection\",\"value\":\"${activityInput.NIC2Connection}\",\"additional_attribute\":\"\"},{\"name\":\"subscriptionDiscription\",\"value\":\"${activityInput.subscriptionDiscription}\",\"additional_attribute\":\"\"},{\"name\":\"NIC1Connection\",\"value\":\"${activityInput.NIC1Connection}\",\"additional_attribute\":\"\"},{\"name\":\"NIC0Connection\",\"value\":\"${activityInput.NIC0Connection}\",\"additional_attribute\":\"\"},{\"name\":\"NIC7Connection\",\"value\":\"${activityInput.NIC7Connection}\",\"additional_attribute\":\"\"},{\"name\":\"NIC4Connection\",\"value\":\"${activityInput.NIC4Connection}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"300","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables/>
+        <name>uvCore_POST_Run_Deploy</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"status_code","type":"INTEGER"},{"name":"header","type":"DATA_OBJECT"},{"name":"body","type":"STRING"},{"name":"error","type":"STRING"},{"name":"output","type":"DATA_OBJECT","properties":[{"name":"executionId","type":"STRING"},{"name":"feedUrl","type":"STRING"},{"name":"errorCode","type":"STRING"}]}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.status_code","description":"","to":"status_code","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.status_code","from":"${executionResult.status_code}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""},{"toLink":"activityOutput.header","description":"","to":"header","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.header","from":"${executionResult.header}","fromSource":"executionResult","type":"JSON","children":"[]","translation":"$"},{"toLink":"activityOutput.body","description":"","to":"body","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""},{"toLink":"activityOutput.error","description":"","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""},{"toLink":"activityOutput.output","description":"","to":"output","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"JSON","children":"[]","translation":"$"},{"toLink":"activityOutput.output.executionId","description":"Execution Id","to":"output.executionId","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description>Run Deploy flow</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-20 12:31:57</sys_created_on>
+        <sys_id>069cdc694f40a300b6bec4b18110c7cc</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>uvCore_POST_Run_Deploy</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_element_activity_069cdc694f40a300b6bec4b18110c7cc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 06:14:58</sys_updated_on>
+        <version_container_id>5c1632904f831300b6bec4b18110c77e</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=069cdc694f40a300b6bec4b18110c7cc"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>true</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-20 12:31:57</sys_created_on>
+        <sys_id>829cdc694f40a300b6bec4b18110c7cd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-21 06:14:58</sys_updated_on>
+        <valid_from>2018-08-21 06:14:58</valid_from>
+        <valid_to/>
+        <version>4</version>
+        <version_container_id>5c1632904f831300b6bec4b18110c77e</version_container_id>
+        <wf_element_definition display_value="uvCore_POST_Run_Deploy">069cdc694f40a300b6bec4b18110c7cc</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="uvCore_POST_Run_Deploy">069cdc694f40a300b6bec4b18110c7cc</activity_definition>
+        <condition>activityOutput.status_code != 201</condition>
+        <derived_definition>8256e3984fc31300b6bec4b18110c726</derived_definition>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-20 12:31:58</sys_created_on>
+        <sys_id>829cdc694f40a300b6bec4b18110c7cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-20 12:31:58</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="uvCore_POST_Run_Deploy">069cdc694f40a300b6bec4b18110c7cc</activity_definition>
+        <condition/>
+        <derived_definition>3c76e3984fc31300b6bec4b18110c715</derived_definition>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>Error</name>
+        <order>300</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-20 12:31:57</sys_created_on>
+        <sys_id>869cdc694f40a300b6bec4b18110c7ce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-20 12:31:57</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="uvCore_POST_Run_Deploy">069cdc694f40a300b6bec4b18110c7cc</activity_definition>
+        <condition>activityOutput.status_code == 201</condition>
+        <derived_definition>4e26a3584fc31300b6bec4b18110c786</derived_definition>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-08-20 12:31:58</sys_created_on>
+        <sys_id>c69cdc694f40a300b6bec4b18110c7cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-08-20 12:31:58</sys_updated_on>
+    </wf_condition_default>
+    <wf_versionable action="update_multiple" query="version_container_id=5c1632904f831300b6bec4b18110c77e^sys_id!=829cdc694f40a300b6bec4b18110c7cd^version&lt;4">
+        <published>false</published>
+    </wf_versionable>
+    <wf_activity action="update_multiple" is_dot_walk_query="true" query="workflow_version.published=true^activity_definition.version_container_id=5c1632904f831300b6bec4b18110c77e">
+        <new_activity_definition>069cdc694f40a300b6bec4b18110c7cc</new_activity_definition>
+        <out_of_date>true</out_of_date>
+        <notes>There is a newer version of this activity.
+
+To update the activity, check out the workflow, select the activity, right click
+and select 'Update activity' to use the latest version, then publish the workflow</notes>
+    </wf_activity>
+</record_update>

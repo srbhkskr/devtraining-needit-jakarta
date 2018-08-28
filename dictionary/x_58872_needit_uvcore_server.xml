@@ -46,6 +46,7 @@
         <element display="true" label="disk9StorageTier" max_length="40" name="disk9storagetier" type="string"/>
         <element label="diskCount" max_length="40" name="diskcount" type="string"/>
         <element label="domainNumber" max_length="40" name="domainnumber" type="string"/>
+        <element label="enableBackup" max_length="40" name="enablebackup" type="string"/>
         <element label="enableFirewall" max_length="40" name="enablefirewall" type="string"/>
         <element label="EnableSRM" max_length="40" name="enablesrm" type="string"/>
         <element label="Function" max_length="40" name="function" type="string"/>

@@ -25,7 +25,33 @@ getuvCoredata.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 			obj.disk7SizeGB = '';
 			obj.disk8SizeGB = '';
 			obj.disk9SizeGB = '';
+			obj.enablesrm = '';
+			obj.outageday = '';
+			obj.outagewindow = '';
+			obj.vmNsxSecTag1 = '';
+			obj.vmNsxSecTag2 = '';
+			obj.vmNsxSecTag3 = '';
+			obj.vmNsxSecTag4 = '';
+			obj.associatedLB = '';
+			obj.privilageduser = '';
+			obj.tags = '';
+			obj.nic0connection = '';
+			obj.nic1connection = '';
+			obj.nic2connection = '';
+			obj.nic3connection = '';
+			obj.nic4connection = '';
+			obj.nic5connection = '';
+			obj.nic6connection = '';
+			obj.nic7connection = '';
+			obj.nic8connection = '';
+			obj.nic9connection = '';
+			obj.ospatchday = '';
+			obj.ospatchtime = '';
+			obj.enablefirewall = '';
+			obj.enablebackup = '';
+			obj.subscriptiondiscription = '';
 			//obj.subsmail = '';
+		
 			var json = new global.JSON();
 			var data ;
 	try{
@@ -53,6 +79,33 @@ getuvCoredata.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 				obj.disk9SizeGB = uvCore.disk9storagetier.toString()+"-"+uvCore.disk9sizegb.toString();
 				obj.outageday = uvCore.outageday.toString();
 				obj.outagewindow = uvCore.outagewindow.toString();
+				obj.ospatchday = uvCore.ospatchday.toString();
+				obj.ospatchtime = uvCore.ospatchtime.toString();
+				obj.tags = uvCore.tags.toString();
+				obj.ospatchday = uvCore.ospatchday.toString();
+				obj.ospatchtime = uvCore.ospatchtime.toString();
+				obj.tags = uvCore.tags.toString();
+				obj.nic0connection = uvCore.nic0connection.toString();
+				obj.nic1connection = uvCore.nic1connection.toString();
+				obj.nic2connection = uvCore.nic2connection.toString();
+				obj.nic3connection = uvCore.nic3connection.toString();
+				obj.nic4connection = uvCore.nic4connection.toString();
+				obj.nic5connection = uvCore.nic5connection.toString();
+				obj.nic6connection = uvCore.nic6connection.toString();
+				obj.nic7connection = uvCore.nic7connection.toString();
+				obj.nic8connection = uvCore.nic8connection.toString();
+				obj.nic9connection = uvCore.nic9connection.toString();
+				obj.privilageduser = uvCore.privilageduser.toString();
+				obj.enablesrm = uvCore.enablesrm.toString();
+				obj.vmNsxSecTag1 = uvCore.vmnsxsectag1.toString();
+				obj.vmNsxSecTag2 = uvCore.vmnsxsectag1.toString();
+				obj.vmNsxSecTag3 = uvCore.vmnsxsectag1.toString();
+				obj.vmNsxSecTag4 = uvCore.vmnsxsectag1.toString();
+				obj.associatedLB = uvCore.associatedlb.toString();
+				obj.enablefirewall = uvCore.enablefirewall.toString();
+				obj.enablebackup = uvCore.enablebackup.toString();
+				obj.subscriptiondiscription = uvCore.subscriptiondiscription.toString();
+				
 				//obj.subsmail = uvCore.email.toString();
 			}
 			data = json.encode(obj);//JSON formatted string
@@ -90,13 +143,13 @@ getsubsNames : function() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 07:01:51</sys_created_on>
         <sys_id>896a0b384fbf5300b6bec4b18110c7ce</sys_id>
-        <sys_mod_count>17</sys_mod_count>
+        <sys_mod_count>39</sys_mod_count>
         <sys_name>getuvCoredata</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_896a0b384fbf5300b6bec4b18110c7ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 11:59:11</sys_updated_on>
+        <sys_updated_on>2018-08-27 15:08:34</sys_updated_on>
     </sys_script_include>
 </record_update>

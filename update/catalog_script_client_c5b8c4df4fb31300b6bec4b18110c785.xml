@@ -49,6 +49,7 @@
 				
 				g_form.setValue('u_hwpreset','1');
 				hardware_preset = g_form.getControl('u_hwpreset');
+				console.log(hardware_preset);
 				hardware_preset.style.backgroundColor = '#FFF';
 				hardware_preset.style.color = '#343D47';
 				
@@ -58,6 +59,7 @@
 				
 				g_form.setValue('u_hwpreset','2');
 				hardware_preset = g_form.getControl('u_hwpreset');
+				console.log(hardware_preset);
 				hardware_preset.style.backgroundColor = '#FFF';
 				hardware_preset.style.color = '#343D47';
 			}
@@ -165,6 +167,199 @@
 				outagewindow.style.color = '#343D47';
 			}
 		
+		if(ans.enablesrm !='None' && ans.enablesrm !='' &&  ans.enablesrm != undefined)
+			{
+				g_form.setValue('enableSRM',ans.enablesrm);
+				var enablesrm = g_form.getControl('enableSRM');
+				console.log("enablesrm:" + enablesrm + ans.enablesrm.toString());
+				console.dir(ans.enablesrm);
+				enablesrm.style.backgroundColor = '#FFF';
+				enablesrm.style.color = '#343D47';
+			}
+		
+		if(ans.enablefirewall !='None' && ans.enablefirewall !='' && ans.enablefirewall != undefined)
+			{
+				g_form.setValue('enableFirewall',ans.enablefirewall);
+				var enablefirewall = g_form.getControl('enableFirewall');
+				console.log("enablefirewall:" + enablefirewall + ans.enablefirewall.toString());
+				console.dir(ans.enablefirewall);
+				enablefirewall.style.backgroundColor = '#FFF';
+				enablefirewall.style.color = '#343D47';
+			}
+		
+		if(ans.enablebackup !='None' && ans.enablebackup !='' && ans.enablebackup != undefined)
+			{
+				g_form.setValue('enableBackup',ans.enablebackup );
+				var enablebackup = g_form.getControl('enableBackup');
+				
+				console.dir(ans.enablebackup);
+				enablebackup.style.backgroundColor = '#FFF';
+				enablebackup.style.color = '#343D47';
+			}
+		
+		if(ans.subscriptiondiscription !='None' && ans.subscriptiondiscription !='' && ans.subscriptiondiscription != undefined)
+			{
+				g_form.setValue('subscriptionDiscription',ans.subscriptiondiscription);
+				var subscriptiondiscription = g_form.getControl('subscriptionDiscription');
+				console.log("subscriptiondiscription:" + subscriptiondiscription + ans.subscriptiondiscription.toString());
+				console.dir(ans.subscriptiondiscription);
+				subscriptiondiscription.style.backgroundColor = '#FFF';
+				subscriptiondiscription.style.color = '#343D47';
+			}
+		
+		if(ans.privilageduser !='None' && ans.privilageduser !='')
+			{
+				g_form.setValue('PrivilagedUser',ans.privilageduser);
+				var privilageduser = g_form.getControl('PrivilagedUser');
+				console.log("privilageduser:" + privilageduser + ans.privilageduser);
+				privilageduser.style.backgroundColor = '#FFF';
+				privilageduser.style.color = '#343D47';
+			}
+		
+		if(ans.tags !='None' && ans.tags !='')
+			{
+				g_form.setValue('Tags',ans.tags);
+				var tags = g_form.getControl('Tags');
+				console.log("tags:" + tags + ans.tags);
+				tags.style.backgroundColor = '#FFF';
+				tags.style.color = '#343D47';
+			}
+		
+		if(ans.ospatchday !='None' && ans.ospatchday !='')
+			{
+				g_form.setValue('OSPatchDay',ans.ospatchday);
+				var ospatchday = g_form.getControl('OSPatchDay');
+				console.log("osPatchDay:" + ospatchday + ans.ospatchday);
+				ospatchday.style.backgroundColor = '#FFF';
+				ospatchday.style.color = '#343D47';
+			}
+		
+		if(ans.ospatchtime !='None' && ans.ospatchtime !='')
+			{
+				g_form.setValue('OSPatchTime',ans.ospatchtime);
+				var ospatchtime = g_form.getControl('OSPatchTime');
+				console.log("osPatchTime:" + ospatchtime + ans.ospatchtime);
+				ospatchtime.style.backgroundColor = '#FFF';
+				ospatchtime.style.color = '#343D47';
+			}
+		
+		if(ans.nic0connection !='None' && ans.nic0connection !='')
+			{
+				g_form.setValue('NIC0Connection',ans.nic0connection);
+				var nic0connection = g_form.getControl('NIC0Connection');
+				console.log("nic0connection:" + nic0connection + ans.nic0connection);
+				nic0connection.style.backgroundColor = '#FFF';
+				nic0connection.style.color = '#343D47';
+			}
+		if(ans.nic1connection !='None' && ans.nic1connection !='')
+			{
+				g_form.setValue('NIC1Connection',ans.nic1connection);
+				var nic1connection = g_form.getControl('NIC1Connection');
+				nic1connection.style.backgroundColor = '#FFF';
+				nic1connection.style.color = '#343D47';
+			}
+		if(ans.nic2connection !='None' && ans.nic2connection !='')
+			{
+				g_form.setValue('NIC2Connection',ans.nic2connection);
+				var nic2connection = g_form.getControl('NIC2Connection');
+				nic2connection.style.backgroundColor = '#FFF';
+				nic2connection.style.color = '#343D47';
+			}
+		if(ans.nic3connection !='None' && ans.nic3connection !='')
+			{
+				g_form.setValue('NIC3Connection',ans.nic3connection);
+				var nic3connection = g_form.getControl('NIC3Connection');
+				nic3connection.style.backgroundColor = '#FFF';
+				nic3connection.style.color = '#343D47';
+			}
+		if(ans.nic4connection !='None' && ans.nic4connection !='')
+			{
+				g_form.setValue('NIC4Connection',ans.nic4connection);
+				var nic4connection = g_form.getControl('NIC4Connection');
+				nic4connection.style.backgroundColor = '#FFF';
+				nic4connection.style.color = '#343D47';
+			}
+		if(ans.nic5connection !='None' && ans.nic5connection !='')
+			{
+				g_form.setValue('NIC5Connection',ans.nic5connection);
+				var nic5connection = g_form.getControl('NIC5Connection');
+				nic5connection.style.backgroundColor = '#FFF';
+				nic5connection.style.color = '#343D47';
+			}
+		if(ans.nic6connection !='None' && ans.nic6connection !='')
+			{
+				g_form.setValue('NIC6Connection',ans.nic6connection);
+				var nic6connection = g_form.getControl('NIC6Connection');
+				nic6connection.style.backgroundColor = '#FFF';
+				nic6connection.style.color = '#343D47';
+			}
+		if(ans.nic7connection !='None' && ans.nic7connection !='')
+			{
+				g_form.setValue('NIC7Connection',ans.nic7connection);
+				var nic7connection = g_form.getControl('NIC7Connection');
+				nic7connection.style.backgroundColor = '#FFF';
+				nic7connection.style.color = '#343D47';
+			}
+		if(ans.nic8connection !='None' && ans.nic8connection !='')
+			{
+				g_form.setValue('NIC8Connection',ans.nic8connection);
+				var nic8connection = g_form.getControl('NIC8Connection');
+				nic8connection.style.backgroundColor = '#FFF';
+				nic8connection.style.color = '#343D47';
+			}
+		if(ans.nic9connection !='None' && ans.nic9connection !='')
+			{
+				g_form.setValue('NIC9Connection',ans.nic9connection);
+				var nic9connection = g_form.getControl('NIC9Connection');
+				console.log("nic9connection:" + nic9connection + ans.nic9connection);
+				nic9connection.style.backgroundColor = '#FFF';
+				nic9connection.style.color = '#343D47';
+			}
+		
+		if(ans.vmNsxSecTag1 !='None' && ans.vmNsxSecTag1 !='')
+			{
+				g_form.setValue('vmNsxSecTag1',ans.vmNsxSecTag1);
+				var vmNsxSecTag1 = g_form.getControl('vmNsxSecTag1');
+				console.log("vmNsxSecTag1:" + vmNsxSecTag1 + ans.vmNsxSecTag1);
+				vmNsxSecTag1.style.backgroundColor = '#FFF';
+				vmNsxSecTag1.style.color = '#343D47';
+			}
+		
+		if(ans.vmNsxSecTag2 !='None' && ans.vmNsxSecTag2 !='')
+			{
+				g_form.setValue('vmNsxSecTag2',ans.vmNsxSecTag2);
+				var vmNsxSecTag2 = g_form.getControl('vmNsxSecTag2');
+				vmNsxSecTag2.style.backgroundColor = '#FFF';
+				vmNsxSecTag2.style.color = '#343D47';
+			}
+		
+		if(ans.vmNsxSecTag3 !='None' && ans.vmNsxSecTag3 !='')
+			{
+				g_form.setValue('vmNsxSecTag3',ans.vmNsxSecTag3);
+				var vmNsxSecTag3 = g_form.getControl('vmNsxSecTag3');
+				vmNsxSecTag3.style.backgroundColor = '#FFF';
+				vmNsxSecTag3.style.color = '#343D47';
+			}
+		
+		if(ans.vmNsxSecTag4 !='None' && ans.vmNsxSecTag4 !='')
+			{
+				g_form.setValue('vmNsxSecTag4',ans.vmNsxSecTag4);
+				var vmNsxSecTag4 = g_form.getControl('vmNsxSecTag4');
+				console.log("vmNsxSecTag4:" + vmNsxSecTag4 + ans.vmNsxSecTag4);
+				vmNsxSecTag4.style.backgroundColor = '#FFF';
+				vmNsxSecTag4.style.color = '#343D47';
+			}
+		
+		if(ans.associatedLB !='None' && ans.associatedLB !='')
+			{
+				g_form.setValue('associatedLB',ans.associatedLB);
+				var associatedLB = g_form.getControl('associatedLB');
+				console.log("associatedLB:" + associatedLB + ans.associatedLB);
+				associatedLB.style.backgroundColor = '#FFF';
+				associatedLB.style.color = '#343D47';
+			}	
+		
+	
 		
 		}
 	
@@ -176,7 +371,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5b8c4df4fb31300b6bec4b18110c785</sys_id>
-        <sys_mod_count>15</sys_mod_count>
+        <sys_mod_count>29</sys_mod_count>
         <sys_name>Auto populate fileds</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -184,7 +379,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_c5b8c4df4fb31300b6bec4b18110c785</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 12:19:07</sys_updated_on>
+        <sys_updated_on>2018-08-27 15:10:35</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

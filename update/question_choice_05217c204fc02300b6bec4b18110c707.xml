@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>300</order>
-        <question display_value="Disk 7 Size in GB">41217c204fc02300b6bec4b18110c702</question>
+        <question display_value="schijf 7 formaat">41217c204fc02300b6bec4b18110c702</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

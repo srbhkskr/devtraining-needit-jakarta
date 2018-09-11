@@ -8,7 +8,7 @@
         <applies_sc_task>false</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="MSO VM v2.0">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
+        <cat_item display_value="MSO VM v2.0 Dutch">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
         <cat_variable>IO:bec9849f4fb31300b6bec4b18110c703</cat_variable>
         <condition/>
         <description/>

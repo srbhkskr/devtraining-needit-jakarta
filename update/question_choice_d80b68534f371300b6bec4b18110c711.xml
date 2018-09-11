@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>700</order>
-        <question display_value="OS Patch Start Day">dc0b28534f371300b6bec4b18110c767</question>
+        <question display_value="OS Patch  start dag">dc0b28534f371300b6bec4b18110c767</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

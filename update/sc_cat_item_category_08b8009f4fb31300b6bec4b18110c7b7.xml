@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update table="sc_cat_item_category">
     <sc_cat_item_category action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="MSO VM v2.0">44b8009f4fb31300b6bec4b18110c7b0</sc_cat_item>
+        <sc_cat_item display_value="MSO VM v2.0 Dutch">44b8009f4fb31300b6bec4b18110c7b0</sc_cat_item>
         <sc_category display_value="MSO Server">1fe5f7754fc71300b6bec4b18110c7c4</sc_category>
         <sys_class_name>sc_cat_item_category</sys_class_name>
         <sys_created_by>admin</sys_created_by>

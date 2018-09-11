@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>300</order>
-        <question display_value="BillingCode">ee89b4754f88a300b6bec4b18110c7e5</question>
+        <question display_value="Facturatiecode">ee89b4754f88a300b6bec4b18110c7e5</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

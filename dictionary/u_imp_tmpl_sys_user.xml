@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Sys User" max_length="40" name="u_imp_tmpl_sys_user" type="collection">
+        <element attributes="import_attribute_name=Active,edge_encryption_enabled=true" label="Active" max_length="40" name="u_active" type="string"/>
+        <element attributes="import_attribute_name=Building,edge_encryption_enabled=true" label="Building" max_length="32" name="u_building" type="string"/>
+        <element attributes="import_attribute_name=Business phone,edge_encryption_enabled=true" label="Business phone" max_length="40" name="u_business_phone" type="string"/>
+        <element attributes="import_attribute_name=Calendar integration,edge_encryption_enabled=true" label="Calendar integration" max_length="40" name="u_calendar_integration" type="string"/>
+        <element attributes="import_attribute_name=City,edge_encryption_enabled=true" label="City" max_length="40" name="u_city" type="string"/>
+        <element attributes="import_attribute_name=Company,edge_encryption_enabled=true" label="Company" max_length="32" name="u_company" type="string"/>
+        <element attributes="import_attribute_name=Cost center,edge_encryption_enabled=true" label="Cost center" max_length="32" name="u_cost_center" type="string"/>
+        <element attributes="import_attribute_name=Country code,edge_encryption_enabled=true" label="Country code" max_length="3" name="u_country_code" type="string"/>
+        <element attributes="import_attribute_name=Date format,edge_encryption_enabled=true" label="Date format" max_length="40" name="u_date_format" type="string"/>
+        <element attributes="import_attribute_name=Default perspective,edge_encryption_enabled=true" label="Default perspective" max_length="32" name="u_default_perspective" type="string"/>
+        <element attributes="import_attribute_name=Department,edge_encryption_enabled=true" label="Department" max_length="32" name="u_department" type="string"/>
+        <element attributes="import_attribute_name=Email,edge_encryption_enabled=true" label="Email" max_length="100" name="u_email" type="string"/>
+        <element attributes="import_attribute_name=Employee number" label="Employee number" max_length="40" name="u_employee_number" type="integer"/>
+        <element attributes="import_attribute_name=Failed login attempts" label="Failed login attempts" max_length="40" name="u_failed_login_attempts" type="integer"/>
+        <element attributes="import_attribute_name=First name,edge_encryption_enabled=true" label="First name" max_length="50" name="u_first_name" type="string"/>
+        <element attributes="import_attribute_name=Gender,edge_encryption_enabled=true" label="Gender" max_length="40" name="u_gender" type="string"/>
+        <element attributes="import_attribute_name=Home phone,edge_encryption_enabled=true" label="Home phone" max_length="40" name="u_home_phone" type="string"/>
+        <element attributes="import_attribute_name=Internal Integration User,edge_encryption_enabled=true" label="Internal Integration User" max_length="1" name="u_internal_integration_user" type="string"/>
+        <element attributes="import_attribute_name=Language,edge_encryption_enabled=true" label="Language" max_length="3" name="u_language" type="string"/>
+        <element attributes="import_attribute_name=Last login,edge_encryption_enabled=true" label="Last login" max_length="40" name="u_last_login" type="string"/>
+        <element attributes="import_attribute_name=Last login time,edge_encryption_enabled=true" label="Last login time" max_length="40" name="u_last_login_time" type="string"/>
+        <element attributes="import_attribute_name=Last name,edge_encryption_enabled=true" label="Last name" max_length="50" name="u_last_name" type="string"/>
+        <element attributes="import_attribute_name=LDAP server,edge_encryption_enabled=true" label="LDAP server" max_length="32" name="u_ldap_server" type="string"/>
+        <element attributes="import_attribute_name=Location,edge_encryption_enabled=true" label="Location" max_length="32" name="u_location" type="string"/>
+        <element attributes="import_attribute_name=Locked out,edge_encryption_enabled=true" label="Locked out" max_length="40" name="u_locked_out" type="string"/>
+        <element attributes="import_attribute_name=Manager,edge_encryption_enabled=true" label="Manager" max_length="32" name="u_manager" type="string"/>
+        <element attributes="import_attribute_name=Middle name,edge_encryption_enabled=true" label="Middle name" max_length="50" name="u_middle_name" type="string"/>
+        <element attributes="import_attribute_name=Mobile phone" label="Mobile phone" max_length="40" name="u_mobile_phone" type="float"/>
+        <element attributes="import_attribute_name=Notification,edge_encryption_enabled=true" label="Notification" max_length="40" name="u_notification" type="string"/>
+        <element attributes="import_attribute_name=Password,edge_encryption_enabled=true" label="Password" max_length="100" name="u_password" type="string"/>
+        <element attributes="import_attribute_name=Password needs reset,edge_encryption_enabled=true" label="Password needs reset" max_length="40" name="u_password_needs_reset" type="string"/>
+        <element attributes="import_attribute_name=Prefix,edge_encryption_enabled=true" label="Prefix" max_length="40" name="u_prefix" type="string"/>
+        <element attributes="import_attribute_name=Schedule,edge_encryption_enabled=true" label="Schedule" max_length="32" name="u_schedule" type="string"/>
+        <element attributes="import_attribute_name=Source,edge_encryption_enabled=true" label="Source" max_length="255" name="u_source" type="string"/>
+        <element attributes="import_attribute_name=State / Province,edge_encryption_enabled=true" label="State / Province" max_length="40" name="u_state___province" type="string"/>
+        <element attributes="import_attribute_name=Street,edge_encryption_enabled=true" label="Street" max_length="255" name="u_street" type="string"/>
+        <element attributes="import_attribute_name=Time format,edge_encryption_enabled=true" label="Time format" max_length="40" name="u_time_format" type="string"/>
+        <element attributes="import_attribute_name=Time zone,edge_encryption_enabled=true" label="Time zone" max_length="40" name="u_time_zone" type="string"/>
+        <element attributes="import_attribute_name=Title,edge_encryption_enabled=true" label="Title" max_length="60" name="u_title" type="string"/>
+        <element attributes="import_attribute_name=User ID,edge_encryption_enabled=true" label="User ID" max_length="40" name="u_user_id" type="string"/>
+        <element attributes="import_attribute_name=VIP,edge_encryption_enabled=true" label="VIP" max_length="40" name="u_vip" type="string"/>
+        <element attributes="import_attribute_name=Web service access only,edge_encryption_enabled=true" label="Web service access only" max_length="40" name="u_web_service_access_only" type="string"/>
+        <element attributes="import_attribute_name=Zip / Postal code" label="Zip / Postal code" max_length="40" name="u_zip___postal_code" type="integer"/>
+    </element>
+</database>

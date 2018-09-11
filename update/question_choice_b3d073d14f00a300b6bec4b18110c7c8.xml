@@ -3,7 +3,7 @@
     <question_choice action="INSERT_OR_UPDATE">
         <misc>0</misc>
         <order>200</order>
-        <question display_value="Backup Method">ff2f6bd14f00a300b6bec4b18110c70c</question>
+        <question display_value="Back-upmethode">ff2f6bd14f00a300b6bec4b18110c70c</question>
         <rec_misc>0</rec_misc>
         <sys_class_name>question_choice</sys_class_name>
         <sys_created_by>admin</sys_created_by>

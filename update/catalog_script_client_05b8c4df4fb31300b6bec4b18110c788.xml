@@ -8,7 +8,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="MSO VM v2.0">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
+        <cat_item display_value="MSO VM v2.0 Dutch">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
         <cat_variable>IO:1cb884df4fb31300b6bec4b18110c7a9</cat_variable>
         <condition/>
         <description/>
@@ -89,6 +89,29 @@
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',false);
 		g_form.setDisplay('NICCOUNT',false);
+		g_form.setDisplay('enableSRM',true);
+		g_form.setDisplay('vmNsxSecTag1',true);
+		g_form.setDisplay('vmNsxSecTag2',true);
+		g_form.setDisplay('vmNsxSecTag3',true);
+		g_form.setDisplay('vmNsxSecTag4',true);
+		g_form.setDisplay('Tags',true);
+		g_form.setDisplay('osPatchDay',true);
+		g_form.setDisplay('osPatchTime',true);
+		g_form.setDisplay('PrivilagedUser',true);
+		g_form.setDisplay('subscriptionDiscription',true);
+		g_form.setDisplay('backupType',true);
+		g_form.setDisplay('backupMethod',true);
+		g_form.setDisplay('backupPolicy',true);
+		g_form.setDisplay('backupWindow',true);
+		g_form.setDisplay('CIImpact',true);
+		g_form.setDisplay('CISupportTier',true);
+		g_form.setDisplay('enableBackup',true);
+		g_form.setDisplay('enableFirewall',true);
+		g_form.setDisplay('securityzone',true);
+		g_form.setDisplay('BusinessInformation',true);
+		g_form.setDisplay('BillingCode',true);
+		g_form.setDisplay('associatedLB',true);
+		
 		
 	}
 	else if(newValue == 'Modify'){
@@ -137,7 +160,6 @@
 		g_form.setDisplay('portal_type',true);
 		g_form.setDisplay('domain_number',false);
 		g_form.setDisplay('subscription_email',true);
-		g_form.setReadOnly('subscription_email',true);
 		g_form.setDisplay('os_name',false);
 		g_form.setDisplay('managed_by',false);
 		g_form.setDisplay('function_name',false);
@@ -160,7 +182,29 @@
 		g_form.setDisabled('currentSet',true);
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',false);
-		g_form.setDisplay('NICCOUNT',false);
+		g_form.setDisplay('NICCOUNT',true);
+		g_form.setDisplay('enableSRM',true);
+		g_form.setDisplay('vmNsxSecTag1',true);
+		g_form.setDisplay('vmNsxSecTag2',true);
+		g_form.setDisplay('vmNsxSecTag3',true);
+		g_form.setDisplay('vmNsxSecTag4',true);
+		g_form.setDisplay('Tags',true);
+		g_form.setDisplay('osPatchDay',true);
+		g_form.setDisplay('osPatchTime',true);
+		g_form.setDisplay('PrivilagedUser',true);
+		g_form.setDisplay('subscriptionDiscription',true);
+		g_form.setDisplay('backupType',true);
+		g_form.setDisplay('backupMethod',true);
+		g_form.setDisplay('backupPolicy',true);
+		g_form.setDisplay('backupWindow',true);
+		g_form.setDisplay('CIImpact',true);
+		g_form.setDisplay('CISupportTier',true);
+		g_form.setDisplay('enableBackup',true);
+		g_form.setDisplay('enableFirewall',true);
+		g_form.setDisplay('securityzone',true);
+		g_form.setDisplay('BusinessInformation',true);
+		g_form.setDisplay('BillingCode',true);
+		g_form.setDisplay('associatedLB',true);
 		
 	}
 	else if(newValue == 'Decommission'){
@@ -196,7 +240,7 @@
 		g_form.setDisplay('serviceRequestId',true);
 		g_form.setDisplay('portal_type',true);
 		g_form.setDisplay('domain_number',false);
-		g_form.setDisplay('subscription_email',true);
+		g_form.setDisplay('subscription_email',false);
 		g_form.setDisplay('os_name',false);
 		g_form.setDisplay('managed_by',false);
 		g_form.setDisplay('function_name',false);
@@ -219,6 +263,28 @@
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',true);
 		g_form.setDisplay('NICCOUNT',false);
+		g_form.setDisplay('enableSRM',false);
+		g_form.setDisplay('vmNsxSecTag1',false);
+		g_form.setDisplay('vmNsxSecTag2',false);
+		g_form.setDisplay('vmNsxSecTag3',false);
+		g_form.setDisplay('vmNsxSecTag4',false);
+		g_form.setDisplay('Tags',false);
+		g_form.setDisplay('osPatchDay',false);
+		g_form.setDisplay('osPatchTime',false);
+		g_form.setDisplay('PrivilagedUser',false);
+		g_form.setDisplay('subscriptionDiscription',false);
+		g_form.setDisplay('backupType',false);
+		g_form.setDisplay('backupMethod',false);
+		g_form.setDisplay('backupPolicy',false);
+		g_form.setDisplay('backupWindow',false);
+		g_form.setDisplay('CIImpact',false);
+		g_form.setDisplay('CISupportTier',false);
+		g_form.setDisplay('enableBackup',false);
+		g_form.setDisplay('enableFirewall',false);
+		g_form.setDisplay('securityzone',false);
+		g_form.setDisplay('BusinessInformation',false);
+		g_form.setDisplay('BillingCode',false);
+		g_form.setDisplay('associatedLB',false);
 	}
 	else if(newValue == 'Action'){
 		g_form.setDisplay('subscriptionID',true);
@@ -253,7 +319,7 @@
 		g_form.setDisplay('serviceRequestId',true);
 		g_form.setDisplay('portal_type',true);
 		g_form.setDisplay('domain_number',false);
-		g_form.setDisplay('subscription_email',true);
+		g_form.setDisplay('subscription_email',false);
 		g_form.setDisplay('os_name',false);
 		g_form.setDisplay('managed_by',false);
 		g_form.setDisplay('function_name',false);
@@ -276,6 +342,32 @@
 		g_form.setDisplay('u_hwpreset',true);
 		g_form.setDisabled('u_hwpreset',true);
 		g_form.setDisplay('NICCOUNT',false);
+		g_form.setDisplay('enableSRM',false);
+		g_form.setDisplay('vmNsxSecTag1',false);
+		g_form.setDisplay('vmNsxSecTag2',false);
+		g_form.setDisplay('vmNsxSecTag3',false);
+		g_form.setDisplay('vmNsxSecTag4',false);
+		g_form.setDisplay('Tags',false);
+		g_form.setDisplay('osPatchDay',false);
+		g_form.setDisplay('osPatchTime',false);
+		g_form.setDisplay('PrivilagedUser',false);
+		g_form.setDisplay('subscriptionDiscription',false);
+		g_form.setDisplay('backupType',false);
+		g_form.setDisplay('backupMethod',false);
+		g_form.setDisplay('backupPolicy',false);
+		g_form.setDisplay('backupWindow',false);
+		g_form.setDisplay('CIImpact',false);
+		g_form.setDisplay('CISupportTier',false);
+		g_form.setDisplay('enableBackup',false);
+		g_form.setDisplay('enableFirewall',false);
+		g_form.setDisplay('securityzone',false);
+		g_form.setDisplay('BusinessInformation',false);
+		g_form.setDisplay('BillingCode',false);
+		g_form.setDisplay('associatedLB',false);
+		
+		
+		
+		
 	}
 }
 
@@ -286,7 +378,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>05b8c4df4fb31300b6bec4b18110c788</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>21</sys_mod_count>
         <sys_name>Manage fields based on Phase</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -294,7 +386,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_05b8c4df4fb31300b6bec4b18110c788</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-22 07:59:16</sys_updated_on>
+        <sys_updated_on>2018-08-30 11:44:22</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

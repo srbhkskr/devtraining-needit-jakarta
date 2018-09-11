@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_embedded_help_content">
+    <sys_embedded_help_content action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category>service-catalog</category>
+        <content><![CDATA[ <h1 class="title topictitle1">Service catalog cart layouts</h1>  <div class="body conbody">    <p class="p"><span class="ph">Service catalog enables catalog administrators to configure the          layout and functionality of the service catalog cart used in your organization to          place requests for          catalog items.</span></p>    <div class="p">You can perform the following:<ul class="ul" id="sc_layout-normal__d25211e121"><li class="li">Remove components. For example, hide prices throughout the cart if your catalog does            not use pricing.</li><li class="li">Change labels. For example, change the <span class="ph uicontrol">Order now</span> button label            to <span class="ph uicontrol">Request Item</span> in the shopping cart.</li><li class="li">Change the order of elements. For example, change the order of the columns on the            order status screen.</li><li class="li">Configure, hide, or create functionality. For example, add a <span class="ph uicontrol">Requested              For</span> reference field to the shopping cart.</li></ul></div>  </div> <div class="related-links"><div class="relinfo"><div class="reltitle">Related information<br /><div><a class="link" href="https://docs.servicenow.com/?context&#61;CSHelp:Maintain-Cart-Layout&amp;version&#61;jakarta" target="_blank" rel="nofollow">Maintain cart layout</a></div></div></div></div>]]></content>
+        <last_sync>2018-09-11 06:11:13</last_sync>
+        <modifier>normal</modifier>
+        <name>sc_layout_list-normal</name>
+        <page>sc_layout_list</page>
+        <product>1</product>
+        <qualifier/>
+        <role/>
+        <role_order>1000</role_order>
+        <snc_created>true</snc_created>
+        <sys_class_name>sys_embedded_help_content</sys_class_name>
+        <sys_created_by>system</sys_created_by>
+        <sys_created_on>2018-09-11 06:11:13</sys_created_on>
+        <sys_id>c36850e04f6c6b00b6bec4b18110c74a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sc_layout_list-normal</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_embedded_help_content_c36850e04f6c6b00b6bec4b18110c74a</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-09-11 06:11:13</sys_updated_on>
+        <version>j</version>
+    </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=c36850e04f6c6b00b6bec4b18110c74a"/>
+</record_update>

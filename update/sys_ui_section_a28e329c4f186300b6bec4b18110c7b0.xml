@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Backup Fields" section_id="a28e329c4f186300b6bec4b18110c7b0" sys_domain="global" table="x_58872_needit_uvcore_server" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>enablebackup</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-29 13:22:50</sys_created_on>
+            <sys_id>4f8e729c4f186300b6bec4b18110c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Backup Fields" display_value="Backup Fields" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">a28e329c4f186300b6bec4b18110c7b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-29 13:22:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backuptype</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-29 13:22:50</sys_created_on>
+            <sys_id>cf8e729c4f186300b6bec4b18110c713</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Backup Fields" display_value="Backup Fields" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">a28e329c4f186300b6bec4b18110c7b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-29 13:22:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backupwindow</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-29 13:22:50</sys_created_on>
+            <sys_id>438e729c4f186300b6bec4b18110c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Backup Fields" display_value="Backup Fields" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">a28e329c4f186300b6bec4b18110c7b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-29 13:22:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-29 13:22:50</sys_created_on>
+            <sys_id>c38e729c4f186300b6bec4b18110c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Backup Fields" display_value="Backup Fields" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">a28e329c4f186300b6bec4b18110c7b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-29 13:22:50</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backupmethod</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-29 13:22:50</sys_created_on>
+            <sys_id>478e729c4f186300b6bec4b18110c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Backup Fields" display_value="Backup Fields" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">a28e329c4f186300b6bec4b18110c7b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-29 13:22:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>backuppolicy</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-29 13:22:50</sys_created_on>
+            <sys_id>c78e729c4f186300b6bec4b18110c714</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Backup Fields" display_value="Backup Fields" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">a28e329c4f186300b6bec4b18110c7b0</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-29 13:22:50</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Backup Fields</caption>
+            <header>false</header>
+            <name>x_58872_needit_uvcore_server</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-08-29 13:22:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a28e329c4f186300b6bec4b18110c7b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Backup Fields</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_a28e329c4f186300b6bec4b18110c7b0</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-08-29 13:22:49</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

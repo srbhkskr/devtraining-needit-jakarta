@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content>{"uuid":"8cb178ac-f87d-4e09-90f6-08ccc4983246",&#13;
+  "inputs":{&#13;
+	"CUSTOMER":"${CUSTOMER}",&#13;
+	"SRAEnvironment":"${SRAEnvironment}",&#13;
+	"domainNumber":"${domainNumber}",&#13;
+	"OSName":"${OSName}",&#13;
+	"HostEnvironment":"${HostEnvironment}",&#13;
+	"SiteID":"${SiteID}",&#13;
+	"hardwareType":"${hardwareType}",&#13;
+	"HardwarePreset":"${HardwarePreset}",&#13;
+	"Function":"${Function}",&#13;
+	"serverCount":"${serverCount}",&#13;
+	"disk0SizeGB":"${disk0SizeGB}",&#13;
+	"disk0StorageTier":"${disk0StorageTier}",&#13;
+	"disksAllowed":"${disksAllowed}",&#13;
+	"managedBy":"${managedBy}",&#13;
+	"BackupType":"${BackupType}",&#13;
+	"lbRequireHA":"${lbRequireHA}",&#13;
+&#13;
+	"lbVIP1":"${lbVIP1}",&#13;
+	"lbVIP1AppName":"${lbVIP1AppName}",&#13;
+	"lbVIP1Url":"${lbVIP1Url}",&#13;
+	"lbVIP1Mode":"${lbVIP1Mode}",&#13;
+	"lbVIP1Port":"${lbVIP1Port}",&#13;
+	"lbVIP1Method":"${lbVIP1Method}",&#13;
+&#13;
+	"lbVIP2":"${lbVIP2}",&#13;
+	"lbVIP2AppName":"${lbVIP2AppName}",&#13;
+	"lbVIP2Url":"${lbVIP2Url}",&#13;
+	"lbVIP2Mode":"${lbVIP2Mode}",&#13;
+	"lbVIP2Port":"${lbVIP2Port}",&#13;
+	"lbVIP2Method":"${lbVIP2Method}",&#13;
+&#13;
+	"lbVIP3":"${lbVIP3}",&#13;
+	"lbVIP3AppName":"${lbVIP3AppName}",&#13;
+	"lbVIP3Url":"${lbVIP3Url}",&#13;
+	"lbVIP3Mode":"${lbVIP3Mode}",&#13;
+	"lbVIP3Port":"${lbVIP3Port}",&#13;
+	"lbVIP3Method":"${lbVIP3Method}",&#13;
+&#13;
+	"lbVIP4":"${lbVIP4}",&#13;
+	"lbVIP4AppName":"${lbVIP4AppName}",&#13;
+	"lbVIP4Url":"${lbVIP4Url}",&#13;
+	"lbVIP4Mode":"${lbVIP4Mode}",&#13;
+	"lbVIP4Port":"${lbVIP4Port}",&#13;
+	"lbVIP4Method":"${lbVIP4Method}",&#13;
+&#13;
+	"lbVIP5":"${lbVIP5}",&#13;
+	"lbVIP5AppName":"${lbVIP5AppName}",&#13;
+	"lbVIP5Url":"${lbVIP5Url}",&#13;
+	"lbVIP5Mode":"${lbVIP5Mode}",&#13;
+	"lbVIP5Port":"${lbVIP5Port}",&#13;
+	"lbVIP5Method":"${lbVIP5Method}",&#13;
+&#13;
+	"lbVIP6":"${lbVIP6}",&#13;
+	"lbVIP6AppName":"${lbVIP6AppName}",&#13;
+	"lbVIP6Url":"${lbVIP6Url}",&#13;
+	"lbVIP6Mode":"${lbVIP6Mode}",&#13;
+	"lbVIP6Port":"${lbVIP6Port}",&#13;
+	"lbVIP6Method":"${lbVIP6Method}",&#13;
+&#13;
+	"lbVIP7":"${lbVIP7}",&#13;
+	"lbVIP7AppName":"${lbVIP7AppName}",&#13;
+	"lbVIP7Url":"${lbVIP7Url}",&#13;
+	"lbVIP7Mode":"${lbVIP7Mode}",&#13;
+	"lbVIP7Port":"${lbVIP7Port}",&#13;
+	"lbVIP7Method":"${lbVIP7Method}",&#13;
+&#13;
+	"lbVIP8":"${lbVIP8}",&#13;
+	"lbVIP8AppName":"${lbVIP8AppName}",&#13;
+	"lbVIP8Url":"${lbVIP8Url}",&#13;
+	"lbVIP8Mode":"${lbVIP8Mode}",&#13;
+	"lbVIP8Port":"${lbVIP8Port}",&#13;
+	"lbVIP8Method":"${lbVIP8Method}",&#13;
+&#13;
+	"lbVIP9":"${lbVIP9}",&#13;
+	"lbVIP9AppName":"${lbVIP9AppName}",&#13;
+	"lbVIP9Url":"${lbVIP9Url}",&#13;
+	"lbVIP9Mode":"${lbVIP9Mode}",&#13;
+	"lbVIP9Port":"${lbVIP9Port}",&#13;
+	"lbVIP9Method":"${lbVIP9Method}",&#13;
+&#13;
+	"lbVIP10":"${lbVIP10}",&#13;
+	"lbVIP10AppName":"${lbVIP10AppName}",&#13;
+	"lbVIP10Url":"${lbVIP10Url}",&#13;
+	"lbVIP10Mode":"${lbVIP10Mode}",&#13;
+	"lbVIP10Port":"${lbVIP10Port}",&#13;
+	"lbVIP10Method":"${lbVIP10Method}",&#13;
+&#13;
+	"Reference":"${Reference}",&#13;
+	"SubscriptionID":"${SubscriptionID}",&#13;
+	"serviceRequestId":"${serviceRequestId}",&#13;
+	"portalOOType":"servicenow",&#13;
+	"extref":"OO-DeployLoadBalancer.ps1",&#13;
+	"subscriptionEmail":"${subscriptionEmail}",&#13;
+	"subscriptionName":"${subscriptionName}"&#13;
+  }&#13;
+}&#13;
+</content>
+        <function_name>Add LB</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>uvCore [ Add LB ]</qualified_name>
+        <rest_endpoint>http://110.110.110.27:8080/oo/rest/v1/executions</rest_endpoint>
+        <rest_message display_value="uvCore">b40d06cc4fc31300b6bec4b18110c732</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-04 03:56:01</sys_created_on>
+        <sys_id>5c75b78e4f106700b6bec4b18110c7bf</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Add LB</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_rest_message_fn_5c75b78e4f106700b6bec4b18110c7bf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-04 09:38:30</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server display_value="ATMECS_mid_2">d2f4ea0c4f071300b6bec4b18110c76d</use_mid_server>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

@@ -8,7 +8,7 @@
         <applies_sc_task>true</applies_sc_task>
         <applies_target_record>false</applies_target_record>
         <applies_to>item</applies_to>
-        <cat_item display_value="MSO VM v2.0">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
+        <cat_item display_value="MSO VM v2.0 Dutch">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
         <cat_variable>IO:98b884df4fb31300b6bec4b18110c7df</cat_variable>
         <condition/>
         <description/>
@@ -359,19 +359,93 @@
 				associatedLB.style.color = '#343D47';
 			}	
 		
-	
+		if(ans.backuptype !='None' && ans.backuptype !='')
+			{
+				g_form.setValue('backupType',ans.backuptype);
+				var backuptype = g_form.getControl('backupType');
+				console.log("backuptype:" + backuptype + ans.backuptype);
+				backuptype.style.backgroundColor = '#FFF';
+				backuptype.style.color = '#343D47';
+			}
+		
+		if(ans.backupmethod !='None' && ans.backupmethod !='')
+			{
+				g_form.setValue('backupMethod',ans.backupmethod);
+				var backupmethod = g_form.getControl('backupMethod');
+				console.log("backupmethod:" + backupmethod + ans.backupmethod);
+				backupmethod.style.backgroundColor = '#FFF';
+				backupmethod.style.color = '#343D47';
+			}
+		if(ans.backuppolicy !='None' && ans.backuppolicy !='')
+			{
+				g_form.setValue('backupPolicy',ans.backuppolicy);
+				var backuppolicy = g_form.getControl('backupPolicy');
+				console.log("backuppolicy:" + backuppolicy + ans.backuppolicy);
+				backuppolicy.style.backgroundColor = '#FFF';
+				backuppolicy.style.color = '#343D47';
+			}
+		if(ans.backupwindow !='None' && ans.backupwindow !='')
+			{
+				g_form.setValue('backupWindow',ans.backupwindow);
+				var backupwindow = g_form.getControl('backupWindow');
+				console.log("backupwindow:" + backupwindow + ans.backupwindow);
+				backupwindow.style.backgroundColor = '#FFF';
+				backupwindow.style.color = '#343D47';
+			}
+		if(ans.ciimpact !='None' && ans.ciimpact !='')
+			{
+				g_form.setValue('CIImpact',ans.ciimpact);
+				var ciimpact = g_form.getControl('ciimpact');
+				console.log("CIImpact:" + ciimpact + ans.ciimpact);
+				ciimpact.style.backgroundColor = '#FFF';
+				ciimpact.style.color = '#343D47';
+			}
+		if(ans.cisupporttier !='None' && ans.cisupporttier !='')
+			{
+				g_form.setValue('CISupportTier',ans.cisupporttier);
+				var cisupporttier = g_form.getControl('CISupportTier');
+				console.log("cisupporttier:" + cisupporttier + ans.cisupporttier);
+				cisupporttier.style.backgroundColor = '#FFF';
+				cisupporttier.style.color = '#343D47';
+			}
+		}
+		if(ans.businessinformation !='None' && ans.businessinformation !='')
+			{
+				g_form.setValue('BusinessInformation',ans.businessinformation);
+				var businessinformation = g_form.getControl('BusinessInformation');
+				console.log("businessinformation:" + businessinformation + ans.businessinformation);
+				businessinformation.style.backgroundColor = '#FFF';
+				businessinformation.style.color = '#343D47';
+			}
+		if(ans.billingcode !='None' && ans.billingcode !='')
+			{
+				g_form.setValue('BillingCode',ans.billingcode);
+				var billingcode = g_form.getControl('BillingCode');
+				console.log("billingcode:" + billingcode + ans.billingcode);
+				billingcode.style.backgroundColor = '#FFF';
+				billingcode.style.color = '#343D47';
+			}
+		if(ans.securityzone !='None' && ans.securityzone !='')
+			{
+				g_form.setValue('securityzone',ans.securityzone);
+				var securityzone = g_form.getControl('securityzone');
+				console.log("securityzone:" + securityzone + ans.billingcode);
+				securityzone.style.backgroundColor = '#FFF';
+				securityzone.style.color = '#343D47';
+			}
 		
 		}
+
 	
 	
-}]]></script>
+]]></script>
         <sys_class_name>catalog_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-13 11:18:44</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>c5b8c4df4fb31300b6bec4b18110c785</sys_id>
-        <sys_mod_count>29</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>Auto populate fileds</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -379,7 +453,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_c5b8c4df4fb31300b6bec4b18110c785</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-27 15:10:35</sys_updated_on>
+        <sys_updated_on>2018-08-29 09:05:22</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

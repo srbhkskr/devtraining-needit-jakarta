@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="wf_element_activity">
+    <wf_element_activity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <attributes/>
+        <base_provider display_value="REST Web Service">8817a25e37222100aa40cc9fbe41f106</base_provider>
+        <category/>
+        <checked_out_by/>
+        <default_height/>
+        <default_width/>
+        <description/>
+        <image>images/heisenberg_icons/workflow_ie8/provider_rest.png</image>
+        <input_meta>{"name":"Input","type":"DATA_OBJECT","properties":[{"name":"CUSTOMER","type":"STRING","mandatory":false},{"name":"SRAEnvironment","type":"STRING","mandatory":false},{"name":"domainNumber","type":"STRING","mandatory":false},{"name":"OSName","type":"STRING","mandatory":false},{"name":"HostEnvironment","type":"STRING","mandatory":false},{"name":"SiteID","type":"STRING","mandatory":false},{"name":"hardwareType","type":"STRING","mandatory":false},{"name":"HardwarePreset","type":"STRING","mandatory":false},{"name":"serverCount","type":"STRING","mandatory":false},{"name":"disk0SizeGB","type":"STRING","mandatory":false},{"name":"disk0StorageTier","type":"STRING","mandatory":false},{"name":"disksAllowed","type":"STRING","mandatory":false},{"name":"managedBy","type":"STRING","mandatory":false},{"name":"BackupType","type":"STRING","mandatory":false},{"name":"lbRequireHA","type":"STRING","mandatory":false},{"name":"Reference","type":"STRING","mandatory":false},{"name":"SubscriptionID","type":"STRING","mandatory":false},{"name":"serviceRequestId","type":"STRING","mandatory":false},{"name":"subscriptionEmail","type":"STRING","mandatory":false},{"name":"subscriptionName","type":"STRING","mandatory":false},{"name":"lbVIP1","type":"STRING","mandatory":false},{"name":"lbVIP1AppName","type":"STRING","mandatory":false},{"name":"lbVIP1Url","type":"STRING","mandatory":false},{"name":"lbVIP1Mode","type":"STRING","mandatory":false},{"name":"lbVIP1Port","type":"STRING","mandatory":false},{"name":"lbVIP1Method","type":"STRING","mandatory":false},{"name":"lbVIP2","type":"STRING","mandatory":false},{"name":"lbVIP2AppName","type":"STRING","mandatory":false},{"name":"lbVIP2Url","type":"STRING","mandatory":false},{"name":"lbVIP2Mode","type":"STRING","mandatory":false},{"name":"lbVIP2Port","type":"STRING","mandatory":false},{"name":"lbVIP2Method","type":"STRING","mandatory":false},{"name":"lbVIP3","type":"STRING","mandatory":false},{"name":"lbVIP3AppName","type":"STRING","mandatory":false},{"name":"lbVIP3Url","type":"STRING","mandatory":false},{"name":"lbVIP3Mode","type":"STRING","mandatory":false},{"name":"lbVIP3Port","type":"STRING","mandatory":false},{"name":"lbVIP3Method","type":"STRING","mandatory":false},{"name":"lbVIP4","type":"STRING","mandatory":false},{"name":"lbVIP4AppName","type":"STRING","mandatory":false},{"name":"lbVIP4Url","type":"STRING","mandatory":false},{"name":"lbVIP4Mode","type":"STRING","mandatory":false},{"name":"lbVIP4Port","type":"STRING","mandatory":false},{"name":"lbVIP4Method","type":"STRING","mandatory":false},{"name":"lbVIP5","type":"STRING","mandatory":false},{"name":"lbVIP5AppName","type":"STRING","mandatory":false},{"name":"lbVIP5Url","type":"STRING","mandatory":false},{"name":"lbVIP5Mode","type":"STRING","mandatory":false},{"name":"lbVIP5Port","type":"STRING","mandatory":false},{"name":"lbVIP5Method","type":"STRING","mandatory":false},{"name":"lbVIP6","type":"STRING","mandatory":false},{"name":"lbVIP6AppName","type":"STRING","mandatory":false},{"name":"lbVIP6Url","type":"STRING","mandatory":false},{"name":"lbVIP6Mode","type":"STRING","mandatory":false},{"name":"lbVIP6Port","type":"STRING","mandatory":false},{"name":"lbVIP6Method","type":"STRING","mandatory":false},{"name":"lbVIP7","type":"STRING","mandatory":false},{"name":"lbVIP7AppName","type":"STRING","mandatory":false},{"name":"lbVIP7Url","type":"STRING","mandatory":false},{"name":"lbVIP7Mode","type":"STRING","mandatory":false},{"name":"lbVIP7Port","type":"STRING","mandatory":false},{"name":"lbVIP7Method","type":"STRING","mandatory":false},{"name":"lbVIP8","type":"STRING","mandatory":false},{"name":"lbVIP8AppName","type":"STRING","mandatory":false},{"name":"lbVIP8Url","type":"STRING","mandatory":false},{"name":"lbVIP8Mode","type":"STRING","mandatory":false},{"name":"lbVIP8Port","type":"STRING","mandatory":false},{"name":"lbVIP8Method","type":"STRING","mandatory":false},{"name":"lbVIP9","type":"STRING","mandatory":false},{"name":"lbVIP9AppName","type":"STRING","mandatory":false},{"name":"lbVIP9Url","type":"STRING","mandatory":false},{"name":"lbVIP9Mode","type":"STRING","mandatory":false},{"name":"lbVIP9Port","type":"STRING","mandatory":false},{"name":"lbVIP9Method","type":"STRING","mandatory":false}]}</input_meta>
+        <input_process_script/>
+        <input_transform>{"web_service_message":"b40d06cc4fc31300b6bec4b18110c732","web_service_message_function":"5c75b78e4f106700b6bec4b18110c7bf","web_service_endpoint":"","parameters":"[{\"name\":\"lbVIP6\",\"value\":\"${activityInput.lbVIP6}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP3\",\"value\":\"${activityInput.lbVIP3}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP9\",\"value\":\"${activityInput.lbVIP9}\",\"additional_attribute\":\"\"},{\"name\":\"disk0StorageTier\",\"value\":\"${activityInput.disk0StorageTier}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP4Url\",\"value\":\"${activityInput.lbVIP4Url}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP2\",\"value\":\"${activityInput.lbVIP2}\",\"additional_attribute\":\"\"},{\"name\":\"OSName\",\"value\":\"${activityInput.OSName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP3Port\",\"value\":\"${activityInput.lbVIP3Port}\",\"additional_attribute\":\"\"},{\"name\":\"serviceRequestId\",\"value\":\"${activityInput.serviceRequestId}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP7\",\"value\":\"${activityInput.lbVIP7}\",\"additional_attribute\":\"\"},{\"name\":\"BackupType\",\"value\":\"${activityInput.BackupType}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP5\",\"value\":\"${activityInput.lbVIP5}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP8\",\"value\":\"${activityInput.lbVIP8}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP10\",\"value\":\"None\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP7Url\",\"value\":\"${activityInput.lbVIP7Url}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP2Port\",\"value\":\"${activityInput.lbVIP2Port}\",\"additional_attribute\":\"\"},{\"name\":\"HardwarePreset\",\"value\":\"${activityInput.HardwarePreset}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP4\",\"value\":\"${activityInput.lbVIP4}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP1\",\"value\":\"${activityInput.lbVIP1}\",\"additional_attribute\":\"\"},{\"name\":\"disksAllowed\",\"value\":\"${activityInput.disksAllowed}\",\"additional_attribute\":\"\"},{\"name\":\"CUSTOMER\",\"value\":\"${activityInput.CUSTOMER}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP10AppName\",\"value\":\"None\",\"additional_attribute\":\"\"},{\"name\":\"managedBy\",\"value\":\"${activityInput.managedBy}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP1Method\",\"value\":\"${activityInput.lbVIP1Method}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP6Mode\",\"value\":\"${activityInput.lbVIP6Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP5Mode\",\"value\":\"${activityInput.lbVIP5Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP8Method\",\"value\":\"${activityInput.lbVIP8Method}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP1AppName\",\"value\":\"${activityInput.lbVIP1AppName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP6Port\",\"value\":\"${activityInput.lbVIP6Port}\",\"additional_attribute\":\"\"},{\"name\":\"subscriptionEmail\",\"value\":\"${activityInput.subscriptionEmail}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP10Port\",\"value\":\"None\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP7Method\",\"value\":\"${activityInput.lbVIP7Method}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP1Port\",\"value\":\"${activityInput.lbVIP1Port}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP7Port\",\"value\":\"${activityInput.lbVIP7Port}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP4Method\",\"value\":\"${activityInput.lbVIP4Method}\",\"additional_attribute\":\"\"},{\"name\":\"disk0SizeGB\",\"value\":\"${activityInput.disk0SizeGB}\",\"additional_attribute\":\"\"},{\"name\":\"lbRequireHA\",\"value\":\"${activityInput.lbRequireHA}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP4Mode\",\"value\":\"${activityInput.lbVIP4Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP5Method\",\"value\":\"${activityInput.lbVIP5Method}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP9Method\",\"value\":\"${activityInput.lbVIP9Method}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP2Method\",\"value\":\"${activityInput.lbVIP2Method}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP9Url\",\"value\":\"${activityInput.lbVIP9Url}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP5Port\",\"value\":\"${activityInput.lbVIP5Port}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP10Method\",\"value\":\"None\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP7Mode\",\"value\":\"${activityInput.lbVIP7Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP3Method\",\"value\":\"${activityInput.lbVIP3Method}\",\"additional_attribute\":\"\"},{\"name\":\"SubscriptionID\",\"value\":\"${activityInput.SubscriptionID}\",\"additional_attribute\":\"\"},{\"name\":\"serverCount\",\"value\":\"${activityInput.serverCount}\",\"additional_attribute\":\"\"},{\"name\":\"Function\",\"value\":\"${activityInput.Function}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP4Port\",\"value\":\"${activityInput.lbVIP4Port}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP10Mode\",\"value\":\"None\",\"additional_attribute\":\"\"},{\"name\":\"domainNumber\",\"value\":\"${activityInput.domainNumber}\",\"additional_attribute\":\"\"},{\"name\":\"hardwareType\",\"value\":\"${activityInput.hardwareType}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP4AppName\",\"value\":\"${activityInput.lbVIP4AppName}\",\"additional_attribute\":\"\"},{\"name\":\"SRAEnvironment\",\"value\":\"${activityInput.SRAEnvironment}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP1Mode\",\"value\":\"${activityInput.lbVIP1Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP7AppName\",\"value\":\"${activityInput.lbVIP7AppName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP9Mode\",\"value\":\"${activityInput.lbVIP9Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP2Mode\",\"value\":\"${activityInput.lbVIP2Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP2AppName\",\"value\":\"${activityInput.lbVIP2AppName}\",\"additional_attribute\":\"\"},{\"name\":\"Reference\",\"value\":\"${activityInput.Reference}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP1Url\",\"value\":\"${activityInput.lbVIP1Url}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP2Url\",\"value\":\"${activityInput.lbVIP2Url}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP3Url\",\"value\":\"${activityInput.lbVIP3Url}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP8AppName\",\"value\":\"${activityInput.lbVIP8AppName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP10Url\",\"value\":\"None\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP8Mode\",\"value\":\"${activityInput.lbVIP8Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP3AppName\",\"value\":\"${activityInput.lbVIP3AppName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP9AppName\",\"value\":\"${activityInput.lbVIP9AppName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP8Port\",\"value\":\"${activityInput.lbVIP8Port}\",\"additional_attribute\":\"\"},{\"name\":\"SiteID\",\"value\":\"${activityInput.SiteID}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP3Mode\",\"value\":\"${activityInput.lbVIP3Mode}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP5Url\",\"value\":\"${activityInput.lbVIP5Url}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP6Url\",\"value\":\"${activityInput.lbVIP6Url}\",\"additional_attribute\":\"\"},{\"name\":\"subscriptionName\",\"value\":\"${activityInput.subscriptionName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP9Port\",\"value\":\"${activityInput.lbVIP9Port}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP6Method\",\"value\":\"${activityInput.lbVIP6Method}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP5AppName\",\"value\":\"${activityInput.lbVIP5AppName}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP6AppName\",\"value\":\"${activityInput.lbVIP6AppName}\",\"additional_attribute\":\"\"},{\"name\":\"HostEnvironment\",\"value\":\"${activityInput.HostEnvironment}\",\"additional_attribute\":\"\"},{\"name\":\"lbVIP8Url\",\"value\":\"${activityInput.lbVIP8Url}\",\"additional_attribute\":\"\"}]","headers":"[]","queryParameters":"[]","midCapabilities":"18409d8007482000dada43c0d1021e8f","use_mid_server":"true","time_out":"300","auth_type":"use_existing_credentials","credentials":"","protocol_profile":"","oauth_entity_profile":""}</input_transform>
+        <local_variables>{"name":"Local","type":"DATA_OBJECT","properties":[{"name":"localStatus_code","type":"INTEGER"},{"name":"localHeader","type":"DATA_OBJECT"},{"name":"localBody","type":"STRING"},{"name":"localError","type":"STRING"},{"name":"localOutput","type":"DATA_OBJECT","properties":[{"name":"executionId","type":"STRING"},{"name":"feedUrl","type":"STRING"},{"name":"errorCode","type":"STRING"}]}]}</local_variables>
+        <name>New LB</name>
+        <output_meta>{"name":"Output","type":"DATA_OBJECT","properties":[{"name":"status_code","type":"INTEGER"},{"name":"header","type":"DATA_OBJECT"},{"name":"body","type":"STRING"},{"name":"error","type":"STRING"},{"name":"output","type":"DATA_OBJECT","properties":[{"name":"executionId","type":"STRING"},{"name":"feedUrl","type":"STRING"},{"name":"errorCode","type":"STRING"}]}]}</output_meta>
+        <output_process_script/>
+        <output_transform>[{"toLink":"activityOutput.status_code","description":"","to":"status_code","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.status_code","from":"${executionResult.status_code}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""},{"toLink":"activityOutput.header","description":"","to":"header","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.header","from":"${executionResult.header}","fromSource":"executionResult","type":"JSON","children":"[]","translation":"$"},{"toLink":"activityOutput.body","description":"","to":"body","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""},{"toLink":"activityOutput.error","description":"","to":"error","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.error","from":"${executionResult.error}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""},{"toLink":"activityOutput.output","description":"","to":"output","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"JSON","children":"[]","translation":"$"},{"toLink":"activityOutput.output.executionId","description":"ExecutionId","to":"output.executionId","toType":"string","toDestination":"activityOutput","sourceLabel":"executionResult.body","from":"${executionResult.body}","fromSource":"executionResult","type":"Direct","children":"[]","translation":""}]</output_transform>
+        <processing_script/>
+        <sample_payloads>{}</sample_payloads>
+        <short_description>Create new LB</short_description>
+        <style/>
+        <sys_class_name>wf_element_activity</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 06:06:48</sys_created_on>
+        <sys_id>d747a6324f94a700b6bec4b18110c701</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>New LB</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>wf_element_activity_d747a6324f94a700b6bec4b18110c701</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 06:53:20</sys_updated_on>
+        <version_container_id>f1772a7e4fd0a700b6bec4b18110c7a8</version_container_id>
+    </wf_element_activity>
+    <sys_translated_text action="delete_multiple" query="documentkey=d747a6324f94a700b6bec4b18110c701"/>
+    <wf_versionable action="INSERT_OR_UPDATE">
+        <checked_out/>
+        <checked_out_by/>
+        <published>true</published>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 06:06:48</sys_created_on>
+        <sys_id>31772a7e4fd0a700b6bec4b18110c7a9</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 06:53:20</sys_updated_on>
+        <valid_from>2018-09-06 06:53:20</valid_from>
+        <valid_to/>
+        <version>1</version>
+        <version_container_id>f1772a7e4fd0a700b6bec4b18110c7a8</version_container_id>
+        <wf_element_definition display_value="New LB">d747a6324f94a700b6bec4b18110c701</wf_element_definition>
+    </wf_versionable>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="New LB">d747a6324f94a700b6bec4b18110c701</activity_definition>
+        <condition/>
+        <derived_definition/>
+        <else_flag>true</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>error</name>
+        <order>300</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 06:52:42</sys_created_on>
+        <sys_id>13d176b64f94a700b6bec4b18110c701</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 06:52:42</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="New LB">d747a6324f94a700b6bec4b18110c701</activity_definition>
+        <condition>activityOutput.status_code != 201</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>failure</name>
+        <order>200</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 06:52:42</sys_created_on>
+        <sys_id>58d13a764f94a700b6bec4b18110c75a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 06:52:42</sys_updated_on>
+    </wf_condition_default>
+    <wf_condition_default action="INSERT_OR_UPDATE">
+        <activity_definition display_value="New LB">d747a6324f94a700b6bec4b18110c701</activity_definition>
+        <condition>activityOutput.status_code == 201</condition>
+        <derived_definition/>
+        <else_flag>false</else_flag>
+        <error>false</error>
+        <event>false</event>
+        <event_name/>
+        <name>success</name>
+        <order>100</order>
+        <short_description/>
+        <skip_during_generate>false</skip_during_generate>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-09-06 06:52:42</sys_created_on>
+        <sys_id>ffb1b2b64f94a700b6bec4b18110c787</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-06 06:52:42</sys_updated_on>
+    </wf_condition_default>
+</record_update>

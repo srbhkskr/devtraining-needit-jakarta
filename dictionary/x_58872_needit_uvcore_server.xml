@@ -2,6 +2,7 @@
 <database>
     <element label="uvcore_server" max_length="40" name="x_58872_needit_uvcore_server" type="collection">
         <element label="ActionTaken" max_length="100" name="actiontaken" type="string"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" reference_qual="active=true^EQ" reference_qual_condition="active=true^EQ" type="reference"/>
         <element label="associatedLB" max_length="40" name="associatedlb" type="string"/>
         <element default="None" label="BackupMethod" max_length="40" name="backupmethod" type="string"/>
@@ -97,6 +98,7 @@
         <element label="Reference" max_length="40" name="reference" type="string"/>
         <element label="secondaryDC" max_length="40" name="secondarydc" type="string"/>
         <element label="secondaryDNS" max_length="40" name="secondarydns" type="string"/>
+        <element label="SecurityZone" max_length="40" name="securityzone" type="string"/>
         <element label="serialNumber" max_length="40" name="serialnumber" type="string"/>
         <element label="serverType" max_length="40" name="servertype" type="string"/>
         <element label="Service Request ID" max_length="40" name="service_request_id" type="string"/>

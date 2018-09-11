@@ -3,7 +3,7 @@
     <item_option_new action="INSERT_OR_UPDATE">
         <active>true</active>
         <attributes/>
-        <cat_item display_value="MSO VM v2.0">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
+        <cat_item display_value="MSO VM v2.0 Dutch">44b8009f4fb31300b6bec4b18110c7b0</cat_item>
         <category/>
         <choice_direction>down</choice_direction>
         <choice_field/>
@@ -41,7 +41,7 @@
         <order>177</order>
         <price_if_checked>0</price_if_checked>
         <pricing_implications>false</pricing_implications>
-        <question_text>Disk 7 Size in GB</question_text>
+        <question_text>schijf 7 formaat</question_text>
         <read_roles/>
         <rec_lookup_price/>
         <rec_price_if_checked>0</rec_price_if_checked>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-17 11:27:48</sys_created_on>
         <sys_id>41217c204fc02300b6bec4b18110c702</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Disk 7 Size in GB</sys_name>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>schijf 7 formaat</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>item_option_new_41217c204fc02300b6bec4b18110c702</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-17 11:50:00</sys_updated_on>
+        <sys_updated_on>2018-09-10 13:47:59</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>

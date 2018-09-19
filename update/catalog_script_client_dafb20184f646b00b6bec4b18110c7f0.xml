@@ -21,8 +21,14 @@
    if (isLoading || newValue == '') {
       return;
    }
+	var current_set_str = '';
+	var current_set = '';
+	console.log("ebnable Firewall: "+ newValue);
+	if(g_form.getValue('phase') == 'Modify' || g_form.getValue('phase') == 'Decommission'){
+			current_set_str = g_form.getValue('currentSet').toString();
+			current_set = current_set_str.evalJSON();
+		}
 
-  console.log("ebnable Backup: "+ newValue);
 	
 	if(newValue == 'No' )
 		{
@@ -42,17 +48,21 @@
 	
 	if(newValue == 'Yes' &&  g_form.getValue('phase') != 'Action' && g_form.getValue('phase') != 'Decommission')
 		{
-			g_form.setValue('vmNsxSecTag1', 'None');
-			g_form.setValue('vmNsxSecTag2', 'None');
-			g_form.setValue('vmNsxSecTag3', 'None');
-			g_form.setValue('vmNsxSecTag4', 'None');
-			g_form.setValue('associatedLB', 'None');
 			
+			if(g_form.getValue('phase') == 'Modify' || g_form.getValue('phase') == 'Decommission'){
+				g_form.setValue('vmNsxSecTag1',current_set.vmNsxSecTag1);
+				g_form.setValue('vmNsxSecTag2',current_set.vmNsxSecTag2);
+				g_form.setValue('vmNsxSecTag3',current_set.vmNsxSecTag3);
+				g_form.setValue('vmNsxSecTag4',current_set.vmNsxSecTag4);
+			}
+			
+				
 			g_form.setDisplay('vmNsxSecTag1',true);
 			g_form.setDisplay('vmNsxSecTag2',true);
 			g_form.setDisplay('vmNsxSecTag3',true);
 			g_form.setDisplay('vmNsxSecTag4',true);
 			g_form.setDisplay('associatedLB', true);
+			
 			
 		}
 
@@ -64,7 +74,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dafb20184f646b00b6bec4b18110c7f0</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Firewall Disable</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -72,7 +82,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_dafb20184f646b00b6bec4b18110c7f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-10 12:58:09</sys_updated_on>
+        <sys_updated_on>2018-09-18 13:04:49</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

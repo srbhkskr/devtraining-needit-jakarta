@@ -53,6 +53,21 @@
 					g_form.setDisplay('NIC'+i+'Connection',false);
 			}
 		
+		
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('lbVIP'+i,true);
+				if(g_form.getValue('lbVIP'+i) == 'Yes'){
+					g_form.setDisplay('lbVIP'+i+'AppName',true);  
+					g_form.setDisplay('lbVIP'+i+'Url',true);  
+					g_form.setDisplay('lbVIP'+i+'Mode',true);  
+					g_form.setDisplay('lbVIP'+i+'Port',true);
+					g_form.setDisplay('lbVIP'+i+'Method',true);
+				}
+					
+				
+			}
+		
 		/*g_form.setDisplay('disk2_size',true);
 		g_form.setDisplay('disk3_size',true);
 		g_form.setDisplay('disk4_size',true);
@@ -61,6 +76,8 @@
 		g_form.setDisplay('disk7_size',true);
 		g_form.setDisplay('disk8_size',true);
 		g_form.setDisplay('disk9_size',true);*/
+		
+		g_form.setDisplay('lbRequireHA',true);
 		g_form.setDisplay('hardware_type',true);
 		g_form.setDisplay('reference',false);
 		g_form.setDisplay('serviceRequestId',false);
@@ -145,6 +162,21 @@
 			}
 		
 		
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('lbVIP'+i,true);
+				if(g_form.getValue('lbVIP'+i) == 'Yes'){
+					g_form.setDisplay('lbVIP'+i+'AppName',true);  
+					g_form.setDisplay('lbVIP'+i+'Url',true);  
+					g_form.setDisplay('lbVIP'+i+'Mode',true);  
+					g_form.setDisplay('lbVIP'+i+'Port',true);
+					g_form.setDisplay('lbVIP'+i+'Method',true);
+				}
+					
+				
+			}
+		
+		
 		
 		/*g_form.setDisplay('disk2_size',true);
 		g_form.setDisplay('disk3_size',true);
@@ -154,6 +186,7 @@
 		g_form.setDisplay('disk7_size',true);
 		g_form.setDisplay('disk8_size',true);
 		g_form.setDisplay('disk9_size',true);*/
+		g_form.setDisplay('lbRequireHA',true);
 		g_form.setDisplay('hardware_type',false);
 		g_form.setDisplay('reference',true);
 		g_form.setDisplay('serviceRequestId',true);
@@ -225,6 +258,16 @@
 			{
 					g_form.setDisplay('NIC'+i+'Connection',false);
 			}
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('lbVIP'+i,false);
+					g_form.setDisplay('lbVIP'+i+'AppName',false);  
+					g_form.setDisplay('lbVIP'+i+'Url',false);  
+					g_form.setDisplay('lbVIP'+i+'Mode',false);  
+					g_form.setDisplay('lbVIP'+i+'Port',false);
+					g_form.setDisplay('lbVIP'+i+'Method',false);
+				
+			}
 		
 		/*g_form.setDisplay('disk1_size',false);
 		g_form.setDisplay('disk2_size',false);
@@ -235,6 +278,7 @@
 		g_form.setDisplay('disk7_size',false);
 		g_form.setDisplay('disk8_size',false);
 		g_form.setDisplay('disk9_size',false);*/
+		g_form.setDisplay('lbRequireHA',false);
 		g_form.setDisplay('hardware_type',false);
 		g_form.setDisplay('reference',true);
 		g_form.setDisplay('serviceRequestId',true);
@@ -296,14 +340,29 @@
 		g_form.setDisplay('backup_type',false);
 		g_form.setDisplay('disk0_size',false);
 		console.log("=g_form.getValue('diskTotal') :"+ g_form.getValue('disk_total'));
+		//Hide Disks
 		for(i=0;i<10;i++)
 			{
 					g_form.setDisplay('disk'+i+'_size',false);
 			}
+		//Hide Nics
 		for(i=0;i<10;i++)
 			{
 					g_form.setDisplay('NIC'+i+'Connection',false);
 			}
+		//Hide Vips
+		for(i=0;i<10;i++)
+			{
+					g_form.setDisplay('lbVIP'+i,false);
+					g_form.setDisplay('lbVIP'+i+'AppName',false);  
+					g_form.setDisplay('lbVIP'+i+'Url',false);  
+					g_form.setDisplay('lbVIP'+i+'Mode',false);  
+					g_form.setDisplay('lbVIP'+i+'Port',false);
+					g_form.setDisplay('lbVIP'+i+'Method',false);
+				
+			}
+		
+		
 		
 		/*g_form.setDisplay('disk1_size',false);
 		g_form.setDisplay('disk2_size',false);
@@ -314,6 +373,7 @@
 		g_form.setDisplay('disk7_size',false);
 		g_form.setDisplay('disk8_size',false);
 		g_form.setDisplay('disk9_size',false);*/
+		g_form.setDisplay('lbRequireHA',false);
 		g_form.setDisplay('hardware_type',false);
 		g_form.setDisplay('reference',true);
 		g_form.setDisplay('serviceRequestId',true);
@@ -378,7 +438,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>904059da4fd06700b6bec4b18110c76e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Manage fields based on Phase</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -386,7 +446,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_904059da4fd06700b6bec4b18110c76e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-04 10:28:48</sys_updated_on>
+        <sys_updated_on>2018-09-18 14:10:07</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

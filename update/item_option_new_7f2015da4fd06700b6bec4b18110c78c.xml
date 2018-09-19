@@ -10,7 +10,7 @@
         <choice_table/>
         <create_roles/>
         <default_html_value/>
-        <default_value>1</default_value>
+        <default_value>9</default_value>
         <delete_roles/>
         <delivery_plan/>
         <description/>
@@ -60,14 +60,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-04 10:28:30</sys_created_on>
         <sys_id>7f2015da4fd06700b6bec4b18110c78c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Hardware Type</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>item_option_new_7f2015da4fd06700b6bec4b18110c78c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-04 10:28:30</sys_updated_on>
+        <sys_updated_on>2018-09-11 12:38:32</sys_updated_on>
         <table/>
         <tooltip/>
         <type>5</type>
@@ -88,7 +88,7 @@
     <fx_price action="delete_multiple" query="id=7f2015da4fd06700b6bec4b18110c78c"/>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="INR">INR</currency>
+        <currency display_value="USD">USD</currency>
         <field>price_if_checked</field>
         <id>7f2015da4fd06700b6bec4b18110c78c</id>
         <parent/>
@@ -97,15 +97,15 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-04 10:28:31</sys_created_on>
         <sys_id>3b2015da4fd06700b6bec4b18110c78e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-04 10:28:31</sys_updated_on>
+        <sys_updated_on>2018-09-11 12:23:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>
     <fx_price action="INSERT_OR_UPDATE">
         <amount>0</amount>
-        <currency display_value="INR">INR</currency>
+        <currency display_value="USD">USD</currency>
         <field>rec_price_if_checked</field>
         <id>7f2015da4fd06700b6bec4b18110c78c</id>
         <parent/>
@@ -114,9 +114,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-09-04 10:28:31</sys_created_on>
         <sys_id>ff2015da4fd06700b6bec4b18110c78d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-04 10:28:31</sys_updated_on>
+        <sys_updated_on>2018-09-11 12:23:25</sys_updated_on>
         <table>item_option_new</table>
         <type>calculated</type>
     </fx_price>

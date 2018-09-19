@@ -99,6 +99,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-08-29 13:53:44</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-14 06:48:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>05cdb7114f2ceb00b6bec4b18110c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_uvcore_server" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">e68e329c4f186300b6bec4b18110c7b1</sys_ui_form>
+            <sys_ui_section caption="LB" display_value="LB" name="x_58872_needit_uvcore_server" sys_domain="global" view="Default view">c1cdb7d94fe8eb00b6bec4b18110c7e7</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-14 06:48:40</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_58872_needit_uvcore_server</name>
             <roles/>

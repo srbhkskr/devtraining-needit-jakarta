@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="hostname_lc" label="Hostname LC" language="en" table="x_58872_needit_uvcore_lb">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>hostname_lc</element>
+            <help/>
+            <hint/>
+            <label>Hostname LC</label>
+            <language>en</language>
+            <name>x_58872_needit_uvcore_lb</name>
+            <plural>Hostname LCs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-19 11:59:04</sys_created_on>
+            <sys_id>20c4be074fe46300b6bec4b18110c70d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Hostname LC</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_uvcore_lb_hostname_lc_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-19 11:59:04</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1261,6 +1261,48 @@
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>90</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-19 11:37:00</sys_created_on>
+            <sys_id>59bf26034fe46300b6bec4b18110c7c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_lb" sys_domain="global" view="Default view">3da9c27e4f6c2300b6bec4b18110c7e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-19 11:37:00</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>91</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-19 11:47:57</sys_created_on>
+            <sys_id>f132fa434fe46300b6bec4b18110c778</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_lb" sys_domain="global" view="Default view">3da9c27e4f6c2300b6bec4b18110c7e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-19 11:47:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hostname_lc</element>
+            <position>92</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-09-19 11:59:04</sys_created_on>
+            <sys_id>20c47a074fe46300b6bec4b18110c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_58872_needit_uvcore_lb" sys_domain="global" view="Default view">3da9c27e4f6c2300b6bec4b18110c7e9</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-09-19 11:59:04</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>

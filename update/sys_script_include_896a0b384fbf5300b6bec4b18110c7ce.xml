@@ -156,19 +156,226 @@ getsubsNames : function() {
 		return err;
 	}
 	},
+	
+	
+	getLBsubNames : function() {
+		try{	
+			var obj = {};
+			obj.output = [];
+			//var json = new JSON();
+			var data ;
+			var user = this.getParameter('sysparm_user');
+			var uvCore = new GlideRecord('x_58872_needit_uvcore_lb');
+			uvCore.addQuery('assigned_to',user);
+			uvCore.addQuery('active',true);
+			uvCore.query();
+			while(uvCore.next()){
+				obj.output.push(uvCore.subscriptionname.toString());
+			}
+			var   json = new global.JSON(); 
+			data = json.encode(obj);
+			return data;
+			//return obj.output.toString();
+			}
+		catch(err){
+			return err;
+		}
+		},
+	
+	
+	getLBFields : function() {
+		
+		var obj = {};
+		domainNumber = "";
+		OSName = "";
+		HostEnvironment = "";
+		SiteID = "";
+		hardwareType = "";
+		HardwarePreset = "";
+		//Function = "";
+		serverCount = "";
+		disk0SizeGB = "";
+		disk0StorageTier = "";
+		disksAllowed = "";
+		managedBy = "";
+		BackupType = "";
+		lbRequireHA = "";
+		lbVIP1 = "";
+		lbVIP1AppName = "";
+		lbVIP1Url = "";
+		lbVIP1Mode = "";
+		lbVIP1Port = "";
+		lbVIP1Method = "";
+		lbVIP2 = "";
+		lbVIP2AppName = "";
+		lbVIP2Url = "";
+		lbVIP2Mode = "";
+		lbVIP2Port = "";
+		lbVIP2Method = "";
+		lbVIP3 = "";
+		lbVIP3AppName = "";
+		lbVIP3Url = "";
+		lbVIP3Mode = "";
+		lbVIP3Port = "";
+		lbVIP3Method = "";
+		lbVIP4 = "";
+		lbVIP4AppName = "";
+		lbVIP4Url = "";
+		lbVIP4Mode = "";
+		lbVIP4Port = "";
+		lbVIP4Method = "";
+		lbVIP5 = "";
+		lbVIP5AppName = "";
+		lbVIP5Url = "";
+		lbVIP5Mode = "";
+		lbVIP5Port = "";
+		lbVIP5Method = "";
+		lbVIP6 = "";
+		lbVIP6AppName = "";
+		lbVIP6Url = "";
+		lbVIP6Mode = "";
+		lbVIP6Port = "";
+		lbVIP6Method = "";
+		lbVIP7 = "";
+		lbVIP7AppName = "";
+		lbVIP7Url = "";
+		lbVIP7Mode = "";
+		lbVIP7Port = "";
+		lbVIP7Method = "";
+		lbVIP8 = "";
+		lbVIP8AppName = "";
+		lbVIP8Url = "";
+		lbVIP8Mode = "";
+		lbVIP8Port = "";
+		lbVIP8Method = "";
+		lbVIP9 = "";
+		lbVIP9AppName = "";
+		lbVIP9Url = "";
+		lbVIP9Mode = "";
+		lbVIP9Port = "";
+		lbVIP9Method = "";
+		Reference = "";
+		SubscriptionID = "";
+		serviceRequestId = "";
+		subscriptionEmail = "";
+		subscriptionName = "";
+		requestUpdated = "";
+		obj.hostname = "";
+			
+			//obj.subsmail = '';
+		
+			var json = new global.JSON();
+			var data ;
+		try{
+			var user = this.getParameter('sysparm_user');
+				var subsName = this.getParameter('sysparm_subscriptionName');
+				var uvCore = new GlideRecord('x_58872_needit_uvcore_lb');
+				uvCore.addQuery('assigned_to',user);
+				uvCore.addQuery('subscriptionname',subsName);
+				uvCore.query();
+				while(uvCore.next()){
+					
+					obj.hostname = uvCore.hostname_lc.toString();
+					obj.domainnumber = uvCore.domainnumber.toString();
+					obj.osname = uvCore.osname.toString();
+					obj.hostenvironment = uvCore.hostenvironment.toString();
+					obj.siteid = uvCore.siteid.toString();
+					obj.hardwaretype = uvCore.hardwaretype.toString();
+					obj.hardwarepreset = uvCore.hardwarepreset.toString();
+			//		obj.function = uvCore.function.toString();
+					obj.servercount = uvCore.servercount.toString();
+					obj.disk0sizegb = uvCore.disk0sizegb.toString();
+					obj.disk0storagetier = uvCore.disk0storagetier.toString();
+					obj.disksallowed = uvCore.disksallowed.toString();
+					obj.managedby = uvCore.managedby.toString();
+					obj.backuptype = uvCore.backuptype.toString();
+					obj.lbrequireha = uvCore.lbrequireha.toString();
+					obj.lbvip1 = uvCore.lbvip1.toString();
+					obj.lbvip1appname = uvCore.lbvip1appname.toString();
+					obj.lbvip1url = uvCore.lbvip1url.toString();
+					obj.lbvip1mode = uvCore.lbvip1mode.toString();
+					obj.lbvip1port = uvCore.lbvip1port.toString();
+					obj.lbvip1method = uvCore.lbvip1method.toString();
+					obj.lbvip2 = uvCore.lbvip2.toString();
+					obj.lbvip2appname = uvCore.lbvip2appname.toString();
+					obj.lbvip2url = uvCore.lbvip2url.toString();
+					obj.lbvip2mode = uvCore.lbvip2mode.toString();
+					obj.lbvip2port = uvCore.lbvip2port.toString();
+					obj.lbvip2method = uvCore.lbvip2method.toString();
+					obj.lbvip3 = uvCore.lbvip3.toString();
+					obj.lbvip3appname = uvCore.lbvip3appname.toString();
+					obj.lbvip3url = uvCore.lbvip3url.toString();
+					obj.lbvip3mode = uvCore.lbvip3mode.toString();
+					obj.lbvip3port = uvCore.lbvip3port.toString();
+					obj.lbvip3method = uvCore.lbvip3method.toString();
+					obj.lbvip4 = uvCore.lbvip4.toString();
+					obj.lbvip4appname = uvCore.lbvip4appname.toString();
+					obj.lbvip4url = uvCore.lbvip4url.toString();
+					obj.lbvip4mode = uvCore.lbvip4mode.toString();
+					obj.lbvip4port = uvCore.lbvip4port.toString();
+					obj.lbvip4method = uvCore.lbvip4method.toString();
+					obj.lbvip5 = uvCore.lbvip5.toString();
+					obj.lbvip5appname = uvCore.lbvip5appname.toString();
+					obj.lbvip5url = uvCore.lbvip5url.toString();
+					obj.lbvip5mode = uvCore.lbvip5mode.toString();
+					obj.lbvip5port = uvCore.lbvip5port.toString();
+					obj.lbvip5method = uvCore.lbvip5method.toString();
+					obj.lbvip6 = uvCore.lbvip6.toString();
+					obj.lbvip6appname = uvCore.lbvip6appname.toString();
+					obj.lbvip6url = uvCore.lbvip6url.toString();
+					obj.lbvip6mode = uvCore.lbvip6mode.toString();
+					obj.lbvip6port = uvCore.lbvip6port.toString();
+					obj.lbvip6method = uvCore.lbvip6method.toString();
+					obj.lbvip7 = uvCore.lbvip7.toString();
+					obj.lbvip7appname = uvCore.lbvip7appname.toString();
+					obj.lbvip7url = uvCore.lbvip7url.toString();
+					obj.lbvip7mode = uvCore.lbvip7mode.toString();
+					obj.lbvip7port = uvCore.lbvip7port.toString();
+					obj.lbvip7method = uvCore.lbvip7method.toString();
+					obj.lbvip8 = uvCore.lbvip8.toString();
+					obj.lbvip8appname = uvCore.lbvip8appname.toString();
+					obj.lbvip8url = uvCore.lbvip8url.toString();
+					obj.lbvip8mode = uvCore.lbvip8mode.toString();
+					obj.lbvip8port = uvCore.lbvip8port.toString();
+					obj.lbvip8method = uvCore.lbvip8method.toString();
+					obj.lbvip9 = uvCore.lbvip9.toString();
+					obj.lbvip9appname = uvCore.lbvip9appname.toString();
+					obj.lbvip9url = uvCore.lbvip9url.toString();
+					obj.lbvip9mode = uvCore.lbvip9mode.toString();
+					obj.lbvip9port = uvCore.lbvip9port.toString();
+					obj.lbvip9method = uvCore.lbvip9method.toString();
+					obj.reference = uvCore.reference.toString();
+					obj.subsId = uvCore.subscriptionid.toString();
+					obj.serviceId = uvCore.servicerequestid.toString();
+					obj.subscriptionemail = uvCore.subscriptionemail.toString();
+					obj.subscriptionname = uvCore.subscriptionname.toString();
+					obj.requestupdated = uvCore.requestupdated.toString();
+					
+					//obj.subsmail = uvCore.email.toString();
+				}
+				data = json.encode(obj);//JSON formatted string
+				//gs.addInfoMessage(data);
+				return data;
+			}catch(err){
+				return err;
+			}
+		},
+	
+	
+	
     type: 'getuvCoredata'
 });]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 07:01:51</sys_created_on>
         <sys_id>896a0b384fbf5300b6bec4b18110c7ce</sys_id>
-        <sys_mod_count>44</sys_mod_count>
+        <sys_mod_count>46</sys_mod_count>
         <sys_name>getuvCoredata</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_896a0b384fbf5300b6bec4b18110c7ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-30 06:56:00</sys_updated_on>
+        <sys_updated_on>2018-09-19 12:09:35</sys_updated_on>
     </sys_script_include>
 </record_update>

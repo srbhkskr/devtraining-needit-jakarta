@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="uvCore_LB" max_length="40" name="x_58872_needit_uvcore_lb" type="collection">
+        <element label="Active" max_length="40" name="active" type="boolean"/>
+        <element label="Assigned To" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="BackupType" max_length="40" name="backuptype" type="string"/>
         <element label="CUSTOMER" max_length="40" name="customer" type="string"/>
         <element label="disk0SizeGB" max_length="40" name="disk0sizegb" type="string"/>
@@ -12,6 +14,7 @@
         <element label="HardwarePreset" max_length="40" name="hardwarepreset" type="string"/>
         <element label="hardwareType" max_length="40" name="hardwaretype" type="string"/>
         <element label="HostEnvironment" max_length="40" name="hostenvironment" type="string"/>
+        <element label="Hostname LC" max_length="40" name="hostname_lc" type="string"/>
         <element label="lbRequireHA" max_length="40" name="lbrequireha" type="string"/>
         <element label="lbVIP1" max_length="40" name="lbvip1" type="string"/>
         <element label="lbVIP1AppName" max_length="40" name="lbvip1appname" type="string"/>
@@ -88,5 +91,8 @@
         <element label="subscriptionEmail" max_length="40" name="subscriptionemail" type="string"/>
         <element label="SubscriptionID" max_length="40" name="subscriptionid" type="string"/>
         <element label="subscriptionName" max_length="40" name="subscriptionname" type="string"/>
+        <index name="index">
+            <element name="assigned_to"/>
+        </index>
     </element>
 </database>

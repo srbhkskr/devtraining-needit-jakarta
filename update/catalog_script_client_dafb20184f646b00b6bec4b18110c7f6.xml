@@ -404,9 +404,26 @@
 			{
 				g_form.setValue('securityzone',ans.securityzone);
 				var securityzone = g_form.getControl('securityzone');
-				console.log("securityzone:" + securityzone + ans.billingcode);
+				console.log("securityzone:" + securityzone + ans.securityzone);
 				securityzone.style.backgroundColor = '#FFF';
 				securityzone.style.color = '#343D47';
+			}
+		if(ans.memorygb  !='None' && ans.memorygb  !='')
+			{
+				g_form.setValue('memoryGB',ans.memorygb);
+				var memoryGB = g_form.getControl('memoryGB');
+				console.log("memoryGB:" + memoryGB + ans.memorygb);
+				memoryGB.style.backgroundColor = '#FFF';
+				memoryGB.style.color = '#343D47';
+			}
+	
+		if(ans.cpucount  !='None' && ans.cpucount  !='')
+			{
+				g_form.setValue('CPUCount',ans.cpucount );
+				var CPUCount = g_form.getControl('CPUCount');
+				console.log("CPUCount:" + CPUCount + ans.cpucount );
+				CPUCount.style.backgroundColor = '#FFF';
+				CPUCount.style.color = '#343D47';
 			}
 		
 		}
@@ -420,7 +437,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>dafb20184f646b00b6bec4b18110c7f6</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Auto populate fileds</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -428,7 +445,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>catalog_script_client_dafb20184f646b00b6bec4b18110c7f6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-24 12:14:06</sys_updated_on>
+        <sys_updated_on>2018-10-03 07:14:28</sys_updated_on>
         <table/>
         <type>onChange</type>
         <ui_type>0</ui_type>

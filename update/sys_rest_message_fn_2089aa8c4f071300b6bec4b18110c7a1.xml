@@ -21,13 +21,15 @@
 		"SiteID": "${SiteID}", &#13;
 		"hardwareType": "${hardwareType}", &#13;
 		"HardwarePreset": "${HardwarePreset}", &#13;
+                "MemoryGB" : "${CustomProperty2}",&#13;
+                "CPUcount" :   "${CustomProperty1}",&#13;
 		"Function": "${Function}", &#13;
 		"serverCount": "1",&#13;
 		"OSName": "${OSName}", &#13;
 		"domainNumber": "${domainNumber}",&#13;
 		"isVirtual": "${isVirtual}",&#13;
 		"SecurityZone":"${SecurityZone}",&#13;
-		&#13;
+		"disk0SizeGB": "0-50",&#13;
 		"disk1SizeGB": "${disk1SizeGB}",&#13;
 		"disk2SizeGB": "${disk2SizeGB}",&#13;
 		"disk3SizeGB": "${disk3SizeGB}",&#13;
@@ -38,6 +40,7 @@
 		"disk8SizeGB": "${disk8SizeGB}",&#13;
 		"disk9SizeGB": "${disk9SizeGB}",&#13;
 		"diskTotal":"${diskTotal}",&#13;
+                "diskCount":"5",&#13;
 		&#13;
 		"NIC0Connection":"${NIC0Connection}",&#13;
 		"NIC1Connection":"${NIC1Connection}",&#13;
@@ -101,14 +104,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-27 13:54:44</sys_created_on>
         <sys_id>2089aa8c4f071300b6bec4b18110c7a1</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>19</sys_mod_count>
         <sys_name>uvCore POST Run Deploy</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_rest_message_fn_2089aa8c4f071300b6bec4b18110c7a1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-24 09:34:45</sys_updated_on>
+        <sys_updated_on>2018-10-04 06:44:19</sys_updated_on>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server display_value="ATMECS_mid_2">d2f4ea0c4f071300b6bec4b18110c76d</use_mid_server>
         <use_mutual_auth>false</use_mutual_auth>

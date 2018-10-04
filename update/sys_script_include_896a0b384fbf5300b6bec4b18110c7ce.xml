@@ -58,6 +58,8 @@ getuvCoredata.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 			obj.cisupporttier = '';
 			obj.businessinformation = '';
 			obj.securityzone = '';
+			obj.memorygb = '';
+			obj.cpucount = '';
 			
 			//obj.subsmail = '';
 		
@@ -123,6 +125,8 @@ getuvCoredata.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
 				obj.businessinformation = uvCore.businessinformation.toString();
 				obj.billingcode = uvCore.billingcode.toString();
 				obj.securityzone = uvCore.securityzone.toString();
+				obj.memorygb  = uvCore.memorygb.toString();
+				obj.cpucount  = uvCore.cpucount.toString();
 				
 				//obj.subsmail = uvCore.email.toString();
 			}
@@ -369,13 +373,13 @@ getsubsNames : function() {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-08-06 07:01:51</sys_created_on>
         <sys_id>896a0b384fbf5300b6bec4b18110c7ce</sys_id>
-        <sys_mod_count>46</sys_mod_count>
+        <sys_mod_count>47</sys_mod_count>
         <sys_name>getuvCoredata</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_896a0b384fbf5300b6bec4b18110c7ce</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-09-19 12:09:35</sys_updated_on>
+        <sys_updated_on>2018-10-03 06:54:32</sys_updated_on>
     </sys_script_include>
 </record_update>
